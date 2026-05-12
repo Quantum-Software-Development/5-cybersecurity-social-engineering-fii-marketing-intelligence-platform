@@ -78,3 +78,21 @@ Big Data [•]() Apache Spark [•]() PySpark [•]() NLP [•]() Sistemas Distr
 <br><br>
 <!-- ========= END DATA ANALYSING REPORT ========= -->
 <!-- ===================== END BADGE GROUP 1 ===================== -->
+
+<!-- ========= START Institutional INFO ========= -->
+[**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP – Humanistic AI & Data Science • 5th Semester • 2026)  
+[**School:**]() FACEI – Faculty of Interdisciplinary Studies  
+[**Course:**]() AI Security, Cybersecurity & Social Engineering  
+**Professor:** [✨ Eduardo Savino Gomes]()  
+**Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  <br>
+[**Context:**]() This project explores Real Estate Investment Funds (FIIs) through Big Data, Natural Language Processing (NLP), and distributed analytics, focusing on market intelligence, sentiment analysis, and data-driven insights for the real estate investment sector.
+
+<br><br>
+<!-- ========= end Institutional INFO ========= -->
+
+
+<!-- ========= START SPONSOR BADGES ========= -->
+### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
+
+<br><br>
+<!-- ========= END SPONSOR BADGES ========= -->
