@@ -22,10 +22,11 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 <!-- ========= END REPO TITLE ========= -->
 
 <!-- ========= START Dashboard Streamlit ========= -->
+<!-- ========= START Dashboard Streamlit ========= -->
 <p align="center">
   <a href="" target="_blank" rel="noopener noreferrer">
     <img 
-      src="https://img.shields.io/badge/FII_Marketing_Intelligence_Dashboard-Streamlit-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
+      src="https://img.shields.io/badge/FIIs_Marketing_Intelligence_Dashboard-Streamlit-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
       alt="FIIs Marketing Intelligence Dashboard"
       style="height: 32px; width: auto;"
     />
@@ -38,8 +39,8 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 
   <a href="" target="_blank" rel="noopener noreferrer">
     <img 
-      src="https://img.shields.io/badge/React-Interactive%20Analytics%20Slides-14532d?style=for-the-badge&logo=react&logoColor=white" 
-      alt="React Interactive Analytics Slides"
+      src="https://img.shields.io/badge/React-Interactive%20FIIs%20Analytics%20Slides-14532d?style=for-the-badge&logo=react&logoColor=white" 
+      alt="React Interactive FIIs Analytics Slides"
       style="height: 30px; width: auto;"
     />
   </a>
@@ -48,8 +49,8 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 <!-- ========= START PPTX ========= -->
   <a href="" target="_blank" rel="noopener noreferrer">
     <img 
-      src="https://img.shields.io/badge/Strategic%20Presentation-PPTX-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
-      alt="Strategic Presentation PPTX"
+      src="https://img.shields.io/badge/FIIs_Strategic_Presentation-PPTX-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="FIIs Strategic Presentation PPTX"
       style="height: 30px; width: auto;"
     />
   </a>
@@ -61,7 +62,7 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 <p align="center">
   <a href="">
     <img 
-      src="https://img.shields.io/badge/FII%20Market%20Analysis-Executive%20Report-134e4a?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=022c22" 
+      src="https://img.shields.io/badge/FIIs_Market_Analysis-Executive%20Report-134e4a?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=022c22" 
       alt="FIIs Market Analysis Executive Report"
     />
   </a>
