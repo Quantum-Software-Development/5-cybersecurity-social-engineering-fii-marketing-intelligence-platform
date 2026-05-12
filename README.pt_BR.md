@@ -71,6 +71,10 @@ Big Data [•]() Apache Spark [•]() PySpark [•]() NLP [•]() Sistemas Distr
   </a>
 </p>
 
-<br><br><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- ========= END DATA ANALYSING REPORT ========= -->
 <!-- ===================== END BADGE GROUP 1 ===================== -->
