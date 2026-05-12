@@ -8,13 +8,19 @@
 <!-- ========= START REPO TITLE ========= -->
 <div align="center">
 
-#  [Plataforma de Inteligência de Marketing para FIIs (***Fundos de Investimento Imobiliário***)]()
+<div align="center">
 
-### Plataforma de Big Data e NLP para inteligência de marketing, análise de sentimento e análise distribuída de Fundos de Investimento Imobiliário (FIIs)
+# 🚀 [Plataforma de Inteligência de Mercado para FIIs (***Fundos de Investimento Imobiliário***)]()
+
+### Plataforma de Big Data e NLP para análise de sentimento, análises distribuídas e geração de insights orientados por dados para Fundos de Investimento Imobiliário (FIIs)
 
 Big Data [•]() Apache Spark [•]() PySpark [•]() NLP [•]() Sistemas Distribuídos [•]() Streamlit [•]() Docker [•]() Engenharia de Dados
 
 </div>
+
+<br><br>
+
+#
 
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
