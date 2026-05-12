@@ -17,7 +17,7 @@
 
 <div align="center">
 
-# 🚀 ]FIIs (***Real Estate Investment Funds***) Marketing Intelligence Platform]()
+# 🚀 [FIIs (***Real Estate Investment Funds***) Marketing Intelligence Platform]()
 
 ### Big Data and NLP platform for marketing intelligence, sentiment analysis and distributed analytics of Real Estate Investment Funds (FIIs)
 
