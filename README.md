@@ -19,9 +19,12 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 </div>
 
 <br><br>
+
+#
+
+<br><br>
 <!-- ========= END REPO TITLE ========= -->
 
-<!-- ========= START Dashboard Streamlit ========= -->
 <!-- ========= START Dashboard Streamlit ========= -->
 <p align="center">
   <a href="" target="_blank" rel="noopener noreferrer">
@@ -68,6 +71,10 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
   </a>
 </p>
 
-<br><br><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- ========= END DATA ANALYSING REPORT ========= -->
 <!-- ===================== END BADGE GROUP 1 ===================== -->
