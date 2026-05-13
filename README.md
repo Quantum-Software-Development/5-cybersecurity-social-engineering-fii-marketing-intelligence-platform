@@ -96,3 +96,14 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 
 <br><br>
 <!-- ========= END SPONSOR BADGES ========= -->
+
+
+[Hadoop Setting up a Single Node Cluste (Stand Alone)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
+
+
+[Installation Guide: Open JDK - Java]()
+
+[Guia de Instalação: Hadoop & HDFS no Ubuntu]()
+
+[Guia de Instalação: Open JDK - Java]()
+
