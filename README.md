@@ -104,7 +104,9 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 
 
 
-[Installation Guide: Hadoop & HDFS no Ubuntu]()
+[Installation Guide: Hadoop & HDFS - Ubuntu]()
+
+[Installation Guide: Hadoop & HDFS - Mac OS]()
 
 
 [Installation Guide: Open JDK - Java]()
