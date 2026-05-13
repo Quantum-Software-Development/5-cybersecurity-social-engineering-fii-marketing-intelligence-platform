@@ -102,14 +102,11 @@ Big Data [•]() Apache Spark ['•]() PySpark [•]() NLP [•]() Distributed S
 
 [Setting Up a Hadoop Multi-Node Cluster](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html)
 
+[Installation Guide: Hadoop & HDFS and Open JDK - Java on Ubuntu] ( )
+
+[Installation Guide: Hadoop & HDFS and Open JDK - Java on Mac OS] ( )
 
 
-[Installation Guide: Hadoop & HDFS - Ubuntu]()
-
-[Installation Guide: Hadoop & HDFS - Mac OS]()
-
-
-[Installation Guide: Open JDK - Java]()
 
 
 
