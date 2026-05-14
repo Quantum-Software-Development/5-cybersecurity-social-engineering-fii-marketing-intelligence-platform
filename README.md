@@ -15,7 +15,7 @@
 
 ### Scalable Big Data, Distributed Computing, and NLP Platform for Real Estate Investment Fund Market Intelligence
 
-Big Data [•]() Hadoop & HDFS ['•]() Yarn / Kubernets ['•]()  Java - Open JDK    ['•]()  PySpark [•]() NLP [•]() Distributed Systems [•]()  Streamlit Cloud  [•]() Docker [•]() Data Engineering
+Big Data [•]() Hadoop & HDFS ['•]() Yarn / Kubernets ['•]()  Java - Open JDK    ['•]()  PySpark [•]() NLP [•]() Distributed Systems [•]() FastvAPI   [•]() Streamlit Cloud [•]() Render [•]() Docker [•]() Data Engineering
 
 Open JDK - Java
 
@@ -86,7 +86,8 @@ Open JDK - Java
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP – Humanistic AI & Data Science • 5th Semester • 2026)  
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
-**Professor:** [✨ Eduardo Savino Gomes]()  
+**Professor:** [✨ Eduardo Savino Gomes]()  e
+**Professor:** [✨ Carlos Eduardo Paes]()
 **Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  <br>
 [**Context:**]() This project explores Real Estate Investment Funds (FIIs) through Big Data, Natural Language Processing (NLP), and distributed analytics, focusing on market intelligence, sentiment analysis, and data-driven insights for the real estate investment sector.
 
