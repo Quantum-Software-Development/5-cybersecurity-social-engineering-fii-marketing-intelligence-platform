@@ -101,6 +101,7 @@ Open JDK - Java
 <!-- ========= END SPONSOR BADGES ========= -->
 
 
+<!-- ========= START BADGES GROUP 2 ========= -->
 <div align="center">
 
 <img src="https://img.shields.io/badge/Apache_Kafka-Streaming-0f172a?logo=apachekafka&logoColor=white" />
@@ -138,6 +139,21 @@ Open JDK - Java
 <img src="https://img.shields.io/badge/Java-Backend%20Engineering-124050?logo=openjdk&logoColor=white" />
 
 </div>
+
+<br><br>><br>
+<!-- ========= END BADGES GROUP 2 ========= -->
+
+<!-- ========= START NOTE ========= -->
+> [!NOTE]
+>
+> ⚠️ Projects may be publicly shared when permitted.  
+> The focus is on applied, hands-on learning with real datasets in AI governance and security contexts.  
+> All sensitive content remains protected in private repositories when required.
+>
+
+<br><br>
+<!-- ========= END NOTE ========= -->
+
 
 <!-- ========= START Ambient BIG DATA ========= -->
 
