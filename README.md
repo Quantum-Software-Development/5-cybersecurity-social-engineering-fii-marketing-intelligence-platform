@@ -101,7 +101,7 @@ Open JDK - Java
 <!-- ========= END SPONSOR BADGES ========= -->
 
 
-<!-- ========= START BADGES GROUP 2 ========= -->
+<!-- ========= START BADGES GROUP 2 =========
 <div align="center">
 
 <img src="https://img.shields.io/badge/Apache_Kafka-Streaming-0f172a?logo=apachekafka&logoColor=white" />
