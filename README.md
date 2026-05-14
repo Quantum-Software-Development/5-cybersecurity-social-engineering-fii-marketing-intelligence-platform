@@ -15,6 +15,8 @@
 
 ### Scalable Big Data, Distributed Computing, and NLP Platform for Real Estate Investment Fund Market Intelligence
 
+<br>
+
 Big Data [•]() Hadoop & HDFS ['•]() Yarn / Kubernets ['•]()  Java - Open JDK    ['•]()  PySpark [•]() NLP [•]() Distributed Systems [•]() FastvAPI   [•]() Streamlit Cloud [•]() Render [•]() Docker [•]() Data Engineering
 
 Open JDK - Java
