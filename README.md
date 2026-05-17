@@ -92,7 +92,14 @@ Big Data • Distributed Systems • PySpark • NLP • Sentiment Analysis • 
 **Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  <br>
 [**Context:**]() This project explores Real Estate Investment Funds (FIIs) through Big Data, Natural Language Processing (NLP), and distributed analytics, focusing on market intelligence, sentiment analysis, and data-driven insights for the real estate investment sector.
 
-<br>
+<br><br>
+
+<!-- ========= START SPONSOR BADGES ========= -->
+### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
+
+<br><br>
+<!-- ========= END SPONSOR BADGES ========= -->
+
 
 ### 📌 Project Context
 
@@ -123,89 +130,182 @@ This project applies Big Data, Distributed Analytics, Natural Language Processin
 - interactive dashboards
 - AI-assisted analytics
 
-with the objective of building a scalable  financial marketing intelligence ecosystem.
+[with the objective of building a scalable  financial marketing intelligence ecosystem.]()
 
 
 <br><br>
 <!-- ========= end Institutional INFO ========= -->
 
 
-<!-- ========= START SPONSOR BADGES ========= -->
-### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
+
+## ⚡️ Technology Ecosystem
+
+<br>
+
+<!-- ========= START BADGES GROUP ========= -->
+
+<div align="center">
+
+<!-- ===== BIG DATA ===== -->
+
+<img src="https://img.shields.io/badge/PySpark-Distributed_Analytics-0f172a?style=for-the-badge&logo=apachespark&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Hadoop-Big_Data_Infrastructure-111827?style=for-the-badge&logo=apachehadoop&logoColor=white" />
+
+<img src="https://img.shields.io/badge/MinIO-Data_Lake_Storage-172554?style=for-the-badge&logo=minio&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Distributed_Systems-Scalable_Processing-082f49?style=for-the-badge&logo=databricks&logoColor=white" />
 
 <br><br>
-<!-- ========= END SPONSOR BADGES ========= -->
 
+<!-- ===== DATA ENGINEERING ===== -->
 
-<!-- ========= START BADGES GROUP 2 =========
-<div align="center">
+<img src="https://img.shields.io/badge/Data_Engineering-ETL_Pipelines-164e63?style=for-the-badge&logo=apacheairflow&logoColor=white" />
 
-<!-- ===================== CORE STACK BADGES ===================== -->
+<img src="https://img.shields.io/badge/Data_Lake-Bronze_Silver_Gold-155e75?style=for-the-badge&logo=databricks&logoColor=white" />
 
-<div align="center">
+<img src="https://img.shields.io/badge/Parquet-Distributed_Storage-0f766e?style=for-the-badge&logo=apacheparquet&logoColor=white" />
 
-<img src="https://img.shields.io/badge/MinIO-Operational_Data_Lake-022c22?style=for-the-badge&logo=minio&logoColor=white" />
+<img src="https://img.shields.io/badge/Web_Scraping-Data_Collection-115e59?style=for-the-badge&logo=selenium&logoColor=white" />
 
-<img src="https://img.shields.io/badge/PySpark-Distributed_Analytics-111827?style=for-the-badge&logo=apachespark&logoColor=f59e0b" />
+<br><br>
 
-<img src="https://img.shields.io/badge/Hadoop-Distributed_File_System-0f172a?style=for-the-badge&logo=apachehadoop&logoColor=facc15" />
+<!-- ===== NLP ===== -->
 
-<img src="https://img.shields.io/badge/FastAPI-RESTful_Backend_API-083344?style=for-the-badge&logo=fastapi&logoColor=22d3ee" />
+<img src="https://img.shields.io/badge/NLP-Natural_Language_Processing-134e4a?style=for-the-badge&logo=spacy&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Streamlit-Executive_Analytics_Dashboard-082f49?style=for-the-badge&logo=streamlit&logoColor=fb7185" />
+<img src="https://img.shields.io/badge/Sentiment_Analysis-Financial_Insights-14532d?style=for-the-badge&logo=tensorflow&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Plotly-Interactive_Data_Visualization-172554?style=for-the-badge&logo=plotly&logoColor=ffffff" />
+<img src="https://img.shields.io/badge/Market_Intelligence-Investor_Behavior-166534?style=for-the-badge&logo=googleanalytics&logoColor=white" />
 
-<img src="https://img.shields.io/badge/NLP-Natural_Language_Processing-134e4a?style=for-the-badge&logo=tensorflow&logoColor=ffffff" />
+<img src="https://img.shields.io/badge/Trend_Analysis-Financial_Content-0f766e?style=for-the-badge&logo=scikitlearn&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Sentiment_Analysis-Investor_Sentiment_Intelligence-14532d?style=for-the-badge&logo=scikitlearn&logoColor=ffffff" />
+<br><br>
 
-<img src="https://img.shields.io/badge/Financial_Marketing_Analytics-Market_Intelligence-164e63?style=for-the-badge&logo=googleanalytics&logoColor=7dd3fc" />
+<!-- ===== BACKEND ===== -->
 
-<img src="https://img.shields.io/badge/Web_Scraping-Distributed_Data_Collection-082f49?style=for-the-badge&logo=scrapy&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/FastAPI-REST_API-082f49?style=for-the-badge&logo=fastapi&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Groq_AI-LLM_Inference_API-0f172a?style=for-the-badge&logo=openai&logoColor=67e8f9" />
+<img src="https://img.shields.io/badge/Python-Backend_Engineering-0f172a?style=for-the-badge&logo=python&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Llama_3.1-8B_Instant_Model-111827?style=for-the-badge&logo=meta&logoColor=ffffff" />
+<img src="https://img.shields.io/badge/Groq-AI_Inference-164e63?style=for-the-badge&logo=groq&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Docker-Containerized_Deployment-0f172a?style=for-the-badge&logo=docker&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Llama_3.1-AI_Assistant-0f766e?style=for-the-badge&logo=meta&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Distributed_Systems-Scalable_Infrastructure-164e63?style=for-the-badge&logo=kubernetes&logoColor=7dd3fc" />
+<br><br>
 
-<img src="https://img.shields.io/badge/Data_Engineering-ETL_Analytics_Pipelines-14532d?style=for-the-badge&logo=apacheairflow&logoColor=ffffff" />
+<!-- ===== DASHBOARD ===== -->
 
-<img src="https://img.shields.io/badge/AI_Assistant-Financial_Insights_Engine-0b1120?style=for-the-badge&logo=openai&logoColor=7dd3fc" />
+<img src="https://img.shields.io/badge/Streamlit-Analytics_Dashboard-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Plotly-Interactive_Visualizations-082f49?style=for-the-badge&logo=plotly&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Executive_Analytics-KPI_Monitoring-164e63?style=for-the-badge&logo=googleanalytics&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Financial_Dashboard-Market_Insights-155e75?style=for-the-badge&logo=powerbi&logoColor=white" />
+
+<br><br>
+
+<!-- ===== DEPLOYMENT ===== -->
+
+<img src="https://img.shields.io/badge/Docker-Containerization-0f172a?style=for-the-badge&logo=docker&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Render-Backend_Deployment-082f49?style=for-the-badge&logo=render&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Streamlit_Cloud-Dashboard_Deployment-164e63?style=for-the-badge&logo=streamlit&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Cloud_Native-Architecture-155e75?style=for-the-badge&logo=googlecloud&logoColor=white" />
 
 </div>
 
 
-<br><br>><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- ========= END BADGES GROUP 2 ========= -->
 
 <!-- ========= START NOTE ========= -->
 > [!NOTE]
 >
-> ⚠️ Projects may be publicly shared when permitted.  
-> The focus is on applied, hands-on learning with real datasets in AI governance and security contexts.  
-> All sensitive content remains protected in private repositories when required.
+> ⚠️ This project was designed for academic, portfolio, and applied research purposes.
 >
+> The platform demonstrates real-world concepts involving:
+>
+> - Big Data engineering
+> - distributed processing
+> - financial NLP
+> - market intelligence
+> - AI-assisted analytics
+> - scalable data architectures
+>
+> All implementations prioritize educational realism, maintainability, and professional engineering practices.
 
 <br><br>
 <!-- ========= END NOTE ========= -->
 
 
 <!-- ========= START Ambient BIG DATA ========= -->
+## ⚙️ [Big Data Environment Setup]()
 
-[Hadoop Setting up a Single Node Cluste (Stand Alone)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
+### Hadoop Documentation
 
-[Setting Up a Hadoop Multi-Node Cluster](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html)
+- [Hadoop Single Node Cluster Setup](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
 
-[Installation Guide: Hadoop & HDFS and Open JDK - Java on Ubuntu] ( )
+- [Hadoop Multi-Node Cluster Setup](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html)
 
-[Installation Guide: Hadoop & HDFS and Open JDK - Java on Mac OS] ( )
+<br>
 
+### [Environment Installation Guides]()
+
+
+- Hadoop + HDFS + OpenJDK on Ubuntu
+- Hadoop + HDFS + OpenJDK on macOS
+- MinIO Local Data Lake Setup
+- PySpark Distributed Environment Setup
+- Docker Academic Infrastructure Setup
 <!-- ========= END Ambient BIG DATA ========= -->
 
 
+<br><br>
 
+## [Strategic Objective]()
+
+
+The main objective of this platform is to build a distributed financial marketing intelligence ecosystem capable of transforming unstructured investment content into actionable strategic insights.
+
+<br>
+
+[The platform analyzes:]()
+
+- market narratives
+- investor sentiment
+- financial engagement
+- dividend discussions
+- passive income trends
+- investment behavior
+- FII communication performance
+- digital financial communities
+
+[using:]()
+
+- distributed analytics
+- NLP pipelines
+- sentiment analysis
+- scalable data engineering
+- AI-assisted exploration
+
+<br>
+
+[The final ecosystem enables:]()
+
+- executive analytics
+- strategic visualization
+- AI-powered insights
+- financial communication monitoring
+- scalable research workflows
+- portfolio-grade distributed systems experimentation
+
+<br><br>
 
