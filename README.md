@@ -92,6 +92,40 @@ Big Data • Distributed Systems • PySpark • NLP • Sentiment Analysis • 
 **Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  <br>
 [**Context:**]() This project explores Real Estate Investment Funds (FIIs) through Big Data, Natural Language Processing (NLP), and distributed analytics, focusing on market intelligence, sentiment analysis, and data-driven insights for the real estate investment sector.
 
+<br>
+
+### 📌 Project Context
+
+This project applies Big Data, Distributed Analytics, Natural Language Processing (NLP), and Market Intelligence techniques to analyze the Brazilian Real Estate Investment Fund (FII) ecosystem.
+
+<br>
+
+[The platform collects and processes large-scale financial content from specialized websites and social networks, generating strategic insights about:]()
+
+- investor sentiment
+- market perception
+- dividend discussions
+- passive income trends
+- financial engagement
+- digital investment behavior
+- financial content performance
+- investment communication patterns
+
+<br>
+
+[The solution combines:]()
+
+- distributed data pipelines
+- PySpark processing
+- MinIO Data Lake architecture
+- NLP analytics
+- sentiment analysis
+- interactive dashboards
+- AI-assisted analytics
+
+with the objective of building a scalable  financial marketing intelligence ecosystem.
+
+
 <br><br>
 <!-- ========= end Institutional INFO ========= -->
 
