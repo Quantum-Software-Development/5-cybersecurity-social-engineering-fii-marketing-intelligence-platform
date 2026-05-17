@@ -334,3 +334,57 @@ Groq AI Assistant (Llama 3.1 8B Instant)
 
 <br><br>
 
+## [Official Data Sources]()
+
+
+- Financial Portals
+- InfoMoney
+- Suno Research
+Investidor10
+Funds Explorer
+Clube FII
+Status Invest
+FIIs.com.br
+Money Times
+Seu Dinheiro
+Exame Invest
+Bora Investir (B3)
+E-Investidor Estadão
+Valor Investe
+NeoFeed
+The Cap
+Eu Quero Investir
+TradeMap Blog
+Investing.com Brasil
+CNN Brasil Business
+Inteligência Financeira
+
+<br><br>
+
+## [Social Network Monitoring]()
+
+Twitter / X
+
+### [Monitored Hashtags]()
+
+#FII
+#FIIs
+#FundosImobiliarios
+#RendaPassiva
+#Dividendos
+#Investimentos
+#MercadoFinanceiro
+#DividendYield
+#CarteiraDeInvestimentos
+#Investidor
+#PassiveIncome
+#BolsaDeValores
+#B3
+#Fundos
+#Investing
+#InvestimentoInteligente
+#Financeiro
+#Mercado
+#Acoes
+#EducacaoFinanceira
+
