@@ -10,18 +10,16 @@
 <!-- ========= START REPO TITLE ========= -->
 <div align="center">
 
+# Enterprise End-to-End Architecture for Intelligent FII Marketing Analytics with PySpark
 
-# [Enterprise End-to-End Architecture for Intelligent FII Analytics with PySpark]()
-
-### Scalable Big Data, Distributed Computing, and NLP Platform for Real Estate Investment Fund Market Intelligence
+### Scalable Big Data, Distributed Computing, NLP & Market Intelligence Platform for Real Estate Investment Funds (FIIs)
 
 <br>
 
-Big Data [•]() Hadoop & HDFS ['•]() Yarn / Kubernets ['•]()  Java - Open JDK    ['•]()  PySpark [•]() NLP [•]() Distributed Systems [•]() FastvAPI   [•]() Streamlit Cloud [•]() Render [•]() Docker [•]() Data Engineering
-
-Open JDK - Java
+Big Data • Distributed Systems • PySpark • NLP • Sentiment Analysis • FastAPI • Streamlit • Plotly • Docker • MinIO • Data Engineering
 
 </div>
+
 
 <br><br>
 
@@ -29,6 +27,7 @@ Open JDK - Java
 
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
+
 
 <!-- ========= START Dashboard Streamlit ========= -->
 <p align="center">
@@ -107,41 +106,44 @@ Open JDK - Java
 <!-- ========= START BADGES GROUP 2 =========
 <div align="center">
 
-<img src="https://img.shields.io/badge/Apache_Kafka-Streaming-0f172a?logo=apachekafka&logoColor=white" />
-<img src="https://img.shields.io/badge/PySpark-Distributed%20Analytics-0f172a?logo=apachespark&logoColor=white" />
-<img src="https://img.shields.io/badge/Hadoop_HDFS-Distributed%20Storage-0f172a?logo=apachehadoop&logoColor=white" />
+<!-- ===================== CORE STACK BADGES ===================== -->
 
-<img src="https://img.shields.io/badge/Apache_HBase-NoSQL%20Database-112a3a?logo=apache&logoColor=white" />
-<img src="https://img.shields.io/badge/MapReduce-Big%20Data%20Processing-112a3a?logo=apachehadoop&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache_ZooKeeper-Coordination-112a3a?logo=apache&logoColor=white" />
+<div align="center">
 
-<img src="https://img.shields.io/badge/Kubernetes-Orchestration-123445?logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-Containerization-123445?logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloud_Native-Architecture-123445?logo=googlecloud&logoColor=white" />
+<img src="https://img.shields.io/badge/MinIO-Operational_Data_Lake-022c22?style=for-the-badge&logo=minio&logoColor=white" />
 
-<img src="https://img.shields.io/badge/FastAPI-RESTful%20API-124050?logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-Interactive%20Dashboard-124050?logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit_Cloud-Deployment-124050?logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/PySpark-Distributed_Analytics-111827?style=for-the-badge&logo=apachespark&logoColor=f59e0b" />
 
-<img src="https://img.shields.io/badge/NLP-Natural%20Language%20Processing-134a4a?logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Sentiment_Analysis-NLP%20Models-134a4a?logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Machine_Learning-Predictive%20Analytics-134a4a?logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/Hadoop-Distributed_File_System-0f172a?style=for-the-badge&logo=apachehadoop&logoColor=facc15" />
 
-<img src="https://img.shields.io/badge/Big_Data-Analytics%20Platform-14532d?logo=googleanalytics&logoColor=white" />
-<img src="https://img.shields.io/badge/Data_Engineering-ETL%20Pipelines-14532d?logo=apacheairflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Data_Lake-Architecture-14532d?logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-RESTful_Backend_API-083344?style=for-the-badge&logo=fastapi&logoColor=22d3ee" />
 
-<img src="https://img.shields.io/badge/Distributed_Systems-Scalable%20Infrastructure-166534?logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Real_Time_Processing-Streaming%20Analytics-166534?logo=apachekafka&logoColor=white" />
-<img src="https://img.shields.io/badge/Batch_%26_Stream-Processing-Hybrid%20Processing-166534?logo=apacheflink&logoColor=white" />
+<img src="https://img.shields.io/badge/Streamlit-Executive_Analytics_Dashboard-082f49?style=for-the-badge&logo=streamlit&logoColor=fb7185" />
 
-<img src="https://img.shields.io/badge/Financial_Analytics-Market%20Intelligence-134e4a?logo=googleanalytics&logoColor=white" />
-<img src="https://img.shields.io/badge/Scalable_Data_Pipelines-Scalable%20Architecture-134e4a?logo=apacheairflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Data_Nodes-Distributed%20Storage-134e4a?logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Plotly-Interactive_Data_Visualization-172554?style=for-the-badge&logo=plotly&logoColor=ffffff" />
 
-<img src="https://img.shields.io/badge/Java-Backend%20Engineering-124050?logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/NLP-Natural_Language_Processing-134e4a?style=for-the-badge&logo=tensorflow&logoColor=ffffff" />
+
+<img src="https://img.shields.io/badge/Sentiment_Analysis-Investor_Sentiment_Intelligence-14532d?style=for-the-badge&logo=scikitlearn&logoColor=ffffff" />
+
+<img src="https://img.shields.io/badge/Financial_Marketing_Analytics-Market_Intelligence-164e63?style=for-the-badge&logo=googleanalytics&logoColor=7dd3fc" />
+
+<img src="https://img.shields.io/badge/Web_Scraping-Distributed_Data_Collection-082f49?style=for-the-badge&logo=scrapy&logoColor=38bdf8" />
+
+<img src="https://img.shields.io/badge/Groq_AI-LLM_Inference_API-0f172a?style=for-the-badge&logo=openai&logoColor=67e8f9" />
+
+<img src="https://img.shields.io/badge/Llama_3.1-8B_Instant_Model-111827?style=for-the-badge&logo=meta&logoColor=ffffff" />
+
+<img src="https://img.shields.io/badge/Docker-Containerized_Deployment-0f172a?style=for-the-badge&logo=docker&logoColor=38bdf8" />
+
+<img src="https://img.shields.io/badge/Distributed_Systems-Scalable_Infrastructure-164e63?style=for-the-badge&logo=kubernetes&logoColor=7dd3fc" />
+
+<img src="https://img.shields.io/badge/Data_Engineering-ETL_Analytics_Pipelines-14532d?style=for-the-badge&logo=apacheairflow&logoColor=ffffff" />
+
+<img src="https://img.shields.io/badge/AI_Assistant-Financial_Insights_Engine-0b1120?style=for-the-badge&logo=openai&logoColor=7dd3fc" />
 
 </div>
+
 
 <br><br>><br>
 <!-- ========= END BADGES GROUP 2 ========= -->
