@@ -10,13 +10,13 @@
 <!-- ========= START REPO TITLE ========= -->
 <div align="center">
 
-# Enterprise End-to-End Architecture for Intelligent FII Marketing Analytics with PySpark
+# [Enterprise End-to-End Architecture for Intelligent FII Marketing Analytics with PySpark]()
 
 ### Scalable Big Data, Distributed Computing, NLP & Market Intelligence Platform for Real Estate Investment Funds (FIIs)
 
 <br>
 
-Big Data • Distributed Systems • PySpark • NLP • Sentiment Analysis • FastAPI • Streamlit • Plotly • Docker • MinIO • Data Engineering
+Big Data [•]() Distributed Systems [•]() PySpark • NLP [•]() Sentiment Analysis [•]() FastAPI [•]() Streamlit [•]() Plotly [•]() Docker [•]() MinIO [•]() Data Engineering
 
 </div>
 
@@ -97,11 +97,11 @@ Big Data • Distributed Systems • PySpark • NLP • Sentiment Analysis • 
 <!-- ========= START SPONSOR BADGES ========= -->
 ### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
 
-<br><br>
+<br><br><br>
 <!-- ========= END SPONSOR BADGES ========= -->
 
 
-### 📌 Project Context
+###  [Project Context]()
 
 This project applies Big Data, Distributed Analytics, Natural Language Processing (NLP), and Market Intelligence techniques to analyze the Brazilian Real Estate Investment Fund (FII) ecosystem.
 
@@ -138,7 +138,7 @@ This project applies Big Data, Distributed Analytics, Natural Language Processin
 
 
 
-## ⚡️ Technology Ecosystem
+## ⚡️ [Technology Ecosystem]()
 
 <br>
 
