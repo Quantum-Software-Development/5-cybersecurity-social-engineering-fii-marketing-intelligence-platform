@@ -13,6 +13,8 @@
 # [Investor Intelligence Platform - FIIs Brasil ]()  🇧🇷
 ### Real Estate Investment Funds (FIIs) - Market Intelligence & Behavioral Analytics
 
+<br>
+
 
 A data-driven intelligence platform designed to analyze investor behavior, financial discussions, and market sentiment across multiple digital sources, transforming unstructured content into actionable strategic insights for investment decision-making.
 
@@ -20,7 +22,8 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 
 ###  Scalable [Big Data](), [Distributed Computing](), [NLP]() & [BM25]() Market Intelligence Platform for Brazilian FIIs
 
-<br>
+<br><br>
+
 
 Big Data [•]() Distributed Systems [•]() PySpark [•]()  BM25 Ranking [•]() NLP [•]() Sentiment Analysis [•]() FastAPI [•]() Streamlit [•]() Plotly [•]() Docker [•]() MinIO [•]() Data Engineering
 
