@@ -91,8 +91,8 @@ Big Data [•]() Distributed Systems [•]() PySpark [•]()  BM25 Ranking [•]
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP – Humanistic AI & Data Science • 5th Semester • 2026)  
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
-**Professor:** [✨ Eduardo Savino Gomes]()  e
-**Professor:** [✨ Carlos Eduardo Paes]()
+**Professor:** [✨ Eduardo Savino Gomes]()  e <br>
+**Professor:** [✨ Carlos Eduardo Paes]() <br>
 **Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  <br>
 
 
