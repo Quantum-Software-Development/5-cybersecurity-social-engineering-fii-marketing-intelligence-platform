@@ -94,7 +94,7 @@ Big Data [•]() Distributed Systems [•]() PySpark [•]()  BM25 Ranking [•]
 **Professor:** [✨ Eduardo Savino Gomes]()  e
 **Professor:** [✨ Carlos Eduardo Paes]()
 **Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  <br>
-[**Context:**]() This project explores Real Estate Investment Funds (FIIs) through Big Data, Natural Language Processing (NLP), and distributed analytics, focusing on market intelligence, sentiment analysis, and data-driven insights for the real estate investment sector.
+
 
 <br><br>
 
