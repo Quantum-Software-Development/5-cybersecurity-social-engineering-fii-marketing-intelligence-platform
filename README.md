@@ -16,7 +16,7 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 
 <br>
 
-###  [Scalable Big Data](, [Distributed Computing](, [NLP]( & [BM25]( Market Intelligence Platform for Brazilian FIIs
+###  [Scalable Big Data](), [Distributed Computing](), [NLP]() & [BM25]() Market Intelligence Platform for Brazilian FIIs
 
 <br>
 
