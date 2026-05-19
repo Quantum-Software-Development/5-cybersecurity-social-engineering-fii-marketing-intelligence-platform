@@ -10,7 +10,10 @@
 <!-- ========= START REPO TITLE ========= -->
 <div align="center">
 
-# [Investor Intelligence & Marketing Analytics Platform for Brazilian FIIs]() - [Brazilian Real Estate Investment Funds (FIIs)]()
+# [Investor Intelligence Platform — FIIs Brasil ]()  
+### Real Estate Investment Funds (FIIs)  
+#### Market Intelligence & Behavioral Analytics
+<br>
 
 A data-driven intelligence platform designed to analyze investor behavior, financial discussions, and market sentiment across multiple digital sources, transforming unstructured content into actionable strategic insights for investment decision-making.
 
