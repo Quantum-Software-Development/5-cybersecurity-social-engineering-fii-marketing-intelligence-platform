@@ -10,7 +10,7 @@
 <!-- ========= START REPO TITLE ========= -->
 <div align="center">
 
-# [Investor Intelligence Platform 🇧🇷 FIIs Brasil ]()  
+# [Investor Intelligence Platform - FIIs Brasil ]()  🇧🇷
 ### Real Estate Investment Funds (FIIs)  
 #### Market Intelligence & Behavioral Analytics
 <br>
