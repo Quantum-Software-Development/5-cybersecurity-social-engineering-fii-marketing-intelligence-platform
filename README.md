@@ -11,9 +11,8 @@
 <div align="center">
 
 # [Investor Intelligence Platform - FIIs Brasil ]()  🇧🇷
-### Real Estate Investment Funds (FIIs)  
-#### Market Intelligence & Behavioral Analytics
-<br>
+### Real Estate Investment Funds (FIIs) - Market Intelligence & Behavioral Analytics
+
 
 A data-driven intelligence platform designed to analyze investor behavior, financial discussions, and market sentiment across multiple digital sources, transforming unstructured content into actionable strategic insights for investment decision-making.
 
