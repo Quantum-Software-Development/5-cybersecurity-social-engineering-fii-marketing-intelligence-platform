@@ -379,7 +379,7 @@ Inteligência Financeira
 
 ## [Social Network Monitoring]()
 
-Twitter / X
+Reddit
 
 ### [Monitored Hashtags]()
 
