@@ -404,3 +404,51 @@ Reddit
 #Acoes
 #EducacaoFinanceira
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+## Referências Bibliográficas (ABNT NBR 6023:2018)
+
+MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. *Introduction to Information Retrieval*. Cambridge: Cambridge University Press, 2008.
+
+ROBERTSON, Stephen E.; WALKER, Steve; JONES, Susan; HANCOCK-BEAULIEU, Micheline; GATFORD, Mike. Okapi at TREC-3. In: *Text REtrieval Conference (TREC-3)*. Gaithersburg: NIST, 1995.
+
+ROBERTSON, Stephen; ZARAGOZA, Hugo. The probabilistic relevance framework: BM25 and beyond. *Foundations and Trends in Information Retrieval*, Delft, v. 3, n. 4, p. 333–389, 2009.
+
+RUSSELL, Stuart; NORVIG, Peter. *Artificial Intelligence: A Modern Approach*. 4. ed. Harlow: Pearson, 2021.
+
+GOODFELLOW, Ian; BENGIO, Yoshua; COURVILLE, Aaron. *Deep Learning*. Cambridge: MIT Press, 2016.
+
+BAROCAS, Solon; SELBST, Andrew D. Big data’s disparate impact. *California Law Review*, Berkeley, v. 104, n. 3, p. 671–732, 2016.
+
+EUROPEAN COMMISSION. *Ethics Guidelines for Trustworthy AI*. Brussels: High-Level Expert Group on Artificial Intelligence, 2019.
+
+MOLNAR, Christoph. *Interpretable Machine Learning*. 2. ed. [S.l.]: Lulu.com, 2022.
+
+JURAFSKY, Daniel; MARTIN, James H. *Speech and Language Processing*. 3. ed. Stanford: Stanford University, 2025.
+
+BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União: Brasília, DF, 15 ago. 2018.
+
+<br><br>
+
