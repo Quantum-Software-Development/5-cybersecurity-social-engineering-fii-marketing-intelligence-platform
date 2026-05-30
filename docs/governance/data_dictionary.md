@@ -1,8 +1,7 @@
 # Data Dictionary
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**
-
----
+<br><br>
 
 ## Bronze Layer Schema
 
@@ -20,7 +19,7 @@ Raw ingested data. No transformations applied. Preserved for audit.
 | `reddit_score` | int | Reddit API | Upvote score (Reddit only) |
 | `reddit_num_comments` | int | Reddit API | Comment count (Reddit only) |
 
----
+<br><br>
 
 ## Silver Layer Schema
 
@@ -42,7 +41,7 @@ Cleaned and normalized data. One record per unique article.
 **Deduplication key**: `url` (exact match)  
 **Minimum quality filter**: `word_count >= 20` AND `char_count >= 100`
 
----
+<br><br>
 
 ## Gold Layer — Output Tables
 
@@ -91,7 +90,7 @@ Cleaned and normalized data. One record per unique article.
 | `coherence_score` | float | Topic coherence (C_v) |
 | `doc_count` | int | Documents predominantly in this topic |
 
----
+<br><br>
 
 ## NLP Taxonomy — Monitored Hashtags
 
@@ -102,6 +101,4 @@ Used as semantic filters, BM25 query expansion terms, and topic modeling anchors
 `#PassiveIncome` `#BolsaDeValores` `#B3` `#Fundos` `#Investing`
 `#InvestimentoInteligente` `#Financeiro` `#Mercado` `#Acoes` `#EducacaoFinanceira`
 
----
 
-*Last updated: 2026-05-26 | Version: 2.1*
