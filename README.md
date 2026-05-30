@@ -430,29 +430,19 @@ Reddit
 
 ## References
 
-BAROCAS, Solon; SELBST, Andrew D. Big data’s disparate impact. *California Law Review*, Berkeley, v. 104, n. 3, p. 671–732, 2016.
-
-BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União: Brasília, DF, 15 ago. 2018.
-
-CHAPMAN, Pete; CLINTON, Julian; KERBER, Randy; KHABAZA, Thomas; REINARTZ, Thomas; SHEARER, Colin; WIRTH, Rüdiger. *CRISP-DM 1.0: Step-by-step data mining guide*. [S.l.]: SPSS, 2000.
-
-EUROPEAN COMMISSION. *Ethics Guidelines for Trustworthy AI*. Brussels: High-Level Expert Group on Artificial Intelligence, 2019.
-
-GOODFELLOW, Ian; BENGIO, Yoshua; COURVILLE, Aaron. *Deep Learning*. Cambridge: MIT Press, 2016.
-
-JURAFSKY, Daniel; MARTIN, James H. *Speech and Language Processing*. 3. ed. Stanford: Stanford University, 2025.
-
-MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. *Introduction to Information Retrieval*. Cambridge: Cambridge University Press, 2008.
-
-MITCHELL, Margaret; WU, Simone; ZALDIVAR, Andrew; BARNES, Parker; VASSERMAN, Lucy; HUTCHINSON, Ben; SPITZER, Elena; RAJI, Inioluwa Deborah; GEBRU, Timnit. Model Cards for Model Reporting. In: *Proceedings of the Conference on Fairness, Accountability, and Transparency (FAccT)*. New York: ACM, 2019. p. 220–229.
-
-MOLNAR, Christoph. *Interpretable Machine Learning*. 2. ed. [S.l.]: Lulu.com, 2022.
-
-ROBERTSON, Stephen E.; WALKER, Steve; JONES, Susan; HANCOCK-BEAULIEU, Micheline; GATFORD, Mike. Okapi at TREC-3. In: *Text REtrieval Conference (TREC-3)*. Gaithersburg: NIST, 1995.
-
-ROBERTSON, Stephen; ZARAGOZA, Hugo. The probabilistic relevance framework: BM25 and beyond. *Foundations and Trends in Information Retrieval*, Delft, v. 3, n. 4, p. 333–389, 2009.
-
-RUSSELL, Stuart; NORVIG, Peter. *Artificial Intelligence: A Modern Approach*. 4. ed. Harlow: Pearson, 2021.
+- Barocas, S., & Selbst, A. D. (2016). Big Data’s Disparate Impact. *California Law Review*, 104(3), 671–732.
+- Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. *Journal of Machine Learning Research (JMLR)*, 3, 993–1022.
+- Brasil. (2018). *Lei nº 13.709, de 14 de agosto de 2018: Lei Geral de Proteção de Dados Pessoais (LGPD)*.
+- Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., & Wirth, R. (2000). *CRISP-DM 1.0: Step-by-step data mining guide*. SPSS.
+- European Commission. (2019). *Ethics Guidelines for Trustworthy AI*. Brussels: High-Level Expert Group on Artificial Intelligence.
+- Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+- Jurafsky, D., & Martin, J. H. (2025). *Speech and Language Processing* (3rd ed.). Stanford University.
+- Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to Information Retrieval*. Cambridge University Press.
+- Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., & Gebru, T. (2019). Model Cards for Model Reporting. In *Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT)* (pp. 220–229).
+- Molnar, C. (2022). *Interpretable Machine Learning* (2nd ed.). Lulu.com.
+- Robertson, S. E., Walker, S., Jones, S., Hancock-Beaulieu, M., & Gatford, M. (1995). Okapi at TREC-3. In *Text REtrieval Conference (TREC-3)*. NIST.
+- Robertson, S. E., & Zaragoza, H. (2009). The Probabilistic Relevance Framework: BM25 and Beyond. *Foundations and Trends in Information Retrieval*, 3(4), 333–389.
+- Russell, S., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
 
 <br><br>
 
