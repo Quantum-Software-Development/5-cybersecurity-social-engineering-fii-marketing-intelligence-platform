@@ -1,8 +1,8 @@
 # CRISP-DM Methodology Mapping
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**
 
----
+<br><br>
 
 ## Overview
 
@@ -19,7 +19,7 @@ flowchart LR
     M -- "iterate" --> DP
 ```
 
----
+<br><br>
 
 ## Phase-to-Notebook Mapping
 
@@ -32,13 +32,15 @@ flowchart LR
 - Responsible AI principles documentation
 - Project governance structure
 
+<br>
+
 **Key decisions made**:
 - Specialization: FII digital channel intelligence (not general finance)
 - NLP approach: BM25 for ranking, 4-layer sentiment for PT-BR
 - Architecture: Medallion (Bronze/Silver/Gold), local scraping + cloud serving
 - Scope: 20 financial portals + Reddit enrichment
 
----
+<br>
 
 ### Phase 2: Data Understanding → `NB01`
 
@@ -54,7 +56,7 @@ flowchart LR
 - Article volume per portal
 - Initial FII keyword frequency scan
 
----
+<br><br>
 
 ### Phase 3: Data Preparation → `NB02`
 
@@ -69,7 +71,7 @@ flowchart LR
 - Null-safe column transformations
 - PySpark `regexp_replace`, `trim`, `lower`
 
----
+<br><br>
 
 ### Phase 4: Modeling → `NB03` + `NB04`
 
@@ -91,20 +93,20 @@ flowchart LR
 - Topic naming and business interpretation
 - Coherence score evaluation
 
----
+<br><br>
 
 ### Phase 5: Evaluation → `NB05` ★ CAPSTONE
 
 **Deliverables**:
 - Business Intelligence layer (executive insights)
 - Strategic channel recommendations (Topo de Funil)
-- ETAPA 14: Full Governance & Responsible AI documentation
+- Full Governance & Responsible AI documentation
 - Gold Layer final export
 - Academic conclusion and briefing alignment validation
 
 This notebook represents the **complete academic delivery**.
 
----
+<br><br>
 
 ### Phase 6: Deployment → `NB06` + `NB07`
 
@@ -123,7 +125,7 @@ This notebook represents the **complete academic delivery**.
 - Groq chatbot integration test
 - Streamlit Cloud deployment guide
 
----
+<br><br>
 
 ## Iterative Cycles
 
@@ -134,7 +136,7 @@ This notebook represents the **complete academic delivery**.
 | NB03 Modeling | NB02 Preparation | Feature engineering revision | As needed |
 | NB06/07 Deployment | NB05 Evaluation | API serving validation reveals data issues | As needed |
 
----
+<br><br>
 
 ## Quality Gates
 
@@ -147,6 +149,4 @@ This notebook represents the **complete academic delivery**.
 | API health | NB06 | `GET /health` returns 200 |
 | Dashboard stability | NB07 | Dual mode tested (API + fallback) |
 
----
-
-*Last updated: 2026-05-26 | Methodology: CRISP-DM (Chapman et al., 2000)*
+Methodology: *CRISP-DM (Chapman et al., 2000)*
