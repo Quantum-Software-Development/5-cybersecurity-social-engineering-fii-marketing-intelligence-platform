@@ -1,8 +1,8 @@
 # Data Lineage
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**
+<br><br>
 
----
 
 ## End-to-End Data Flow
 
@@ -46,7 +46,7 @@ flowchart TD
     end
 ```
 
----
+<br><br>
 
 ## Layer Specifications
 
@@ -57,7 +57,7 @@ flowchart TD
 | **Gold** | `data/gold/` | Parquet (one file per table) | Per analysis run | ❌ gitignored |
 | **External (frozen)** | `data/external/` | Parquet + CSV + JSON | Permanent | ✅ committed |
 
----
+<br><br>
 
 ## Transformation Lineage
 
@@ -72,6 +72,8 @@ flowchart TD
 | Quality filter | `body` | — | Drop if `word_count < 20` |
 | Word count | `body` | `word_count` | `len(body.split())` |
 
+<br>
+
 ### Silver → Gold (NB03–NB05)
 
 | Output Table | Source Columns | Algorithm |
@@ -81,15 +83,15 @@ flowchart TD
 | `negative_context_terms` | `body`, `source` | Window co-occurrence |
 | `topic_clusters` | `body` | LDA (Scikit-learn) |
 
----
+<br><br>
 
-## Audit Trail
+## Reproducibility & System Guarantees
 
-- **Bronze layer** is never modified after ingestion — immutable raw record
-- **article_id** is deterministic (`SHA-256(url)`) — safe for joins across pipeline runs
-- **data_collection_report.json** records: collection date, source counts, version
-- **RANDOM_SEED = 42** ensures LDA topics are reproducible across runs
+| Area | Mechanism | Purpose |
+|---|---|---|
+| **Bronze Layer** | Immutable ingestion | Preserves raw records without post-processing modifications |
+| **Entity Consistency** | `article_id = SHA-256(url)` | Deterministic joins across pipeline executions |
+| **Data Provenance** | `data_collection_report.json` | Tracks collection date, source counts, and dataset version |
+| **Topic Modeling** | `RANDOM_SEED = 42` | Ensures reproducible LDA outputs across runs |
 
----
 
-*Last updated: 2026-05-26 | See also: `docs/architecture/medallion_architecture.md`*
