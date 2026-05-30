@@ -36,8 +36,6 @@ flowchart LR
 
 ### 🥉 Bronze — Raw Ingestion
 
-**Principle**: Write-once, never modify. All raw data preserved for audit.
-
 | Property | Value |
 |----------|-------|
 | **Location** | `data/bronze/` |
@@ -67,16 +65,23 @@ flowchart LR
 | **Git** | ❌ Not committed |
 | **Notebook** | `NB02` |
 
-**Transformations applied**:
-```
-Raw HTML → BeautifulSoup stripping → clean text
-Duplicate URLs → de-duplicated (keep first occurrence)
-published_date (string) → timestamp
-article_id = SHA-256(url)
-word_count = len(body.split())
-```
+<br>
 
-<br><br>
+
+**Transformations applied**:
+
+## Data Processing Rules
+
+| Operation | Input | Transformation | Output |
+|---|---|---|---|
+| **HTML Cleaning** | Raw HTML | BeautifulSoup stripping | Clean text |
+| **Deduplication** | Duplicate URLs | Keep first occurrence | De-duplicated URLs |
+| **Date Normalization** | `published_date` *(string)* | Timestamp conversion | `timestamp` |
+| **ID Generation** | `url` | `SHA-256(url)` | `article_id` |
+| **Feature Extraction** | `body` | `len(body.split())` | `word_count` |
+
+
+<br>
 
 ### 🥇 Gold — Business-Ready Analytics
 
@@ -102,7 +107,7 @@ word_count = len(body.split())
 | `negative_context_terms.parquet` | Variable | Negative term co-occurrence per source |
 | `topic_clusters.parquet` | 5 | LDA topic model outputs |
 
-<br><br>
+<br>
 
 
 ### 🔒 External — Frozen Dataset
@@ -116,14 +121,18 @@ word_count = len(body.split())
 | **Git** | ✅ Committed (exception to gitignore) |
 | **Mutation** | Never modified after initial collection |
 
-```
-data/external/
-├── rss_fii_articles.parquet      # RSS data
-├── portal_fii_articles.csv       # Portal data
-├── reddit_fii_posts.parquet      # Reddit — Behavioral Layer (Source #21)
-├── data_collection_report.json   # Provenance metadata
-└── README.md                     # Documentation
-```
+
+<br><br> 
+
+## `data/external/`
+
+| Resource | Format | Purpose |
+|---|---|---|
+| `rss_fii_articles.parquet` | Parquet | RSS article dataset |
+| `portal_fii_articles.csv` | CSV | Financial portal article dataset |
+| `reddit_fii_posts.parquet` | Parquet | Behavioral sentiment layer from Reddit *(Source #21)* |
+| `data_collection_report.json` | JSON | Data provenance and collection metadata |
+| `README.md` | Markdown | Folder-level documentation |
 
 **Why frozen?** Scraping results vary by run (new articles appear, old ones disappear). Freezing ensures:
 - NB02–NB07 produce identical results on any machine
@@ -132,7 +141,7 @@ data/external/
 
 <br><br>
 
-## Pipeline Flow
+
 
 ## Pipeline Flow
 
