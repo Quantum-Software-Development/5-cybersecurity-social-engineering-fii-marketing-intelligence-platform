@@ -2,7 +2,7 @@
 
 **Investor Intelligence Platform - FIIs Brasil 🇧🇷**
 
----
+<br><br>
 
 ## High-Level Architecture
 
@@ -30,7 +30,7 @@ C4Context
     Rel(academic, platform, "Reviews notebooks + governance")
 ```
 
----
+<br><br>
 
 ## Deployment Architecture
 
@@ -63,7 +63,7 @@ flowchart TB
     end
 ```
 
----
+<br><br>
 
 ## Component Catalog
 
@@ -89,7 +89,7 @@ flowchart TB
 | GET | `/negative-context` | Negative context scores | Array sorted by severity |
 | GET | `/topics` | LDA topic clusters | Array of topic objects |
 
----
+<br><br>
 
 ## Security Architecture
 
@@ -100,7 +100,7 @@ flowchart TB
 | Scraping | Ethical compliance | Rate limiting, `robots.txt` check, user agent |
 | Dashboard | No auth required | Public academic project; no PII in outputs |
 
----
+<br><br>
 
 ## Technology Stack Summary
 
