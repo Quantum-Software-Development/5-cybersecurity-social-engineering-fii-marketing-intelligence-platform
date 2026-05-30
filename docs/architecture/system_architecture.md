@@ -104,15 +104,15 @@ flowchart TB
 
 ## Technology Stack Summary
 
-```
-Data Engineering:  PySpark 3.5.1 · Pandas 2.1.4 · PyArrow 14.0.2
-NLP:               rank-bm25 0.2.2 · TextBlob 0.17.1 · NLTK 3.8.1 · Scikit-learn 1.4.2
-Visualization:     Plotly 5.20.0 · WordCloud 1.9.3
-Backend:           FastAPI 0.111.0 · Uvicorn 0.29.0 · Pydantic 2.7.1
-Frontend:          Streamlit 1.35.0
-AI:                Groq 0.9.0 (llama-3.1-8b-instant)
-Collection:        feedparser 6.0.11 · BeautifulSoup4 4.12.3 · PRAW 7.7.1
-Runtime:           Python 3.10+ · Java 11+ (Spark dependency)
-```
+| Categoria         | Tecnologias / Versões |
+|-------------------|------------------------|
+| **Data Engineering** | PySpark 3.5.1 · Pandas 2.1.4 · PyArrow 14.0.2 |
+| **NLP** | rank-bm25 0.2.2 · TextBlob 0.17.1 · NLTK 3.8.1 · Scikit-learn 1.4.2 |
+| **Visualization** | Plotly 5.20.0 · WordCloud 1.9.3 |
+| **Backend** | FastAPI 0.111.0 · Uvicorn 0.29.0 · Pydantic 2.7.1 |
+| **Frontend** | Streamlit 1.35.0 |
+| **AI** | Groq 0.9.0 (llama-3.1-8b-instant) |
+| **Collection** | feedparser 6.0.11 · BeautifulSoup4 4.12.3 · PRAW 7.7.1 |
+| **Runtime** | Python 3.10+ · Java 11+ (Spark dependency) |
 
 
