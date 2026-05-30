@@ -1,9 +1,9 @@
 # Research Design
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
 *Methodological rationale for academic project*
 
----
+<br><br>
 
 ## Research Question
 
@@ -15,7 +15,7 @@
 3. Which sources mention FII-related terms in predominantly negative contexts? (Negative Context Detection)
 4. What discussion clusters characterize investor behavior in each channel? (Topic Modeling)
 
----
+<br><br>
 
 ## Research Type
 
@@ -27,7 +27,7 @@
 | **Horizon** | Cross-sectional (6-month window) |
 | **Data type** | Secondary (publicly available text) |
 
----
+<br><br>
 
 ## Methodological Choices
 
@@ -42,7 +42,9 @@
 | XAI compliance | ✅ Native | ❌ Requires post-hoc explanation |
 | Academic defensibility | ✅ Established (Robertson 2009) | ✅ State-of-the-art |
 
-**Decision**: BM25 is preferred for V1 (academic scope) due to interpretability and XAI alignment. Neural retrieval is V2 roadmap.
+**Decision**: BM25 is preferred for academic scope due to interpretability and XAI alignment.
+
+<br><br>
 
 ### Why TextBlob + Lexicon (not FinBERT)?
 
@@ -52,6 +54,8 @@
 - Accuracy ~75–80% is sufficient for **channel-level** marketing decisions
 - FinBERT fine-tuning on PT-BR FII corpus is a V2 item
 
+<br>  
+
 ### Why LDA (not BERTopic)?
 
 - LDA is interpretable, deterministic (`random_state=42`)
@@ -59,7 +63,7 @@
 - 5-topic model sufficient for investor behavior segmentation
 - Academic transparency favors established methods
 
----
+<br>
 
 ## Corpus Design
 
@@ -72,6 +76,8 @@
 | **Minimum article length** | 20 words / 100 characters |
 | **FII filter** | Title or body must contain FII-related terms |
 
+<br>
+
 ### Corpus Limitations
 
 1. **Selection bias**: 20 portals ≠ complete universe of FII discussion
@@ -79,7 +85,7 @@
 3. **Language**: PT-BR only; excludes English-language FII analysis
 4. **Platform**: Excludes Twitter/X, Telegram, YouTube, LinkedIn
 
----
+<br><br>
 
 ## Validation Strategy
 
@@ -90,7 +96,7 @@
 | Topic labels | Expert interpretation of top terms |
 | Negative context | Spot-check of flagged source-term pairs |
 
----
+<br><br>
 
 ## Academic Contribution
 
@@ -99,7 +105,7 @@
 3. **Governance**: Demonstrates Responsible AI and CRISP-DM in a real-world NLP context
 4. **Educational**: Applies Humanistic AI principles in a fintech context
 
----
+<br><br>
 
 ## References
 
@@ -108,6 +114,4 @@
 - Mitchell, M., et al. (2019). Model Cards for Model Reporting. *ACM FAccT*.
 - Blei, D., Ng, A., & Jordan, M. (2003). Latent Dirichlet Allocation. *JMLR*, 3, 993–1022.
 
----
 
-*Last updated: 2026-05-26 | Version: 2.1*
