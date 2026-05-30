@@ -1,6 +1,5 @@
 # Medallion Architecture
-
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**
 
 <br><br>
 
@@ -135,14 +134,15 @@ data/external/
 
 ## Pipeline Flow
 
-```
-NB01: RSS + Portals + Reddit → data/bronze/ → data/external/ (freeze)
-NB02: data/external/ → PySpark ETL → data/silver/
-NB03: data/silver/ → BM25 + Sentiment + NegCtx → Gold intermediaries
-NB04: data/silver/ → LDA Topics → Gold intermediaries
-NB05: All Gold intermediaries → data/gold/ (final)
-NB06: data/gold/ → FastAPI → REST endpoints
-NB07: FastAPI (or data/gold/ fallback) → Streamlit → User
-```
+## Pipeline Flow
 
+| Notebook | Input | Processing | Output |
+|---|---|---|---|
+| **NB01** | RSS + Portals + Reddit | Data collection | `data/bronze/` → `data/external/` *(freeze)* |
+| **NB02** | `data/external/` | PySpark ETL | `data/silver/` |
+| **NB03** | `data/silver/` | BM25 + Sentiment + NegCtx | Gold intermediaries |
+| **NB04** | `data/silver/` | LDA Topics | Gold intermediaries |
+| **NB05** | Gold intermediaries | Aggregation | `data/gold/` *(final)* |
+| **NB06** | `data/gold/` | FastAPI | REST endpoints |
+| **NB07** | FastAPI *(or `data/gold/` fallback)* | Streamlit | User |
 
