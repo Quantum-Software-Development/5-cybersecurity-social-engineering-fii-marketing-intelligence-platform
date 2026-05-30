@@ -1,9 +1,9 @@
 # LGPD Compliance
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
-*Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)*
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
+#### *Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)*
 
----
+<br><br>
 
 ## Summary Assessment
 
@@ -17,9 +17,9 @@
 | Security measures? | ✅ Yes | No PII stored; secrets managed via `st.secrets` |
 | Data subject rights applicable? | N/A | No personal data collected |
 
-**Overall LGPD Status**: ✅ **Compliant** — No personal data processing scope
 
----
+
+<br><br>
 
 ## Data Classification
 
@@ -33,6 +33,8 @@
 | Publication date | Metadata | Not personal data |
 | Author name (RSS) | Potentially personal | Minimized — used as `author` field only |
 
+<br>
+
 ### Data NOT Collected
 
 - User identities
@@ -43,7 +45,7 @@
 - Geographic data
 - Financial data of individuals
 
----
+<br><br>
 
 ## Legal Basis (Art. 7 LGPD)
 
@@ -56,7 +58,7 @@ Processing is conducted for **academic research** (Projeto Integrador — PUC-SP
 - Fundamental rights of data subjects not overridden
 - No adverse impact on individuals
 
----
+<br><br>
 
 ## Article Author Names — Special Consideration
 
@@ -68,9 +70,8 @@ RSS feeds may include author names (e.g., "Maria Silva"). Treatment:
 4. **Minimized** — only used for data provenance documentation
 5. **Removable** — `author` field can be dropped without impacting any analysis
 
-**Recommendation**: If deploying publicly beyond academic scope, strip `author` field during Silver transformation.
 
----
+<br><br>
 
 ## Data Retention
 
@@ -83,7 +84,7 @@ RSS feeds may include author names (e.g., "Maria Silva"). Treatment:
 
 Post-project: All layers except `data/external/` should be deleted from local storage.
 
----
+<br><br>
 
 ## Reddit Data — Additional Considerations
 
@@ -95,7 +96,7 @@ Reddit posts are **publicly visible content**. However:
 
 **Recommendation**: For public deployment, strip Reddit `author` field and use only post title and body.
 
----
+<br><br>
 
 ## Dashboard — User Privacy
 
@@ -106,7 +107,7 @@ The Streamlit dashboard:
 - Requires **no authentication**
 - Has **no user accounts**
 
----
+<br><br>
 
 ## Contact & Oversight
 
@@ -116,7 +117,7 @@ The Streamlit dashboard:
 | Data controllers | Fabiana Campanari · Pedro Vyctor Almeida |
 | Institution | Pontifical Catholic University of São Paulo |
 
----
+<br><br>
 
 *Last updated: 2026-05-26 | Legal reference: Lei nº 13.709/2018 (LGPD)*  
 *See also: `docs/governance/responsible_ai.md`*
