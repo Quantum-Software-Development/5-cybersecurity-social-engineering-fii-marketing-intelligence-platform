@@ -59,6 +59,8 @@ Cleaned and normalized data. One record per unique article.
 | `article_count` | int | Total articles from this source |
 | `analysis_date` | timestamp | Date of analysis run |
 
+<br>
+
 ### `sentiment_by_source.parquet`
 
 | Field | Type | Description |
@@ -68,6 +70,8 @@ Cleaned and normalized data. One record per unique article.
 | `count` | int | Article count per sentiment |
 | `avg_polarity` | float | Mean TextBlob polarity (EN baseline) |
 | `avg_confidence` | float | Confidence score (lexicon-augmented) |
+
+<br>
 
 ### `negative_context_terms.parquet`
 
@@ -79,6 +83,9 @@ Cleaned and normalized data. One record per unique article.
 | `negative_mentions` | int | Occurrences within negative window (±5 tokens) |
 | `negative_pct` | float | `negative_mentions / total_mentions * 100` |
 | `severity_score` | float | Weighted negative severity |
+
+<br><
+
 
 ### `topic_clusters.parquet`
 
@@ -94,11 +101,16 @@ Cleaned and normalized data. One record per unique article.
 
 ## NLP Taxonomy — Monitored Hashtags
 
-Used as semantic filters, BM25 query expansion terms, and topic modeling anchors:
+## Semantic Anchors
 
-`#FII` `#FIIs` `#FundosImobiliarios` `#RendaPassiva` `#Dividendos` `#Investimentos`
-`#MercadoFinanceiro` `#DividendYield` `#CarteiraDeInvestimentos` `#Investidor`
-`#PassiveIncome` `#BolsaDeValores` `#B3` `#Fundos` `#Investing`
-`#InvestimentoInteligente` `#Financeiro` `#Mercado` `#Acoes` `#EducacaoFinanceira`
+Used as semantic filters, BM25 query expansion terms, and topic modeling anchors.
+
+| Group | Hashtags |
+|---|---|
+| **Real Estate Funds** | `#FII` · `#FIIs` · `#FundosImobiliarios` · `#Fundos` |
+| **Income & Yield** | `#RendaPassiva` · `#Dividendos` · `#DividendYield` · `#PassiveIncome` |
+| **Investments** | `#Investimentos` · `#Investidor` · `#CarteiraDeInvestimentos` · `#Investing` · `#InvestimentoInteligente` |
+| **Financial Market** | `#MercadoFinanceiro` · `#Mercado` · `#Financeiro` · `#BolsaDeValores` · `#B3` · `#Acoes` |
+| **Financial Education** | `#EducacaoFinanceira` |
 
 
