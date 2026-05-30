@@ -1,15 +1,15 @@
 # Responsible AI Framework
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
-*Aligned with EU AI Act principles, IEEE Ethically Aligned Design, and Brazilian LGPD*
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
+#### *Aligned with EU AI Act principles, IEEE Ethically Aligned Design, and Brazilian LGPD*
 
----
+<br><br>
 
 ## Guiding Principle
 
 > This platform is exclusively educational and analytical. It identifies marketing channel opportunities — it does not provide investment advice, portfolio recommendations, or financial guidance of any kind.
 
----
+<br><br>
 
 ## Five Pillars
 
@@ -26,7 +26,7 @@
 
 **Verification**: Any ranking output in the dashboard can be traced back to specific term frequencies in specific source articles.
 
----
+<br><br>
 
 ### 2. Fairness
 
@@ -41,7 +41,7 @@
 
 **Known bias**: Source selection is curated — other portals exist but are not monitored. This **selection bias** is documented in NB05 and `docs/governance/risk_register.md`.
 
----
+<br><br>
 
 ### 3. Privacy
 
@@ -56,7 +56,7 @@
 
 **LGPD Basis**: Processing is based on legitimate interest (academic research) applied exclusively to public editorial content.
 
----
+<br><br>
 
 ### 4. Accountability
 
@@ -71,7 +71,7 @@
 - Model card: `docs/governance/model_card.md`
 - Academic supervision: Prof. Eduardo Savino Gomes — PUC-SP
 
----
+<br><br>
 
 ### 5. Safety
 
@@ -79,21 +79,21 @@
 
 **Implementation**:
 
-```
-⚠️ Esta ferramenta possui caráter exclusivamente educacional e analítico.
-   Não constitui recomendação de investimento.
-   Consulte um assessor financeiro qualificado antes de tomar decisões.
-```
+> [!NOTE]
+>
+> ⚠️  Esta ferramenta possui caráter exclusivamente educacional e analítico.
+>   Não constitui recomendação de investimento.
+>   Consulte um assessor financeiro qualificado antes de tomar decisões.
+>
+> This disclaimer is:
+>  - Appended to **every** Groq chatbot response (code-level enforcement)
+>  - Displayed in dashboard header
+>  - Stated in README
+>  - Documented in model card
+> 
+> *The Groq system prompt explicitly instructs the model to* ***never recommend buying or selling any FII***.
 
-This disclaimer is:
-- Appended to **every** Groq chatbot response (code-level enforcement)
-- Displayed in dashboard header
-- Stated in README
-- Documented in model card
-
-The Groq system prompt explicitly instructs the model to **never recommend buying or selling any FII**.
-
----
+<br><br>
 
 ## Explainable AI (XAI)
 
@@ -107,7 +107,7 @@ All model outputs include human-interpretable explanations:
 | Topic modeling | Top-10 representative terms per topic |
 | Source score | Weighted formula with all components visible |
 
----
+<br><br>
 
 ## Humanistic AI
 
@@ -118,7 +118,7 @@ AI augments human decision-making capacity. It does not replace judgment:
 - No automated actions are triggered by system outputs
 - Human review recommended before acting on any insight
 
----
+<br><br>
 
 ## Governance Contacts
 
@@ -128,7 +128,7 @@ AI augments human decision-making capacity. It does not replace judgment:
 | Technical lead | Fabiana Campanari |
 | Data engineer | Pedro Vyctor Almeida |
 
----
+<br><br>
 
-*Last updated: 2026-05-26 | Version: 2.1*  
+
 *See also: `docs/governance/lgpd_compliance.md` · `docs/governance/model_card.md`*
