@@ -77,7 +77,7 @@ flowchart TB
 | **AI Assistant** | Groq (llama-3.1-8b-instant) | Q&A chatbot | Groq cloud |
 | **Gold Storage** | Parquet (PyArrow) | Analytics data store | Local + Render |
 
----
+<br><br>
 
 ## FastAPI Endpoints
 
@@ -115,6 +115,4 @@ Collection:        feedparser 6.0.11 · BeautifulSoup4 4.12.3 · PRAW 7.7.1
 Runtime:           Python 3.10+ · Java 11+ (Spark dependency)
 ```
 
----
 
-*Last updated: 2026-05-26 | Version: 2.1*
