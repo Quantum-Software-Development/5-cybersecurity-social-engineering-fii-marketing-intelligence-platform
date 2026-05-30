@@ -1,7 +1,7 @@
 # Responsible AI Framework
 
 ### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
-#### *Aligned with EU AI Act principles, IEEE Ethically Aligned Design, and Brazilian LGPD*
+#### *Aligned with EU AI Act principles, IEEE Ethically Aligned Design, and Brazilian LGPD* 🇪🇺
 
 <br><br>
 
