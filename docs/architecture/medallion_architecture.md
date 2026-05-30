@@ -2,7 +2,8 @@
 
 **Investor Intelligence Platform - FIIs Brasil 🇧🇷**
 
----
+<br><br>
+
 
 ## Overview
 
@@ -29,7 +30,8 @@ flowchart LR
     BRONZE --> SILVER --> GOLD
 ```
 
----
+<br><br>
+
 
 ## Layer Definitions
 
@@ -49,7 +51,7 @@ flowchart LR
 
 **What's stored**: Raw RSS entries, raw HTML bodies, raw Reddit post JSON.
 
----
+<br><br>
 
 ### 🥈 Silver — Cleaned & Normalized
 
@@ -75,7 +77,7 @@ article_id = SHA-256(url)
 word_count = len(body.split())
 ```
 
----
+<br><br>
 
 ### 🥇 Gold — Business-Ready Analytics
 
@@ -90,6 +92,8 @@ word_count = len(body.split())
 | **Git** | ❌ Not committed (regenerated from Silver) |
 | **Notebook** | `NB05` (final Gold export) |
 
+<br>
+
 **Gold tables**:
 
 | File | Rows | Description |
@@ -99,7 +103,8 @@ word_count = len(body.split())
 | `negative_context_terms.parquet` | Variable | Negative term co-occurrence per source |
 | `topic_clusters.parquet` | 5 | LDA topic model outputs |
 
----
+<br><br>
+
 
 ### 🔒 External — Frozen Dataset
 
@@ -126,7 +131,7 @@ data/external/
 - Academic evaluation is fair and reproducible
 - No demo failures due to live API issues
 
----
+<br><br>
 
 ## Pipeline Flow
 
@@ -140,6 +145,4 @@ NB06: data/gold/ → FastAPI → REST endpoints
 NB07: FastAPI (or data/gold/ fallback) → Streamlit → User
 ```
 
----
 
-*Last updated: 2026-05-26 | Pattern: Medallion Architecture (Databricks, 2021)*
