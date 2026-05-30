@@ -1,9 +1,9 @@
 # Model Card
 
-**Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
-*Standardized model documentation per Google Model Card framework (Mitchell et al., 2019)*
+### **Investor Intelligence Platform - FIIs Brasil 🇧🇷**  
+#### *Standardized model documentation per Google Model Card framework (Mitchell et al., 2019)*
 
----
+<br><br>
 
 ## Model 1: BM25 Source Ranker
 
@@ -24,7 +24,7 @@
 
 **XAI**: Score fully decomposable per query term. See `docs/BM25_FOUNDATION.md`.
 
----
+<br><br>
 
 ## Model 2: Sentiment Classifier (4-Layer PT-BR)
 
@@ -48,7 +48,7 @@
 - Domain-specific idioms ("XPML11 está no chão" = negative) require manual lexicon entries
 - Confidence scores are heuristic, not probabilistic
 
----
+<br><br>
 
 ## Model 3: LDA Topic Model
 
@@ -70,9 +70,9 @@
 4. Dividendos e Rendimentos
 5. Análise de Gestão e Risco
 
-**Limitations**: Topic labels are human-assigned post-hoc. Number of topics (k=5) is a design choice, not statistically optimized.
+**Limitations**:  Number of topics (k=5) is a design choice, not statistically optimized.
 
----
+<br><br>
 
 ## Model 4: Groq AI Assistant
 
@@ -91,10 +91,13 @@
 - System prompt explicitly prohibits investment recommendations
 - No financial advisory capability
 
-**Disclaimer** (enforced at code level):
+
+> [!NOTE]
+>
+> ⚠️  **Disclaimer** (enforced at code level):
 > *"Esta ferramenta possui caráter exclusivamente educacional e analítico. Não constitui recomendação de investimento."*
 
----
+<br><br>
 
 ## Intended Use
 
@@ -104,7 +107,6 @@ This platform is designed for **marketing intelligence** — identifying which d
 - Trading signals
 - Individual investor profiling
 
----
-
-*Last updated: 2026-05-26 | Version: 2.1*  
+<br><br>
+  
 *Reference: Mitchell et al. (2019). Model Cards for Model Reporting. ACM FAccT.*
