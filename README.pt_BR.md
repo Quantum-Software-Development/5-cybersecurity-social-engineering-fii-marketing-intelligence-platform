@@ -8,18 +8,26 @@
 <!-- ========= END LANGUAGE BUTTON ========= -->
 
 <!-- ========= START REPO TITLE ========= -->
-
 <div align="center">
 
-# [Arquitetura Enterprise End-to-End para Análise Inteligente de Marketing FII com PySpark]()
-
-### Plataforma Escalável de Big Data, Computação Distribuída, NLP e Inteligência de Mercado para Fundos Imobiliários (FIIs)
+# [Plataforma de Inteligência para Investidores - FIIs Brasil ]() 🇧🇷
+### Fundos de Investimento Imobiliário (FIIs) — Inteligência de Mercado & Análise Comportamental
 
 <br>
 
-Big Data [•]() Sistemas Distribuídos [•]() PySpark • NLP [•]() Análise de Sentimentos [•]() FastAPI [•]() Streamlit [•]() Plotly [•]() Docker [•]() MinIO [•]() Engenharia de Dados
+Uma plataforma de inteligência orientada por dados, desenvolvida para analisar o comportamento dos investidores, discussões financeiras e o sentimento do mercado em múltiplas fontes digitais, transformando conteúdo não estruturado em insights estratégicos acionáveis para apoiar a tomada de decisão em investimentos.
+
+<br>
+
+### Plataforma Escalável de Inteligência de Mercado com [Big Data](), [Computação Distribuída](), [PLN (NLP)]() & [BM25]() para FIIs Brasileiros
+
+<br><br>
+
+Big Data [•]() Sistemas Distribuídos [•]() PySpark [•]() Ranqueamento BM25 [•]() PLN (NLP) [•]() Análise de Sentimento [•]() FastAPI [•]() Streamlit [•]() Plotly [•]() Docker [•]() MinIO [•]() Engenharia de Dados
 
 </div>
+
+
 
 <br><br>
 
