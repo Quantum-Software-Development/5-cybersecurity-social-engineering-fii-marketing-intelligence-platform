@@ -14,7 +14,6 @@
 
 <br>
 
-
 A data-driven intelligence platform designed to analyze investor behavior, financial discussions, and market sentiment across multiple digital sources, transforming unstructured content into actionable strategic insights for investment decision-making.
 
 <br>
@@ -23,16 +22,11 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 
 <br><br>
 
-
-
-
-
-<br><br>
-
 #
 
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
+
 
 
 <!-- ========= START Dashboard Streamlit ========= -->
@@ -105,6 +99,20 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 
 <br><br><br>
 <!-- ========= END SPONSOR BADGES ========= -->
+
+
+<!-- ========= START DEMO VIDEO ========= -->
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/791a69e2-d09a-429f-9257-f6667fff5c04 ">
+ </p>
+
+<!--
+#### 🖤 Creative Direction, Music Curation & Editing by Fab⚡️  
+##### 🎶 [Soundtrack:]() "Canon in D" — Johann Pachelbel
+-->
+
+<br><br><br>
+<!-- ========= END DEMO VIDEO ========= -->
 
 
 ###  [Project Context]()
