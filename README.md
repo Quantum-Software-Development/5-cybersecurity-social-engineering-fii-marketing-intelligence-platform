@@ -158,7 +158,7 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 <!-- ========= END BADGES GROUP 2 ========= -->
 
 <!-- ========= START NOTE ========= -->
-> [!NOTE]
+> [!WARNING]
 >
 > ⚠️ Projects may be publicly shared when permitted.  
 > The focus is on applied, hands-on learning with real datasets in AI governance and security contexts.  
@@ -214,7 +214,7 @@ It is an AI-powered Investor Intelligence System capable of:
 
 
 <!-- ========= START NOTE ========= -->
-> [!NOTE]
+> [!TIP]
 >
 > A scalable platform for financial market intelligence, combining **[Big Data](), [PySpark](), [MapReduce](), [Word Count](), [NLP](), [TF-IDF](), [BM25](), and AI-assisted analytics** to transform large-scale unstructured financial content into actionable insights.
 >
