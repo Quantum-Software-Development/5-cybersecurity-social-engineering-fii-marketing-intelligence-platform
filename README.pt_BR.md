@@ -23,7 +23,7 @@ Uma solução de inteligência orientada por dados para analisar o comportamento
 
 <br><br>
 
-Big Data [•]() Sistemas Distribuídos [•]() PySpark [•]() BM25 Ranking [•]() PLN (NLP) [•]() Análise de Sentimento [•]() FastAPI [•]() Streamlit [•]() Plotly [•]() Docker [•]() MinIO [•]() Engenharia de Dados
+Big Data [•]() Distributed Systems [•]() PySpark [•]() Map‑Reduce Word Count [•]() BM25 Ranking [•]() NLP [•]() Sentiment Analysis [•]() FastAPI [•]() Streamlit [•]() Plotly [•]() Docker [•]() MinIO [•]() Data Engineering
 
 </div>
 
