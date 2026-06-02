@@ -115,6 +115,52 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 <!-- ========= END DEMO VIDEO ========= -->
 
 
+<!-- ========= START BADGES GROUP 2 ========= -->
+<!-- ===== CORE BIG DATA & INFORMATION RETRIEVAL ===== -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Big%20Data-Scalable%20Analytics-0f172a?logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/PySpark-Distributed%20Computing-101f2f?logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/MapReduce-Distributed%20Processing-112a3a?logo=apachehadoop&logoColor=white" />
+  <img src="https://img.shields.io/badge/Word%20Count-Term%20Frequency-123445?logo=apache&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NLP-Natural%20Language%20Processing-124050?logo=spacy&logoColor=white" />
+  <img src="https://img.shields.io/badge/TF--IDF-Text%20Vectorization-134a4a?logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/BM25-Information%20Retrieval-134e4a?logo=elasticsearch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sentiment%20Analysis-Financial%20Insights-14532d?logo=tensorflow&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Web%20Scraping-Data%20Collection-123445?logo=selenium&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hadoop-Big%20Data%20Infrastructure-124050?logo=apachehadoop&logoColor=white" />
+  <img src="https://img.shields.io/badge/MinIO-Data%20Lake%20Storage-134a4a?logo=minio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Engineering-ETL%20Pipelines-134e4a?logo=apacheairflow&logoColor=white" />
+</p>
+
+<!-- ===== BACKEND & PLATFORM ===== -->
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-REST%20API-101f2f?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-Backend%20Engineering-112a3a?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-Analytics%20Dashboard-123445?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-Interactive%20Visualizations-134a4a?logo=plotly&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Containerization-101f2f?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-Cloud%20Deployment-112a3a?logo=render&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud%20Native-Architecture-123445?logo=googlecloud&logoColor=white" />
+</p>
+
+</div>
+
+<br><br><br>
+<!-- ========= END BADGES GROUP 2 ========= -->
+
+
+
+
+
 ###  [Project Context]()
 
 This platform is not a simple analytics dashboard.
@@ -157,95 +203,6 @@ It is an AI-powered Investor Intelligence System capable of:
 <br><br>
 <!-- ========= end Institutional INFO ========= -->
 
-
-
-## ⚡️ [Technology Ecosystem]()
-
-<br>
-
-<!-- ========= START BADGES GROUP ========= -->
-
-<div align="center">
-
-<!-- ===== BIG DATA ===== -->
-
-<img src="https://img.shields.io/badge/PySpark-Distributed_Analytics-0f172a?style=for-the-badge&logo=apachespark&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Hadoop-Big_Data_Infrastructure-111827?style=for-the-badge&logo=apachehadoop&logoColor=white" />
-
-<img src="https://img.shields.io/badge/MinIO-Data_Lake_Storage-172554?style=for-the-badge&logo=minio&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Distributed_Systems-Scalable_Processing-082f49?style=for-the-badge&logo=databricks&logoColor=white" />
-
-<br><br>
-
-<!-- ===== DATA ENGINEERING ===== -->
-
-<img src="https://img.shields.io/badge/Data_Engineering-ETL_Pipelines-164e63?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Data_Lake-Bronze_Silver_Gold-155e75?style=for-the-badge&logo=databricks&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Parquet-Distributed_Storage-0f766e?style=for-the-badge&logo=apacheparquet&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Web_Scraping-Data_Collection-115e59?style=for-the-badge&logo=selenium&logoColor=white" />
-
-<br><br>
-
-<!-- ===== NLP ===== -->
-
-<img src="https://img.shields.io/badge/NLP-Natural_Language_Processing-134e4a?style=for-the-badge&logo=spacy&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Sentiment_Analysis-Financial_Insights-14532d?style=for-the-badge&logo=tensorflow&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Market_Intelligence-Investor_Behavior-166534?style=for-the-badge&logo=googleanalytics&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Trend_Analysis-Financial_Content-0f766e?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-
-<br><br>
-
-<!-- ===== BACKEND ===== -->
-
-<img src="https://img.shields.io/badge/FastAPI-REST_API-082f49?style=for-the-badge&logo=fastapi&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Python-Backend_Engineering-0f172a?style=for-the-badge&logo=python&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Groq-AI_Inference-164e63?style=for-the-badge&logo=groq&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Llama_3.1-AI_Assistant-0f766e?style=for-the-badge&logo=meta&logoColor=white" />
-
-<br><br>
-
-<!-- ===== DASHBOARD ===== -->
-
-<img src="https://img.shields.io/badge/Streamlit-Analytics_Dashboard-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Plotly-Interactive_Visualizations-082f49?style=for-the-badge&logo=plotly&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Executive_Analytics-KPI_Monitoring-164e63?style=for-the-badge&logo=googleanalytics&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Financial_Dashboard-Market_Insights-155e75?style=for-the-badge&logo=powerbi&logoColor=white" />
-
-<br><br>
-
-<!-- ===== DEPLOYMENT ===== -->
-
-<img src="https://img.shields.io/badge/Docker-Containerization-0f172a?style=for-the-badge&logo=docker&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Render-Backend_Deployment-082f49?style=for-the-badge&logo=render&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Streamlit_Cloud-Dashboard_Deployment-164e63?style=for-the-badge&logo=streamlit&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Cloud_Native-Architecture-155e75?style=for-the-badge&logo=googlecloud&logoColor=white" />
-
-</div>
-
-
-<br><br>
-
-#
-
-<br><br>
-<!-- ========= END BADGES GROUP 2 ========= -->
 
 <!-- ========= START NOTE ========= -->
 > [!NOTE]
