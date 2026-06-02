@@ -128,7 +128,7 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
   <img src="https://img.shields.io/badge/NLP-Natural%20Language%20Processing-124050?logo=spacy&logoColor=white" />
   <img src="https://img.shields.io/badge/TF--IDF-Text%20Vectorization-134a4a?logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/BM25-Information%20Retrieval-134e4a?logo=elasticsearch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sentiment%20Analysis-Financial%20Insights-14532d?logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Behavioral%20Analytics-Market%20Intelligence-14532d?logo=googleanalytics&logoColor=white" />
 </p>
 
 <p align="center">
@@ -138,7 +138,6 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
   <img src="https://img.shields.io/badge/Data%20Engineering-ETL%20Pipelines-134e4a?logo=apacheairflow&logoColor=white" />
 </p>
 
-<!-- ===== BACKEND & PLATFORM ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/FastAPI-REST%20API-101f2f?logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-Backend%20Engineering-112a3a?logo=python&logoColor=white" />
@@ -149,10 +148,18 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-Containerization-101f2f?logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Render-Cloud%20Deployment-112a3a?logo=render&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloud%20Native-Architecture-123445?logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Production%20API-Scalable%20Services-123445?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Deployment-Cloud%20Ready-134a4a?logo=googlecloud&logoColor=white" />
 </p>
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Governance-Human--Centered%20Systems-101f2f?logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LGPD%20Compliance-Brazilian%20Law%20No.%2013.709%2F2018-112a3a?logo=scale&logoColor=white" />
+  <img src="https://img.shields.io/badge/Responsible%20AI-Framework%20Brazil%20🇧🇷-123445?logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/EU%20AI%20Act%20%2B%20IEEE-Ethically%20Aligned%20Design-134a4a?logo=europeanunion&logoColor=white" />
+</p>
+
+
 
 <br><br><br>
 <!-- ========= END BADGES GROUP 2 ========= -->
