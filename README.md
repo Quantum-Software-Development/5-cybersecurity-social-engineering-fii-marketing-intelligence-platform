@@ -157,11 +157,20 @@ A data-driven intelligence platform designed to analyze investor behavior, finan
 <br><br><br>
 <!-- ========= END BADGES GROUP 2 ========= -->
 
+<!-- ========= START NOTE ========= -->
+> [!NOTE]
+>
+> ⚠️ Projects may be publicly shared when permitted.  
+> The focus is on applied, hands-on learning with real datasets in AI governance and security contexts.  
+> All sensitive content remains protected in private repositories when required.
+>
+
+<br><br>
+<!-- ========= END NOTE ========= -->
 
 
-
-
-###  [Project Context]()
+<!-- ========= START OVERVIEW ========= -->
+## [Project Context]()
 
 This platform is not a simple analytics dashboard.
 
