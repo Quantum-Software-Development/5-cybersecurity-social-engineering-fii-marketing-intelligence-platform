@@ -231,7 +231,7 @@ It is an AI-powered Investor Intelligence System capable of:
 >
 > ✨ Part of the **Humanistic AI, Financial Intelligence & Data Systems Series**
 >
-> ### [***Where market discussions become investment narratives…***]() ***because markets talk a lot — intelligent systems just listen better.*** <br>
+> ### [***Where market discussions become investment narratives…***]() ***because markets talk a lot... intelligent systems just listen better.*** <br>
 >
 > ⚡
 >
