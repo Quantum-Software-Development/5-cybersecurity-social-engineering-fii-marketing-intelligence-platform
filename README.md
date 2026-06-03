@@ -18,10 +18,9 @@
   
 <br>
 
-A data-driven intelligence platform for Brazilian Real Estate Investment Funds (FIIs) that transforms large-scale financial content into actionable market intelligence through distributed data engineering, NLP, relevance ranking, sentiment analysis, and responsible AI practices.
+A data-driven intelligence platform for Brazilian Real Estate Investment Funds (FIIs) that transforms large-scale financial content into actionable market intelligence through distributed data engineering, Spark, PySpark, MapReduce-inspired word count analysis, NLP, relevance ranking, sentiment analysis, and responsible AI practices.
 
-Rather than functioning as a simple dashboard, the platform is designed as an end-to-end analytical system that collects data from editorial portals and social discussion environments, organizes it through a medallion-style pipeline, applies interpretable modeling methods, and exposes the results through APIs, dashboards, and AI-assisted exploration layers.
-
+Rather than acting as a simple dashboard, the platform is structured as an end-to-end analytical system that collects data from editorial financial portals and behavioral social environments, organizes it through a Bronze/Silver/Gold medallion pipeline, applies interpretable analytical methods, and exposes the results through APIs, dashboards, and AI-assisted exploration layers.
 <br>
 
 
