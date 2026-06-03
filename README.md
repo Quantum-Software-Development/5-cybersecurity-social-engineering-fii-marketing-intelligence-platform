@@ -18,6 +18,104 @@
   
 <br>
 
+
+<br><br>
+<!-- ========= END REPO TITLE ========= -->
+
+<!-- ========= START SPONSOR BADGES ========= -->
+### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
+
+<br><br>
+<!-- ========= END SPONSOR BADGES ========= -->
+
+
+<!-- ========= START DEMO VIDEO ========= -->
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/791a69e2-d09a-429f-9257-f6667fff5c04 " />
+
+ </p>
+
+<!--
+#### 🖤 Creative Direction, Music Curation & Editing by Fab⚡️  
+##### 🎶 [Soundtrack:]() "Canon in D" — Johann Pachelbel
+-->
+
+<br><br>
+<!-- ========= END DEMO VIDEO ========= -->
+
+
+<!-- ========= START Institutional INFO ========= -->
+[**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP – Humanistic AI & Data Science • 5th Semester • 2026)  
+[**School:**]() FACEI – Faculty of Interdisciplinary Studies  
+[**Course:**]() AI Security, Cybersecurity & Social Engineering  
+**Professor:** [✨ Eduardo Savino Gomes]()  e <br>
+**Professor:** [✨ Carlos Eduardo Paes]() <br>
+**Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida]()  '
+
+<br><br>
+
+#
+
+<br><br>
+<!-- ========= END Institutional INFO ========= -->
+
+
+<!-- ========= START Dashboard Streamlit ========= -->
+<p align="center">
+  <a href="" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/FIIs_Marketing_Intelligence_Dashboard-Streamlit-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
+      alt="FIIs Marketing Intelligence Dashboard"
+      style="height: 32px; width: auto;"
+    />
+  </a>
+</p>
+<!-- ========= END Dashboard Streamlit ========= -->
+
+<!-- ========= START REACT APP ========= -->
+<p align="center">
+
+  <a href="" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/React-Interactive%20FIIs%20Analytics%20Slides-14532d?style=for-the-badge&logo=react&logoColor=white" 
+      alt="React Interactive FIIs Analytics Slides"
+      style="height: 30px; width: auto;"
+    />
+  </a>
+  <!-- ========= END REACT APP ========= -->
+
+<!-- ========= START PPTX ========= -->
+  <a href="" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/FIIs_Strategic_Presentation-PPTX-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="FIIs Strategic Presentation PPTX"
+      style="height: 30px; width: auto;"
+    />
+  </a>
+
+</p>
+<!-- ========= END PPTX ========= -->
+
+<!-- ========= START DATA ANALYSING REPORT ========= -->
+<p align="center">
+  <a href="">
+    <img 
+      src="https://img.shields.io/badge/FIIs_Market_Analysis-Executive%20Report-134e4a?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=022c22" 
+      alt="FIIs Market Analysis Executive Report"
+    />
+  </a>
+</p>
+
+<br><br>
+
+#
+
+<br><br>
+<!-- ========= END DATA ANALYSING REPORT ========= -->
+<!-- ===================== END BADGE GROUP 1 ===================== -->
+
+
+
 A data-driven system for Brazilian Real Estate Investment Funds (FIIs), designed to transform large volumes of financial and behavioral content into structured, explainable, and actionable market knowledge. It combines distributed data engineering, Spark and PySpark processing, MapReduce-inspired word count analysis, NLP, relevance ranking, sentiment analysis, and responsible AI practices to support research and decision-making.
 
 More than a conventional dashboard, the project operates as an end-to-end analytical environment that collects data from financial portals and social spaces, organizes it through a Bronze/Silver/Gold medallion architecture, applies interpretable methods for enrichment and ranking, and exposes results through APIs, dashboards, and AI-assisted exploration layers.
