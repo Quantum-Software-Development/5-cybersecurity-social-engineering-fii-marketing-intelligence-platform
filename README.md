@@ -18,11 +18,11 @@
   
 <br>
 
-A data-driven intelligence platform for Brazilian Real Estate Investment Funds (FIIs) that transforms large-scale financial content into actionable market intelligence through distributed data engineering, Spark, PySpark, MapReduce-inspired word count analysis, NLP, relevance ranking, sentiment analysis, and responsible AI practices.
+A data-driven system for Brazilian Real Estate Investment Funds (FIIs), designed to transform large volumes of financial and behavioral content into structured, explainable, and actionable market knowledge. It combines distributed data engineering, Spark and PySpark processing, MapReduce-inspired word count analysis, NLP, relevance ranking, sentiment analysis, and responsible AI practices to support research and decision-making.
 
-Rather than acting as a simple dashboard, the platform is structured as an end-to-end analytical system that collects data from editorial financial portals and behavioral social environments, organizes it through a Bronze/Silver/Gold medallion pipeline, applies interpretable analytical methods, and exposes the results through APIs, dashboards, and AI-assisted exploration layers.
+More than a conventional dashboard, the project operates as an end-to-end analytical environment that collects data from financial portals and social spaces, organizes it through a Bronze/Silver/Gold medallion architecture, applies interpretable methods for enrichment and ranking, and exposes results through APIs, dashboards, and AI-assisted exploration layers.
 
-The platform is built on a modular and extensible architecture, allowing new editorial sources, social platforms, ingestion connectors, scraping adapters, NLP components, ranking strategies, and visualization layers to be added with limited impact on the existing pipeline. Its separation between data collection, lakehouse organization, distributed processing, analytical enrichment, and delivery interfaces was intentionally designed to support incremental expansion, maintainability, and future research evolution.
+Its architecture is modular and extensible by design, allowing new editorial sources, social channels, ingestion connectors, scraping adapters, NLP components, ranking methods, and visualization layers to be incorporated with limited impact on the core workflow. This separation between collection, storage, processing, enrichment, and delivery also makes the system easier to maintain, scale, and expand as the research evolves.
 
 <br><br>
 
