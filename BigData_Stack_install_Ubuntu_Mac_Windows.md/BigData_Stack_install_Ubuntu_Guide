@@ -1,4 +1,4 @@
-# Ubuntu Big Data Stack Installation Guide
+# Ubuntu Linux Big Data Stack Installation Guide
 
 This guide explains how to install OpenJDK, Hadoop, HDFS, YARN, Spark, and optional `mrjob` support on Ubuntu in a single-node environment.
 
