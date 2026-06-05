@@ -212,7 +212,7 @@ Distributed Data Processing (PySpark)
 
 #### Processing Layer
 
-- PySpark Distributed Environment Setup
+- [PySpark Distributed Environment Setup](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/20f3a3b30ef0f7efcc856c13b7d720552a2d044b/BigData_Stack_install_Ubuntu_Mac_Windows.md/pyspark-distributed-environment-setup-guide.md)
   - Configures a distributed data processing environment using Apache Spark and PySpark for ETL pipelines, analytics, and large-scale data transformations.
 
 <br>
