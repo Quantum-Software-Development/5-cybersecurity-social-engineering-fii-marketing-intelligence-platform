@@ -170,9 +170,9 @@
 ### [Environment Installation Guides]()
 
 
-- [Hadoop + HDFS + OpenJDK on Ubuntu]()
-- [Hadoop + HDFS + OpenJDK on macOS](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/dbcb9db6d5a4f5f93c99ca8e320bbca322bd7ad8/BigData_Stack_install_Ubuntu_Mac_Windows.md/BigData_Stack_install_Ubuntu_on_Mac.md)
-- [Hadoop + HDFS + OpenJDK on Windows](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/dbcb9db6d5a4f5f93c99ca8e320bbca322bd7ad8/BigData_Stack_install_Ubuntu_Mac_Windows.md/BigData_Stack_install_Windows_Guide.md)
+- [Apache Hadoop & Spark Installation Guide on Ubuntu Linux](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5b7cc5f94b67611f236bd8a06f9bcdec53f93a9b/BigData_Stack_install_Ubuntu_Mac_Windows.md/ubuntu-linux-big-data-stack-installation-guide.md)
+- [Hadoop + HDFS + OpenJDK on macOS]()
+- [Hadoop + HDFS + OpenJDK on Windows]()
 - MinIO Local Data Lake Setup
 - PySpark Distributed Environment Setup
 - Docker Academic Infrastructure Setup
