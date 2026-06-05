@@ -202,7 +202,7 @@ Distributed Data Processing (PySpark)
 
 #### Infrastructure Layer
 
-- Docker Academic Infrastructure Setup
+- [Docker Academic Infrastructure Setup](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5d0e099f579a1ef0bd680dd39067ba9575eaa4ef/BigData_Stack_install_Ubuntu_Mac_Windows.md/docker-academic-infrastructure-setup-guide.md)
   - Deploys containerized services using Docker and Docker Compose to create portable, reproducible, and isolated Big Data environments.
 
 #### Storage Layer
