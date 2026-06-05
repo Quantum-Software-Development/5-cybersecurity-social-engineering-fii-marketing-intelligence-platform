@@ -16,9 +16,6 @@
 ##### <p align="center">
 [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]()• [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-MD]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Law No. 13.709/2018]() • [EU AI Act Alignment]()
   
-<br>
-
-
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
 
@@ -175,7 +172,7 @@ Data Lake (MinIO)
 Distributed Data Processing (PySpark)
 ```
 
-### Hadoop Documentation
+### [Hadoop Documentation]()
 
 - [Hadoop Single Node Cluster Setup](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
   - Local Hadoop cluster with HDFS, YARN, and MapReduce services running on a single machine.
@@ -185,37 +182,43 @@ Distributed Data Processing (PySpark)
 
 <br>
 
-### Environment Installation Guides
+### [Environment Installation Guides]()
 
-#### Operating System Setup
+#### ***Operating System Setup***
 
 - [Apache Hadoop & Spark Installation Guide on Ubuntu Linux](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5b7cc5f94b67611f236bd8a06f9bcdec53f93a9b/BigData_Stack_install_Ubuntu_Mac_Windows.md/ubuntu-linux-big-data-stack-installation-guide.md)
   - Installs OpenJDK, Hadoop, HDFS, YARN, Spark, and optional mrjob support on Ubuntu Linux.
+
+<br>
 
 - [Apache Hadoop & Spark Installation Guide on macOS](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/2d0cf97c23cadd2b02f004d6e678abbf50cb8181/BigData_Stack_install_Ubuntu_Mac_Windows.md/macos-big-data-stack-installation-guide.md)
   - Installs OpenJDK, Hadoop, HDFS, YARN, Spark, and optional mrjob support on macOS.
 
 - [Apache Hadoop & Spark Installation Guide on Windows](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/36fca674eed9fe1934f9f2c2f4fdcd66c209e597/BigData_Stack_install_Ubuntu_Mac_Windows.md/windows-big-data-stack-installation-guide.md)
-  - Prepares a Windows environment for Apache Spark, Hadoop client dependencies, and Big Data experimentation.
+  - Prepares a Windows environment for Apache Spark, Hadoop client dependencies, and Big Data experimentation. <br>
 
-  > **Note:** ⚠️ Apache Hadoop is not officially supported on modern Windows releases. This guide provides a learning-oriented setup suitable for Apache Spark, Hadoop client libraries, and local experimentation. For complete Hadoop, HDFS, and YARN deployments, Ubuntu Linux or WSL2 is recommended.
+  > ###### [***Note:***]() ⚠️ Apache Hadoop is not officially supported on modern Windows releases. This guide provides a learning-oriented setup suitable for Apache Spark, Hadoop client libraries, and local experimentation. For complete Hadoop, HDFS, and YARN deployments, Ubuntu Linux or WSL2 is recommended. <br><br>
 
-#### Infrastructure Layer
+
+
+#### ***Infrastructure Layer***
 
 - [Docker Academic Infrastructure Setup](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5d0e099f579a1ef0bd680dd39067ba9575eaa4ef/BigData_Stack_install_Ubuntu_Mac_Windows.md/docker-academic-infrastructure-setup-guide.md)
   - Deploys containerized services using Docker and Docker Compose to create portable, reproducible, and isolated Big Data environments.
 
-#### Storage Layer
+
+#### ***Storage Layer***
 
 - [MinIO Local Data Lake Setup](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/6bea047d53196fb8dd5f106dd91d32609590fd4b/BigData_Stack_install_Ubuntu_Mac_Windows.md/minio-local-data-lake-setup-guide.md)
   - Implements a local S3-compatible Data Lake using MinIO object storage for centralized storage of analytical datasets and data engineering workloads.
 
-#### Processing Layer
+
+#### ***Processing Layer***
 
 - [PySpark Distributed Environment Setup](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/20f3a3b30ef0f7efcc856c13b7d720552a2d044b/BigData_Stack_install_Ubuntu_Mac_Windows.md/pyspark-distributed-environment-setup-guide.md)
   - Configures a distributed data processing environment using Apache Spark and PySpark for ETL pipelines, analytics, and large-scale data transformations.
 
-<br>
+ <br>
 
 ### [Architecture Overview]()
 
