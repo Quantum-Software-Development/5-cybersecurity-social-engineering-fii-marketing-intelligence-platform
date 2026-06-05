@@ -1,6 +1,6 @@
-# macOS Big Data Stack Installation Guide
+# MacOS Big Data Stack Installation Guide
 
-This guide explains how to install OpenJDK, Hadoop, HDFS, YARN, Spark, and optional `mrjob` support on macOS for a local single-node lab environment.
+This guide explains how to install OpenJDK, Hadoop, HDFS, YARN, Spark, and optional `mrjob` support on MacOS for a local single-node lab environment.
 
 ## Prerequisites
 
