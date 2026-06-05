@@ -1,6 +1,5 @@
 
-# Apache Hadoop & Spark Installation Guide on Windows 
-
+# Apache Hadoop & Spark Installation Guide on Windows
 
 > [!WARNING]
 > Apache Hadoop is not officially supported on modern Windows releases. This guide provides a learning-oriented setup suitable for Apache Spark, Hadoop client libraries, and local experimentation. For full HDFS and YARN deployments, Ubuntu Linux or WSL2 is recommended.
