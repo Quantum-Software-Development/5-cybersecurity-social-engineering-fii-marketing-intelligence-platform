@@ -172,7 +172,7 @@
 
 - [Apache Hadoop & Spark Installation Guide on Ubuntu Linux](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5b7cc5f94b67611f236bd8a06f9bcdec53f93a9b/BigData_Stack_install_Ubuntu_Mac_Windows.md/ubuntu-linux-big-data-stack-installation-guide.md)
 - [Apache Hadoop & Spark Installation Guide on macOS](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/2d0cf97c23cadd2b02f004d6e678abbf50cb8181/BigData_Stack_install_Ubuntu_Mac_Windows.md/macos-big-data-stack-installation-guide.md)
-- [pache Hadoop & Spark Installation Guide on Windows](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/36fca674eed9fe1934f9f2c2f4fdcd66c209e597/BigData_Stack_install_Ubuntu_Mac_Windows.md/windows-big-data-stack-installation-guide.md)
+- [Apache Hadoop & Spark Installation Guide on Windows](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/36fca674eed9fe1934f9f2c2f4fdcd66c209e597/BigData_Stack_install_Ubuntu_Mac_Windows.md/windows-big-data-stack-installation-guide.md)
 - MinIO Local Data Lake Setup
 - PySpark Distributed Environment Setup
 - Docker Academic Infrastructure Setup
