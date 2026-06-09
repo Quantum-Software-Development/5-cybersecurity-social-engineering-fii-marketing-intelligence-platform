@@ -38,7 +38,7 @@ praw==7.7.1
 # NLP / BM25 / TEXT ANALYTICS
 # ==========================================================
 nltk==3.9.4
-spacy==3.7.5
+spacy==3.8.14
 textblob==0.18.0.post0
 scikit-learn==1.5.1
 rank-bm25==0.2.2
