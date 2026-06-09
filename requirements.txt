@@ -71,7 +71,7 @@ python-multipart==0.0.9
 # ==========================================================
 # STREAMLIT DASHBOARD
 # ==========================================================
-streamlit==1.36.0
+streamlit==1.58.0
 streamlit-option-menu==0.3.13
 streamlit-extras==0.4.3
 
