@@ -12,7 +12,7 @@
 
 ### <p align="center"> Real Estate Investment Funds (FIIs) - Market Intelligence & Behavioral Analytics
 
-<br><br>
+<br>
 
 $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \space \textbf{\color{yellow}  Data Lakehouse} \space \textbf{\color{white} •} \space \textbf{\color{green} NLP} \space \textbf{\color{white} •} \space \textbf{\color{yellow} Responsible AI} \space \textbf{\color{white} •} \space \textbf{\color{green} Regulatory Alignment}}$$
 
@@ -24,16 +24,12 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 #### <p align="center"> ***An institutional-grade intelligence platform for monitoring, structuring, ranking, and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.***
 
-  
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
 
 <!-- ========= START SPONSOR BADGES ========= -->
 ### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
-
-<br><br>
 <!-- ========= END SPONSOR BADGES ========= -->
-
 
 <!-- ========= START DEMO VIDEO ========= -->
 <p align="center">
