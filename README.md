@@ -22,6 +22,12 @@
 
 #### <p align="center"> ***An institutional-grade intelligence platform for monitoring, structuring, ranking, and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.***
 
+
+
+$$\Huge {\textbf{\color{green}  An institutional-grade intelligence platform for monitoring, structuring, ranking and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.}}$$
+
+
+
   
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
