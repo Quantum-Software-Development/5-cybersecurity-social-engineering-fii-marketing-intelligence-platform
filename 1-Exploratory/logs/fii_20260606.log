@@ -1,0 +1,344 @@
+2026-06-06 00:28:02 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=6
+2026-06-06 00:28:03 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 00:28:05 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=5
+2026-06-06 00:28:07 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=9
+2026-06-06 00:28:08 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 00:28:11 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 00:28:13 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 00:28:15 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 00:28:16 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 00:29:00 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 00:29:03 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 00:29:05 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 00:29:08 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 00:29:11 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:29:11 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 00:29:13 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:29:13 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 00:29:17 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:29:20 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 00:29:23 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 00:29:26 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=4
+2026-06-06 00:29:30 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 00:33:10 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=6
+2026-06-06 00:33:12 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 00:33:13 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=5
+2026-06-06 00:33:15 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=9
+2026-06-06 00:33:17 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 00:33:19 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 00:33:22 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 00:33:24 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 00:33:25 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 00:33:32 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 00:33:35 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 00:33:37 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 00:33:40 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 00:33:42 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:33:42 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 00:33:44 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:33:44 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 00:33:48 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:33:52 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 00:34:06 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=6
+2026-06-06 00:34:07 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 00:34:09 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=5
+2026-06-06 00:34:11 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=9
+2026-06-06 00:34:13 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 00:34:15 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 00:34:18 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 00:34:20 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 00:34:21 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 00:34:29 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 00:34:32 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 00:34:34 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 00:34:37 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 00:34:39 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:34:39 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 00:34:41 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:34:41 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 00:34:45 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:34:49 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 00:34:51 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 00:34:54 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=4
+2026-06-06 00:34:58 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 00:35:03 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 00:35:10 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 00:35:12 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/rss_fii_articles.parquet | records=61
+2026-06-06 00:35:12 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/portal_fii_articles.parquet | records=97
+2026-06-06 00:35:12 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/bronze/bronze_all_sources.parquet | records=158
+2026-06-06 00:37:03 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=6
+2026-06-06 00:37:04 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 00:37:06 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=5
+2026-06-06 00:37:08 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=9
+2026-06-06 00:37:10 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 00:37:12 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 00:37:15 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 00:37:17 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 00:37:18 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 00:37:44 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 00:37:46 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 00:37:49 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 00:37:52 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 00:37:55 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:37:55 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 00:37:57 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:37:57 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 00:38:01 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 00:38:04 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 00:38:07 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 00:38:09 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=4
+2026-06-06 00:38:13 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 00:39:06 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 00:40:22 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 00:40:54 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/rss_fii_articles.parquet | records=61
+2026-06-06 00:40:54 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/portal_fii_articles.parquet | records=97
+2026-06-06 00:40:54 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/bronze/bronze_all_sources.parquet | records=158
+2026-06-06 00:46:01 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 00:46:01 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 00:46:01 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 00:46:02 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 00:46:02 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 00:46:02 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 00:46:02 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 00:47:01 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/rss_fii_articles.parquet | records=61
+2026-06-06 00:47:01 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/portal_fii_articles.parquet | records=97
+2026-06-06 00:47:01 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/bronze/bronze_all_sources.parquet | records=158
+2026-06-06 00:47:03 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/rss_fii_articles.parquet | records=61
+2026-06-06 00:47:03 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/external/portal_fii_articles.parquet | records=97
+2026-06-06 00:47:03 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/_Exploratori/1=notebooks/data/bronze/bronze_all_sources.parquet | records=158
+2026-06-06 01:00:44 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 01:02:25 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_wc | version=3.5.1
+2026-06-06 01:02:40 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 01:16:33 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_silver | version=3.5.1
+2026-06-06 01:16:41 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 01:59:10 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_wc | version=3.5.1
+2026-06-06 02:00:48 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 02:13:03 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=6
+2026-06-06 02:13:05 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 02:13:07 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=5
+2026-06-06 02:13:08 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=9
+2026-06-06 02:13:10 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 02:13:12 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=28
+2026-06-06 02:13:15 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 02:13:17 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 02:13:19 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 02:13:26 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 02:13:28 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 02:13:31 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 02:13:34 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 02:13:36 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 02:13:36 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 02:13:39 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 02:13:39 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 02:13:43 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 02:13:46 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 02:13:48 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 02:13:51 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=4
+2026-06-06 02:13:55 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 02:14:00 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 02:14:06 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 02:14:07 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/rss_fii_articles.parquet | records=60
+2026-06-06 02:14:07 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/portal_fii_articles.parquet | records=97
+2026-06-06 02:14:07 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/bronze/bronze_all_sources.parquet | records=157
+2026-06-06 02:15:42 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=6
+2026-06-06 02:15:44 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 02:15:46 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=5
+2026-06-06 02:15:47 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=9
+2026-06-06 02:15:49 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 02:15:51 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=28
+2026-06-06 02:15:54 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 02:15:55 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 02:15:57 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 02:16:04 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 02:16:07 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 02:16:09 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 02:16:12 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 02:16:14 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 02:16:14 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 02:16:16 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 02:16:16 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 02:16:20 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 02:16:24 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 02:16:26 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 02:16:29 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=4
+2026-06-06 02:16:32 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 02:16:35 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/rss_fii_articles.parquet | records=60
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/portal_fii_articles.parquet | records=97
+2026-06-06 02:16:39 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/bronze/bronze_all_sources.parquet | records=157
+2026-06-06 02:25:45 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_silver | version=3.5.1
+2026-06-06 02:25:53 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 02:26:40 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 02:29:10 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 02:29:12 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 02:36:16 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 09:30:10 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=5
+2026-06-06 09:30:11 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 09:30:13 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=6
+2026-06-06 09:30:14 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=8
+2026-06-06 09:30:16 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=5
+2026-06-06 09:30:19 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=35
+2026-06-06 09:30:21 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 09:30:23 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 09:30:25 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 09:30:33 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 09:30:36 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 09:30:38 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 09:30:41 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 09:30:44 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 09:30:44 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 09:30:46 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 09:30:46 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 09:30:50 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 09:30:53 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 09:30:56 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 09:30:59 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=6
+2026-06-06 09:31:03 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 09:31:08 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/rss_fii_articles.parquet | records=68
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/portal_fii_articles.parquet | records=96
+2026-06-06 09:31:16 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/bronze/bronze_all_sources.parquet | records=164
+2026-06-06 09:35:01 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_silver | version=3.5.1
+2026-06-06 09:35:13 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 09:36:53 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_silver | version=3.5.1
+2026-06-06 09:37:02 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 09:40:50 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_silver | version=3.5.1
+2026-06-06 09:40:55 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 09:42:16 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_wc | version=3.5.1
+2026-06-06 15:24:25 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_wc | version=3.5.1
+2026-06-06 15:24:55 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 15:28:38 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 15:31:23 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 15:41:24 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 15:49:24 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 16:10:19 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=4
+2026-06-06 16:10:20 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 16:10:22 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=7
+2026-06-06 16:10:24 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=6
+2026-06-06 16:10:25 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=2
+2026-06-06 16:10:27 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 16:10:30 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 16:10:32 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 16:10:34 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 16:10:41 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 16:10:43 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 16:10:46 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 16:10:49 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 16:10:51 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 16:10:51 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 16:10:53 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 16:10:53 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 16:10:57 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 16:11:02 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 16:11:05 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 16:11:08 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=6
+2026-06-06 16:11:11 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 16:11:16 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 16:11:24 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 16:11:25 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/rss_fii_articles.parquet | records=57
+2026-06-06 16:11:25 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/portal_fii_articles.parquet | records=96
+2026-06-06 16:11:25 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/bronze/bronze_all_sources.parquet | records=153
+2026-06-06 17:01:57 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=5
+2026-06-06 17:01:59 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 17:02:00 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=7
+2026-06-06 17:02:02 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=6
+2026-06-06 17:02:04 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 17:02:06 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 17:02:09 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 17:02:12 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 17:02:13 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 17:02:20 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 17:02:23 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 17:02:25 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 17:02:28 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 17:02:31 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 17:02:31 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 17:02:33 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 17:02:33 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 17:02:37 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 17:02:40 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 17:02:43 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 17:02:46 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=6
+2026-06-06 17:02:50 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 17:03:01 | INFO     | fii.ingestion                | SOURCE_OK   | infomoney.com.br | articles=5
+2026-06-06 17:03:03 | WARNING  | fii.ingestion                | SOURCE_FAIL | valorinveste.globo.com | RSS bozo: <unknown>:6:38: undefined entity
+2026-06-06 17:03:04 | INFO     | fii.ingestion                | SOURCE_OK   | moneytimes.com.br | articles=7
+2026-06-06 17:03:06 | INFO     | fii.ingestion                | SOURCE_OK   | seudinheiro.com | articles=6
+2026-06-06 17:03:08 | INFO     | fii.ingestion                | SOURCE_OK   | exame.com | articles=3
+2026-06-06 17:03:10 | INFO     | fii.ingestion                | SOURCE_OK   | cnnbrasil.com.br | articles=29
+2026-06-06 17:03:13 | INFO     | fii.ingestion                | SOURCE_OK   | sunoresearch.com.br | articles=7
+2026-06-06 17:03:14 | INFO     | fii.ingestion                | SOURCE_OK   | einvestidor.estadao.com.br | articles=1
+2026-06-06 17:03:16 | INFO     | fii.ingestion                | SOURCE_OK   | neofeed.com.br | articles=1
+2026-06-06 17:03:23 | INFO     | fii.ingestion                | SOURCE_OK   | fundsexplorer.com.br | articles=18
+2026-06-06 17:03:25 | INFO     | fii.ingestion                | SOURCE_OK   | statusinvest.com.br | articles=12
+2026-06-06 17:03:28 | INFO     | fii.ingestion                | SOURCE_OK   | clubefii.com.br | articles=11
+2026-06-06 17:03:31 | INFO     | fii.ingestion                | SOURCE_OK   | fiis.com.br | articles=15
+2026-06-06 17:03:33 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 17:03:33 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 1/3
+2026-06-06 17:03:35 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 17:03:35 | WARNING  | fii.ingestion                | RETRY       | thecap.com.br | 2/3
+2026-06-06 17:03:39 | WARNING  | fii.ingestion                | SOURCE_FAIL | thecap.com.br | HTTPSConnectionPool(host='thecap.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HT
+2026-06-06 17:03:42 | INFO     | fii.ingestion                | SOURCE_OK   | investidor10.com.br | articles=25
+2026-06-06 17:03:45 | INFO     | fii.ingestion                | SOURCE_OK   | euqueroinvestir.com | articles=19
+2026-06-06 17:03:47 | INFO     | fii.ingestion                | SOURCE_OK   | borainvestir.b3.com.br | articles=6
+2026-06-06 17:03:51 | INFO     | fii.ingestion                | SOURCE_OK   | conteudos.xpi.com.br | articles=11
+2026-06-06 17:03:57 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs | version=3.5.1
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Minimum records (≥ 50)
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Multiple sources (≥ 2)
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Schema: 17 columns
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null title < 5%
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | Null content < 30%
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | article_id non-empty
+2026-06-06 17:04:05 | INFO     | fii.ingestion                | QC_PASS     | Bronze | content_hash non-empty
+2026-06-06 17:04:06 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/rss_fii_articles.parquet | records=59
+2026-06-06 17:04:06 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/external/portal_fii_articles.parquet | records=96
+2026-06-06 17:04:06 | INFO     | fii.ingestion                | FREEZE_OK   | /Users/fabicampanari/Desktop/project-fii-marketing-intelligence-platform/__notebooks/data/bronze/bronze_all_sources.parquet | records=155
+2026-06-06 17:59:08 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_silver | version=3.5.1
+2026-06-06 17:59:17 | INFO     | fii.ingestion                | QC_PASS     | silver_layer | 33
+2026-06-06 18:00:38 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_wc | version=3.5.1
+2026-06-06 18:02:20 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_tfidf | version=3.5.1
+2026-06-06 18:18:36 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 19:56:48 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 20:00:59 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 20:10:03 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 20:10:28 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 20:22:52 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
+2026-06-06 20:31:56 | INFO     | fii.ingestion                | SPARK_START | app=Investor-Intelligence-Platform-FIIs_sentiment | version=3.5.1
