@@ -353,7 +353,7 @@ It is an AI-powered Investor Intelligence System capable of:
 
 ## Official Data Collection — 21 Monitored Sources
 
-<br>
+<br><br>
 
 | #  | Portal/Fonte                                   | Tipo                    | Método principal                    | Fallback     | URL base / endpoint de referência        |
 | -- | ---------------------------------------------- | ----------------------- | ----------------------------------- | ------------ | ---------------------------------------- |
