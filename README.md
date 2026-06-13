@@ -54,7 +54,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 **Institution:** Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
 [**Bachelor’s Program:**]() Humanistic AI & Data Science • 5th Semester • 2026  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
-**Course Instructors:** [✨ Eduardo Savino Gomes]() and [✨ Carlos Eduardo Paes](https://www.linkedin.com/in/carlos-eduardo-de-barros-paes-ph-d-7b137a4/)  
+**Professors** [✨ Eduardo Savino Gomes]() and [✨ Carlos Eduardo Paes](https://www.linkedin.com/in/carlos-eduardo-de-barros-paes-ph-d-7b137a4/)  
 **Project Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor  Almeida]()
 
 <br><br>
