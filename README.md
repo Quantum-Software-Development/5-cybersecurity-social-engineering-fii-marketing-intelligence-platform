@@ -191,11 +191,11 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 <br><br>
 
 
-# 🏗️ Architecture & Data Pipeline 
+# 🏗️ [Architecture & Data Pipeline]() 
 
 <br><br>
 
-## ⚡ 1. High-Level System Overview 
+## ⚡ 1. [High-Level System Overview ]()
 
 The system is designed as a **multi-layered data intelligence pipeline**, transforming unstructured financial content into actionable insights and AI-powered responses.
 
