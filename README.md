@@ -485,8 +485,301 @@ flowchart LR
 
 
 
+# 🚀 ARQUITETURA FINAL (FASTAPI + RAG)
 
+👉 O FastAPI vira o **cérebro de serving**
 
+```
+Data Pipeline → Vector DB → FastAPI → LLM → User
+```
+
+---
+
+# 🧠 1. ESTRUTURA DO PROJETO
+
+```
+app/
+├── main.py
+├── api/
+│   ├── routes.py
+├── services/
+│   ├── retrieval.py
+│   ├── embeddings.py
+│   ├── llm.py
+├── models/
+│   ├── schemas.py
+├── db/
+│   ├── vector_store.py
+├── core/
+│   ├── config.py
+```
+
+---
+
+# 🚀 Architecture & Data Pipeline
+
+## 1. High-Level System Overview
+
+The system is designed as a **multi-layered data intelligence pipeline**, transforming unstructured financial content into actionable insights and AI-powered responses.
+
+<br>
+
+```mermaid
+flowchart LR
+
+    classDef source fill:#0f172a,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef bronze fill:#1e293b,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef silver fill:#334155,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef gold fill:#475569,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef serving fill:#0f172a,stroke:#06b6d4,color:#ffffff,stroke-width:3px;
+
+    A["📡 21 Monitored Sources<br/>6 Primary RSS + 4 Backup RSS<br/>10 Web Portals + Reddit"]
+
+    subgraph Bronze["🥉 Bronze Layer — Raw Ingestion"]
+        B["Raw External Data<br/>Standardized 17-Field Schema<br/>SHA-256 article_id<br/>Stored as Parquet (Snappy)"]
+    end
+
+    subgraph Silver["🥈 Silver Layer — Processing & NLP"]
+        C["Data Cleaning & Validation<br/>Quality Gates"]
+        D["NB03 — MapReduce Processing"]
+        E["NB04 — TF-IDF & BM25 Indexing"]
+        F["NB05 — Sentiment Analysis"]
+    end
+
+    subgraph Gold["🥇 Gold Layer — Intelligence"]
+        G["Market Intelligence Signals<br/>Top Ranked Articles<br/>Marketing Funnel Features"]
+    end
+
+    subgraph Dashboard["📊 Analytics Layer"]
+        H["Curated Data Views<br/>KPIs & Insights"]
+    end
+
+    subgraph Serving["🚀 Serving Layer"]
+        I["FastAPI (API Layer)"]
+        J["Streamlit (Dashboard UI)"]
+        K["LLM Interface<br/>Groq + Llama 3.1"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    C --> F
+
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H
+
+    H --> I
+    H --> J
+
+    I --> K
+    J --> K
+
+    class A source
+    class B bronze
+    class C,D,E,F silver
+    class G gold
+    class H,I,J,K serving
+
+    linkStyle default stroke:#22d3ee,stroke-width:2px
+```
+
+---
+
+## 2. Data Sources — 21 Monitored Channels
+
+The system continuously ingests data from a diversified set of **editorial, institutional, and behavioral sources**, ensuring both informational depth and sentiment coverage.
+
+| #  | [Source]()                               | [Category]()  | [Primary Method]()  | [Fallback]()  | [Endpoint]()                   |
+| -- | ----------------------------------------- | ------------- | --------------- | ----------- | ----------------------------------- |
+| 1  | [InfoMoney]()                                | Editorial     | RSS             | —           | infomoney.com.br/feed/              |
+| 2  | [Empiricus]()                                | Editorial     | RSS             | Scraping    | empiricus.com.br/feed/              |
+| 3  | [Money Times]()                               | Editorial     | RSS             | —           | moneytimes.com.br/feed/             |
+| 4  | [Seu Dinheiro]()                              | Editorial     | RSS             | —           | seudinheiro.com/feed/               |
+| 5  | [Exame Invest]()                              | Editorial     | RSS             | —           | exame.com/feed/                     |
+| 6  | [CNN Brasil Business ]()                      | Editorial     | RSS             | —           | cnnbrasil.com.br/feed/              |
+| 7  | [Suno Research]()                            | Editorial     | RSS (Secondary) | —           | sunoresearch.com.br/feed/           |
+| 8  | [E-Investidor]()                              | Editorial     | RSS (Secondary) | —           | einvestidor.estadao.com.br/feed     |
+| 9  | [NeoFeed]()                                   | Editorial     | RSS (Secondary) | —           | neofeed.com.br/feed/                |
+| 10 | [Toro Investimentos]()                        | Editorial     | RSS             | Scraping    | blog.toroinvestimentos.com.br/feed/ |
+| 11 | [Funds Explorer]()                            | Portal        | Scraping        | —           | fundsexplorer.com.br                |
+| 12 | [Status Invest]()                             | Portal        | Scraping        | —           | statusinvest.com.br                 |
+| 13 | [Clube FII]()                                 | Portal        | Scraping        | —           | clubefii.com.br                     |
+| 14 | [FIIs.com.br]()                               | Portal        | Scraping        | —           | fiis.com.br                         |
+| 15 | [Portal do FII]()                             | Portal        | Scraping        | RSS         | portaldofii.com.br                  |
+| 16 | [Investidor10]()                              | Portal        | Scraping        | —           | investidor10.com.br                 |
+| 17 | [Eu Quero Investir]()                         | Portal        | Scraping        | —           | euqueroinvestir.com                 |
+| 18 | [Bora Investir (B3)]()                        | Institutional | Scraping        | —           | borainvestir.b3.com.br              |
+| 19 | [XP Conteúdos]()                              | Institutional | Scraping        | —           | conteudos.xpi.com.br                |
+| 20 | [Investing Brasil]()                          | Portal        | Scraping        | —           | br.investing.com                    |
+| 21 | [Reddit (r/investimentos, r/farialimabets)]() | Behavioral    | API (PRAW)      | JSON backup | reddit.com                          |
+
+<br><br>
+
+## 3. Serving Architecture — FastAPI + RAG
+
+The system exposes intelligence through a **Retrieval-Augmented Generation (RAG)** architecture.
+
+```text
+Data Pipeline → Vector Database → FastAPI → LLM → User
+```
+
+<br><br>
+
+## 4. Project Structure
+
+```text
+app/
+├── main.py
+├── api/
+│   └── routes.py
+├── services/
+│   ├── retrieval.py
+│   ├── embeddings.py
+│   ├── llm.py
+├── models/
+│   └── schemas.py
+├── db/
+│   └── vector_store.py
+├── core/
+│   └── config.py
+```
+
+<br><br>
+
+## 5. API Layer (FastAPI)
+
+```python
+from fastapi import FastAPI
+from app.api.routes import router
+
+app = FastAPI(
+    title="Market Intelligence API",
+    description="RAG-powered financial intelligence system",
+    version="1.0.0"
+)
+
+app.include_router(router)
+```
+
+<br><br>
+
+## 6. Core Endpoint — Semantic Query
+
+```python
+@router.post("/query")
+async def query_system(question: str):
+    
+    context = retrieve_context(question)
+    answer = generate_answer(question, context)
+
+    return {
+        "question": question,
+        "context": context,
+        "answer": answer
+    }
+```
+
+<br><br>
+
+## 7. Retrieval Layer (RAG)
+
+```python
+def retrieve_context(query: str, k: int = 5):
+    query_embedding = embed_query(query)
+    results = search_vectors(query_embedding, k=k)
+    return [r["text"] for r in results]
+```
+
+<br><br>
+
+## 8. Embeddings Layer
+
+```python
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+def embed_query(text: str):
+    return model.encode(text)
+```
+
+<br><br>
+
+## 9. Vector Store (FAISS)
+
+```python
+index = faiss.IndexFlatL2(384)
+
+def search_vectors(query_embedding, k=5):
+    D, I = index.search(np.array([query_embedding]), k)
+    return [{"text": f"doc_{i}"} for i in I[0]]
+```
+
+<br><br>
+
+## 10. LLM Generation Layer
+
+```python
+def generate_answer(question, context):
+    prompt = f"""
+    Context:
+    {context}
+
+    Question:
+    {question}
+
+    Answer:
+    """
+    return call_llm(prompt)
+```
+
+<br><br>
+
+## 11. End-to-End Flow
+
+| Layer   | Function                         |
+| ------- | -------------------------------- |
+| Bronze  | Raw ingestion and storage        |
+| Silver  | Data cleaning and NLP processing |
+| Gold    | Signal generation and ranking    |
+| RAG     | Semantic retrieval               |
+| FastAPI | API interface                    |
+| LLM     | Natural language reasoning       |
+
+<br><br>
+
+## 12. Example Query
+
+```json
+{
+  "question": "What is the current investor sentiment on logistics REITs?"
+}
+```
+
+<br>
+
+**Response:**
+
+```json
+{
+  "answer": "Recent data indicates a moderately positive sentiment driven by stable dividend yields and occupancy rates."
+}
+```
+
+<br><br>
+
+## Final Note
+
+This architecture transforms a traditional data pipeline into a **full-stack AI intelligence system**, enabling:
+
+* semantic search
+* investor sentiment analysis
+* real-time insights
+* natural language interaction
 
 
 
