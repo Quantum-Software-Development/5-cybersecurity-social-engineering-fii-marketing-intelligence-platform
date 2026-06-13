@@ -15,6 +15,12 @@
 
 ##### <p align="center">
 [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]()• [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-MD]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Law No. 13.709/2018]() • [EU AI Act Alignment]()
+
+
+<br>
+
+***An institutional-grade platform for monitoring, structuring, ranking, and interpreting Brazilian REIT (FII) intelligence from financial news, research portals, and investor communities.***
+
   
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
