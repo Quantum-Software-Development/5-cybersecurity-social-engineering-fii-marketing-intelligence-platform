@@ -30,7 +30,7 @@
 
 # 🏗️ [Architecture & Data Pipeline]()
 
-<br><br>
+<br>
 
 ## ⚡ 1. [Visão Geral do Sistema (High-Level)]()
 
@@ -107,6 +107,8 @@ flowchart LR
 
 O sistema ingere continuamente dados de um conjunto diversificado de fontes **editoriais, institucionais e comportamentais**, garantindo profundidade informacional e cobertura de sentimento.
 
+<br>
+
 | #  | [Source]()                                    | [Category]()  | [Primary Method]() | [Fallback]() | [Endpoint]()                        |
 | -- | --------------------------------------------- | ------------- | ------------------ | ------------ | ----------------------------------- |
 | 1  | [InfoMoney]()                                 | Editorial     | RSS                | —            | infomoney.com.br/feed/              |
@@ -137,6 +139,8 @@ O sistema ingere continuamente dados de um conjunto diversificado de fontes **ed
 
 O sistema expõe inteligência por meio de uma arquitetura de **Geração Aumentada por Recuperação (RAG)**.
 
+<br>
+
 ```text
 Data Pipeline → Banco Vetorial → FastAPI → LLM → Usuário
 ```
@@ -144,6 +148,8 @@ Data Pipeline → Banco Vetorial → FastAPI → LLM → Usuário
 <br><br>
 
 ## 4. [Estrutura do Projeto]()
+
+<br>
 
 ```text
 app/
@@ -305,6 +311,8 @@ def generate_answer(question, context):
 ## [Nota Final]()
 
 Esta arquitetura transforma um pipeline de dados tradicional em um **sistema completo de inteligência com IA**, permitindo:
+
+<br>
 
 [*]() busca semântica <br>
 [*]() sentimento de investidores  <br>
