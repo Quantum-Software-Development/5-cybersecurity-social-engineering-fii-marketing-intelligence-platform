@@ -368,9 +368,71 @@ It is an AI-powered Investor Intelligence System capable of:
 <br><br>
 <br><br>
 <br><br>
+
+
+## [How to run this project locally]()
+
+### [Prerequisites]()
+
+[-]() Python 3.10+ installed
+[-]() Git installed
+[-]() (Optional) Python virtual environment (venv) to isolate dependencies
+
+<br>
+
+### [Clone the repository]()
+
+```bash
+git clone https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform.git
+cd 5-cybersecurity-social-engineering-fii-marketing-intelligence-platform
+```
+
+<br>
+
+### [Create and activate the virtual environment]]()
+
+```bash
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Windows (PowerShell)
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+> Note: the `.venv/` folder is already ignored in `.gitignore`, so the virtual environment will not be versioned. 
+
+<br>
+
+### [Install dependencies]()
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+<br>
+
+### [Run notebooks / scripts]()
+
+- Open the notebooks in the `1-Exploratory/` folder in Jupyter Notebook, JupyterLab, or VS Code.
+- Make sure the selected kernel is the `.venv` virtual environment.
+- Adjust data paths if needed (under the `data/` directory). Local data layers such as `data/bronze`, `data/silver`, and `data/gold` are git-ignored by default.
+
+<br>
+
+[Whenever you add or remove dependencies:]()
+
+```bash
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "Update project dependencies"
+```
+
 <br><br>
 
-## References
+## [References]()
 
 - Barocas, S., & Selbst, A. D. (2016). Big Data’s Disparate Impact. *California Law Review*, 104(3), 671–732.
 - Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. *Journal of Machine Learning Research (JMLR)*, 3, 993–1022.
