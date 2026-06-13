@@ -20,3 +20,9 @@ derby.log
 logs/*.log
 .DS_Store
 Thumbs.db
+
+# Virtual environments (local only)
+venv/
+.venv/
+env/
+.env/
