@@ -8,20 +8,39 @@
 
 
 <!-- ========= START REPO TITLE ========= -->
-
-# <p align="center"> [Investor Intelligence Platform 🇧🇷 FIIs Brasil]() 
+```md
+# <p align="center"> [Investor Intelligence Platform 🇧🇷 — Brazilian FIIs]() 
 
 ### <p align="center"> Real Estate Investment Funds (FIIs) — Market Intelligence & Behavioral Analytics
 
-<br>
-
-###### <p align="center">
-[Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]()• [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-MD]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Law No. 13.709/2018]() • [EU AI Act Alignment]()
-
+#### <p align="center"> CRISP-DM • Data Lakehouse • NLP • Responsible AI • Regulatory Alignment
 
 <br>
 
-***An institutional-grade platform for monitoring, structuring, ranking, and interpreting Brazilian REIT (FII) intelligence from financial news, research portals, and investor communities.***
+###### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Brazilian General Data Protection Law — Law No. 13.709/2018]() • [EU AI Act Alignment]()
+
+<br>
+
+#### <p align="center"> ***An institutional-grade intelligence platform for monitoring, structuring, ranking, and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.***
+```
+
+
+====
+
+# <p align="center"> [Investor Intelligence Platform 🇧🇷 — Brazilian FIIs]() 
+
+### <p align="center"> Real Estate Investment Funds (FIIs) — Market Intelligence & Behavioral Analytics
+
+#### <p align="center"> CRISP-DM • Data Lakehouse • NLP • Responsible AI • Regulatory Alignment
+
+<br>
+
+###### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Brazilian General Data Protection Law — Law No. 13.709/2018]() • [EU AI Act Alignment]()
+
+
+<br>
+
+#### <p align="center"> ***An institutional-grade intelligence platform for monitoring, structuring, ranking, and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.***
 
   
 <br><br>
@@ -126,9 +145,13 @@
 <!-- ========= START NOTE ========= -->
 > [!WARNING]
 >
+> <br>
 > ⚠️ Projects may be publicly shared when permitted.  
 > The focus is on applied, hands-on learning with real datasets in AI governance and security contexts.  
-> All sensitive content remains protected in private repositories when required.
+> All sensitive content remains protected in private repositories when required.  <br><br> 
+> 
+> ⚠️ Disclaimer
+> Plataforma exclusivamente educacional e analítica. Não constitui recomendação de investimento.
 
 <br><br>
 
@@ -158,7 +181,7 @@
 >
 > ### [***Where market discussions become investment narratives…***]() ***because markets talk a lot... intelligent systems just listen better.*** <br>
 >
-> ⚡
+> ### ⚡
 
 <br><br>
 <!-- ========= END NOTE ========= -->
