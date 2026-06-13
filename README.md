@@ -350,8 +350,81 @@ It is an AI-powered Investor Intelligence System capable of:
 <!-- ========= end Institutional INFO ========= -->
 
 
+#  [Architecture and Pipeline]()
 
-## Official Data Collection — 21 Monitored Sources
+### High-Level Overview
+
+<br>
+
+```mermaid
+flowchart LR
+
+    classDef source fill:#0f172a,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef bronze fill:#1e293b,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef silver fill:#334155,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef gold fill:#475569,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef serving fill:#0f172a,stroke:#06b6d4,color:#ffffff,stroke-width:3px;
+
+    A["📡 21 Monitored Sources<br/>6 RSS Feeds + 4 Backup RSS Feeds<br/>10 News Portals + Reddit"]
+
+    subgraph Bronze["🥉 Bronze Layer"]
+        B["Raw External Data<br/>17-Field Schema<br/>SHA-256 article_id<br/>Parquet Snappy"]
+    end
+
+    subgraph Silver["🥈 Silver Layer"]
+        C["Data Cleaning<br/>Quality Gates"]
+        D["NB03<br/>MapReduce"]
+        E["NB04<br/>TF-IDF + BM25"]
+        F["NB05<br/>Sentiment Analysis"]
+    end
+
+    subgraph Gold["🥇 Gold Layer"]
+        G["MI Signals<br/>Top Articles<br/>Marketing Funnel"]
+    end
+
+    subgraph Dashboard["📊 Dashboard Datasets"]
+        H["Analytics Views<br/>KPIs & Insights"]
+    end
+
+    subgraph Serving["🚀 Serving Layer"]
+        I["FastAPI"]
+        J["Streamlit"]
+        K["Groq Chatbot<br/>Llama 3.1"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    C --> F
+
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H
+
+    H --> I
+    H --> J
+
+    I --> K
+    J --> K
+
+    class A source
+    class B bronze
+    class C,D,E,F silver
+    class G gold
+    class H,I,J,K serving
+
+    linkStyle default stroke:#22d3ee,stroke-width:2px
+```
+
+<br><br>
+
+
+
+
+## [Official Data Collection — 21 Monitored Sources]()
 
 <br><br>
 
@@ -379,6 +452,18 @@ It is an AI-powered Investor Intelligence System capable of:
 | 19 | XP Conteúdos                                     | Portal              | Scraping                           | —            | conteudos.xpi.com.br                     |
 | 20 | Investing Brasil                                 | Portal              | Scraping                           | —            | br.investing.com/news/stock-market-news  |
 | 21 | Reddit (`r/investimentos` and `r/farialimabets`) | Social / Behavioral | PRAW → Public API → Frozen Parquet | 3 Layers     | reddit.com / public JSON / PRAW          |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -411,11 +496,76 @@ It is an AI-powered Investor Intelligence System capable of:
 
 <br><br>
 
+
+
+
+## 🏗️ Arquitetura e Pipeline
+
+### Visão Macro
+
+```mermaid
+flowchart LR
+
+    classDef source fill:#0f172a,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef bronze fill:#1e293b,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef silver fill:#334155,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef gold fill:#475569,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef serving fill:#0f172a,stroke:#06b6d4,color:#ffffff,stroke-width:3px;
+
+    A["📡 21 Fontes Monitoradas<br/>6 RSS + 4 RSS Supl.<br/>10 Portais + Reddit"]
+
+    subgraph Bronze["🥉 Bronze Layer"]
+        B["Raw External Data<br/>Schema 17 campos<br/>SHA-256 article_id<br/>Parquet Snappy"]
+    end
+
+    subgraph Silver["🥈 Silver Layer"]
+        C["Data Cleaning<br/>Quality Gates"]
+        D["NB03<br/>MapReduce"]
+        E["NB04<br/>TF-IDF + BM25"]
+        F["NB05<br/>Sentiment Analysis"]
+    end
+
+    subgraph Gold["🥇 Gold Layer"]
+        G["MI Signals<br/>Top Articles<br/>Marketing Funnel"]
+    end
+
+    subgraph Dashboard["📊 Dashboard Datasets"]
+        H["Analytics Views<br/>KPIs & Insights"]
+    end
+
+    subgraph Serving["🚀 Serving Layer"]
+        I["FastAPI"]
+        J["Streamlit"]
+        K["Groq Chatbot<br/>Llama 3.1"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    C --> F
+
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H
+
+    H --> I
+    H --> J
+
+    I --> K
+    J --> K
+
+    class A source
+    class B bronze
+    class C,D,E,F silver
+    class G gold
+    class H,I,J,K serving
+
+    linkStyle default stroke:#22d3ee,stroke-width:2px
+```
 -->
-
-
-
-
 
 
 
