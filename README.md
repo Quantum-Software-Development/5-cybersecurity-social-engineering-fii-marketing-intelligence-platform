@@ -121,6 +121,22 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 
 <!-- ========= START NOTE ========= -->
+> [!TIP]
+> 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**
+>
+> #
+>
+> ✨ Part of the **Humanistic AI, Financial Intelligence & Data Systems Series**
+>
+> ### [***Where market discussions become investment narratives…***]() ***because markets talk a lot... intelligent systems just listen better.*** <br>
+>
+> ### ⚡
+
+<br><br>
+<!-- ========= END NOTE ========= -->
+
+
+<!-- ========= START !WARNING] ========= -->
 > [!WARNING]
 >
 > <br>
@@ -136,35 +152,12 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 #
 
 <br><br>
+<!-- ========= END!WARNING]========= -->
 
-<!-- ========= END NOTE ========= -->
 
 
-<!-- ========= START NOTE ========= -->
-> [!TIP]
->
-> ## 🇧🇷 Real Estate Investment Funds (FIIs) — Market Intelligence Hub
->
-> This repository is part of a broader ecosystem connected to **Cybersecurity, Social Engineering, AI Security, AI Governance, Ethics, and Humanistic AI**, exploring intelligent and human-centered approaches to financial decision intelligence.
->
-> A scalable platform for financial market intelligence, combining **[Big Data](), [PySpark](), [MapReduce](), [Word Count](), [NLP](), [TF-IDF](), [BM25](), [Web Scraping](), and AI-assisted analytics** to transform large-scale financial discussions into actionable insights for FIIs.
->
-> The platform leverages **[PySpark]()** for distributed processing and scalable data pipelines, supporting the analysis of investor sentiment, market narratives, and behavioral signals through maintainable and production-oriented engineering practices.
->
-> 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**
->
-> #
->
-> ✨ Part of the **Humanistic AI, Financial Intelligence & Data Systems Series**
->
-> ### [***Where market discussions become investment narratives…***]() ***because markets talk a lot... intelligent systems just listen better.*** <br>
->
-> ### ⚡
 
-<br><br>
-<!-- ========= END NOTE ========= -->
-
-<!-- ========= START Ambient BIG DATA INSTALL ========= -->
+<!-- ========= START Ambient BIG DATA INSTALL ========= 
 ## ⚙️ Big Data Environment Setup
 
 This section provides installation guides, infrastructure components, and learning resources for building a complete Big Data environment.
@@ -247,7 +240,7 @@ Distributed Data Processing (PySpark)
 <!-- ========= END Ambient BIG DATA INSTALL ========= -->
 
 
-<!-- ========= START REPO Overview 🚧 ========= -->
+<!-- ========= START REPO Overview 🚧 ========= 
 ## [Overview]()
 
 A data-driven system for Brazilian Real Estate Investment Funds (FIIs), designed to transform large volumes of financial and behavioral content into structured, explainable, and actionable market knowledge. It combines distributed data engineering, Spark and PySpark processing, MapReduce-inspired word count analysis, NLP, relevance ranking, sentiment analysis, and responsible AI practices to support research and decision-making.
@@ -303,10 +296,10 @@ This platform addresses that gap by:
 `
 
 <br><br>
-<!-- ========= END REPO Overview🚧========= -->
+<!-- ========= END REPO Overview🚧========= --
 
 
-<!-- ========= START OVERVIEW ========= -->
+<!-- ========= START OVERVIEW ========= 
 ## [Project Context]()
 
 This platform is not a simple analytics dashboard.
@@ -348,6 +341,40 @@ It is an AI-powered Investor Intelligence System capable of:
 
 <br><br>
 <!-- ========= end Institutional INFO ========= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 #  [Architecture and Pipeline]()
