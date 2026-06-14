@@ -743,7 +743,7 @@ pip install -r requirements.txt
 
 ### [Run notebooks / scripts]()
 
-- Open the notebooks in the `1-Exploratory/` folder in Jupyter Notebook, JupyterLab, or VS Code.
+- Open the notebooks in the `2-FIIs_Final` folder in Jupyter Notebook, JupyterLab, or VS Code.
 - Make sure the selected kernel is the `.venv` virtual environment.
 - Adjust data paths if needed (under the `data/` directory). Local data layers such as `data/bronze`, `data/silver`, and `data/gold` are git-ignored by default.
 
