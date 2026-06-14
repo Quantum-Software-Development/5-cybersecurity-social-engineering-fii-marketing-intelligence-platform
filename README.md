@@ -141,15 +141,8 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > ### <p align="center"> ⚡
 
 
-<br>
-
-#
-
-<br>
+<br><br><br><br>
 <!-- ========= END NOTE ========= -->
-
-$$\Huge {\textbf{\color{green} Where market discussions become investment narratives…}  \space \textbf{\color{yellow}  Data Lakehouse} \space \textbf{\color{white} •} \space \textbf{\color{green} NLP} \space \textbf{\color{white} •} \space \textbf{\color{yellow} Responsible AI} \space \textbf{\color{white} •} \space \textbf{\color{green} Regulatory Alignment}}$$
-
 
 <!-- ========= START !WARNING] ========= -->
 > [!WARNING]
@@ -161,10 +154,6 @@ $$\Huge {\textbf{\color{green} Where market discussions become investment narrat
 > 
 > ⚠️ Disclaimer
 > Plataforma exclusivamente educacional e analítica. Não constitui recomendação de investimento.
-
-<br><br>
-
-#
 
 <br><br>
 <!-- ========= END!WARNING]========= -->
