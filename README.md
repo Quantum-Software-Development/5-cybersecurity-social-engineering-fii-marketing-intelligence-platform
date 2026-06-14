@@ -22,7 +22,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br>
 
-#### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Brazilian General Data Protection Law No. 13.709/2018]() • [EU AI Act Alignment]()
+#### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [FAISS]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Brazilian General Data Protection Law No. 13.709/2018]() • [EU AI Act Alignment]()
 
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
@@ -127,8 +127,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**  <br>
 >
 >
-> A scalable platform combining **Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, Web Scraping, RAG** and AI-assisted analytics to transform large-scale financial discussions >
->into actionable insights for FIIs. <br>
+> A scalable platform combining Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, FAISS, multilingual PT-BR embeddings, Web Scraping, RAG and AI-assisted analytics to transform > large-scale financial discussions into actionable insights for FIIs.. <br>
 > 
 > <br>
 >
@@ -232,7 +231,7 @@ From this starting point, the repository was extended to incorporate more advanc
 |---|---|
 | Distributed Computing | PySpark · RDD MapReduce · SparkSession |
 | Big Data Architecture | Medallion (Bronze → Silver → Gold) |
-| Machine Learning | TF-IDF · BM25 · Sentiment Analysis |
+| Machine Learning | TF-IDF · BM25 ·  FAISS  Sentiment · Analysis |
 | NLP | PT-BR Tokenization · FII Lexicon · Signal Flags |
 | Data Governance | LGPD · EU AI Act · Responsible AI · XAI |
 | REST API + RAG | FastAPI · Uvicorn · Groq LLM |
@@ -250,7 +249,7 @@ The **Investor Intelligence Platform — FIIs Brazil** is not just an academic B
 Instead of being a simple dashboard, the system operates as an end-to-end analytical environment that:
 - collects data from 21 sources (RSS · scraping · Reddit)
 - organizes them in a Bronze/Silver/Gold architecture
-- enriches them with BM25+TF-IDF ranking and FII PT-BR sentiment
+- enriches them with hybrid retrieval (TF-IDF + BM25 + FAISS semantic search with multilingual PT-BR embeddings), FII PT-BR sentiment and explainable marketing intelligence signals
 - exposes results via **FastAPI + RAG + Groq chatbot + Streamlit**
 
 <br><br>
@@ -263,7 +262,7 @@ Instead of being a simple dashboard, the system operates as an end-to-end analyt
 
 1. [**Complete end-to-end pipeline**]() — from ingestion to analytical output.
 2. [**Distributed processing + NLP**]() — PySpark MapReduce combined with TF-IDF, BM25 and contextual sentiment.
-3. [**RAG over FII corpus**]() — semantic retrieval via BM25 + contextual generation via Groq.
+3. [**RAG over FII corpus**]() — hybrid retrieval via TF-IDF, BM25 and FAISS-backed multilingual PT-BR embeddings, followed by contextual generation via Groq.
 4. [**Cybersecurity and Social Engineering**]() — security perspective in interpreting channels and narratives.
 
 <br><br>
