@@ -7,7 +7,206 @@
 <br><br>
 <!-- ========= END LANGUAGE BUTTON ========= -->
 
+<br><br>
+<!-- ========= END LANGUAGE BUTTON ========= -->
+
+
 <!-- ========= START REPO TITLE ========= -->
+# <p align="center"> [Investor Intelligence Platform  🇧🇷  Brazilian FIIs]() 
+
+### <p align="center"> Real Estate Investment Funds (FIIs) - Market Intelligence & Behavioral Analytics
+
+<br>
+
+$$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \space \textbf{\color{yellow}  Data Lakehouse} \space \textbf{\color{white} •} \space \textbf{\color{green} NLP} \space \textbf{\color{white} •} \space \textbf{\color{yellow} Responsible AI} \space \textbf{\color{white} •} \space \textbf{\color{green} Regulatory Alignment}}$$
+
+<br>
+
+### <p align="center"> ***An institutional-grade intelligence platform for monitoring, structuring, ranking, and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.***
+
+<br>
+
+#### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Brazilian General Data Protection Law No. 13.709/2018]() • [EU AI Act Alignment]()
+
+<br><br>
+<!-- ========= END REPO TITLE ========= -->
+
+<!-- ========= START SPONSOR BADGES ========= -->
+### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
+
+<br><br>
+<!-- ========= END SPONSOR BADGES ========= -->
+
+<!-- ========= START DEMO VIDEO ========= -->
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/791a69e2-d09a-429f-9257-f6667fff5c04 " />
+
+ </p>
+
+<!--
+#### 🖤 Creative Direction, Music Curation & Editing by Fab⚡️  
+##### 🎶 [Soundtrack:]() "Canon in D" — Johann Pachelbel
+-->
+
+<br><br>
+<!-- ========= END DEMO VIDEO ========= -->
+
+
+<!-- ========= START Institutional INFO ========= -->
+## 🎓 Academic 
+
+<br>
+
+**Institution:** Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
+[**Bachelor’s Program:**]() Humanistic AI & Data Science • 5th Semester • 2026  
+[**Course:**]() AI Security, Cybersecurity & Social Engineering  
+**Professors** [✨ Eduardo Savino Gomes]() and [✨ Carlos Eduardo Paes](https://www.linkedin.com/in/carlos-eduardo-de-barros-paes-ph-d-7b137a4/)  
+**Project Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor  Almeida]()
+
+<br><br>
+
+#
+
+<br><br>
+<!-- ========= END Institutional INFO ========= -->
+
+
+<!-- ========= START Dashboard Streamlit ========= -->
+<p align="center">
+  <a href="" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/FIIs_Marketing_Intelligence_Dashboard-Streamlit-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
+      alt="FIIs Marketing Intelligence Dashboard"
+      style="height: 32px; width: auto;"
+    />
+  </a>
+</p>
+<!-- ========= END Dashboard Streamlit ========= -->
+
+<!-- ========= START REACT APP ========= -->
+<p align="center">
+
+  <a href="" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/React-Interactive%20FIIs%20Analytics%20Slides-14532d?style=for-the-badge&logo=react&logoColor=white" 
+      alt="React Interactive FIIs Analytics Slides"
+      style="height: 30px; width: auto;"
+    />
+  </a>
+  <!-- ========= END REACT APP ========= -->
+
+<!-- ========= START PPTX ========= -->
+  <a href="" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/FIIs_Strategic_Presentation-PPTX-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="FIIs Strategic Presentation PPTX"
+      style="height: 30px; width: auto;"
+    />
+  </a>
+
+</p>
+<!-- ========= END PPTX ========= -->
+
+<!-- ========= START DATA ANALYSING REPORT ========= -->
+<p align="center">
+  <a href="">
+    <img 
+      src="https://img.shields.io/badge/FIIs_Market_Analysis-Executive%20Report-134e4a?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=022c22" 
+      alt="FIIs Market Analysis Executive Report"
+    />
+  </a>
+</p>
+
+<br><br>
+
+#
+
+<br><br>
+<!-- ========= END DATA ANALYSING REPORT ========= -->
+<!-- ===================== END BADGE GROUP 1 ===================== -->
+
+
+<!-- ========= START NOTE ========= -->
+> [!TIP]
+> 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**  <br>
+>
+>
+> A scalable platform combining **Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, Web Scraping, RAG** and AI-assisted analytics to transform large-scale financial discussions >
+>into actionable insights for FIIs. <br>
+> 
+> <br>
+>
+> $$\Huge {\textbf{\color{green} Where market discussions become investment narratives…}}$$
+>
+> $$\Huge {\textbf{\color{yellow} because markets talk a lot...}}$$
+> 
+> $$\Huge {\textbf{\color{green} intelligent systems just listen better}}$$
+>
+> ### <p align="center"> ⚡
+
+
+<br><br>
+
+#
+
+<br><br>
+<!-- ========= END NOTE ========= -->
+
+<!-- ========= START !WARNING] ========= -->
+> [!WARNING]
+>
+> <br>
+> ⚠️ Projects may be publicly shared when permitted.  
+> The focus is on applied, hands-on learning with real datasets in AI governance and security contexts.  
+> All sensitive content remains protected in private repositories when required.  <br><br> 
+> 
+> ⚠️ Disclaimer
+> Plataforma exclusivamente educacional e analítica. Não constitui recomendação de investimento.
+
+<br><br><br><br>
+<!-- ========= END!WARNING]========= -->
+
+
+## Índice
+
+1. [Contexto Acadêmico e Institucional](#-contexto-acadêmico-e-institucional)
+2. [Visão Geral e Definição do Produto](#-visão-geral-e-definição-do-produto)
+3. [Objetivos](#-objetivos)
+4. [Público-Alvo](#-público-alvo)
+5. [Por Que Isso Importa](#-por-que-isso-importa)
+6. [Cobertura de Fontes](#-cobertura-de-fontes)
+7. [Estratégia de Coleta por Tipo de Fonte](#-estratégia-de-coleta-por-tipo-de-fonte)
+8. [Fontes de Dados Oficiais — 21 Fontes Monitoradas](#-fontes-de-dados-oficiais--21-fontes-monitoradas)
+9. [Arquitetura de Alto Nível](#-arquitetura-de-alto-nível)
+10. [Pipeline NB00–NB07](#-pipeline-nb00nb07)
+11. [Arquitetura de Serving — FastAPI + RAG](#-arquitetura-de-serving--fastapi--rag)
+12. [Estrutura do Projeto](#-estrutura-do-projeto)
+13. [Camada de API (FastAPI)](#-camada-de-api-fastapi)
+14. [Endpoint Principal — Consulta Semântica](#-endpoint-principal--consulta-semântica)
+15. [Camada de Recuperação (RAG via BM25)](#-camada-de-recuperação-rag-via-bm25)
+16. [Camada de Geração (LLM — Groq)](#-camada-de-geração-llm--groq)
+17. [Fluxo End-to-End](#-fluxo-end-to-end)
+18. [Metodologia Analítica Expandida](#-metodologia-analítica-expandida)
+19. [As 3 Técnicas Centrais: MapReduce + TF-IDF + BM25](#-as-3-técnicas-centrais-mapreduce--tf-idf--bm25--como-se-complementam)
+20. [Foco em Marketing Intelligence: TOFU e Contexto Negativo](#-foco-em-marketing-intelligence-tofu-e-contexto-negativo)
+21. [Do Requisito Acadêmico à Plataforma Analítica](#-do-requisito-acadêmico-à-plataforma-analítica)
+22. [O Que Esta Plataforma Entrega](#-o-que-esta-plataforma-entrega)
+23. [Perspectiva de Cibersegurança e Engenharia Social](#-perspectiva-de-cibersegurança-e-engenharia-social)
+24. [Notebooks NB00–NB07: Relatório Técnico](#-notebooks-nb00nb07-relatório-técnico)
+25. [Infraestrutura Big Data](#-infraestrutura-big-data)
+26. [Governança](#-governança)
+27. [Como Executar](#-como-executar)
+28. [Makefile — Referência Completa](#-makefile--referência-completa)
+29. [Roadmap de Entrega](#-roadmap-de-entrega)
+30. [Evolução de Portfólio](#-evolução-de-portfólio)
+31. [Outputs Esperados](#-outputs-esperados)
+32. [Conjunto de Documentações](#-conjunto-de-documentações)
+33. [Referências](#-referências)
+34. [Autores](#-autores)
+
+<br><br>
+
+
 
 
 
