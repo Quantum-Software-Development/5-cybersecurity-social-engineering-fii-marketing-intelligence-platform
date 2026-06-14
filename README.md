@@ -22,7 +22,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br>
 
-#### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [FAISS]() • [Web Scraping]() • [TOFU Strategy]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [AI Governance]() • [LGPD Compliance]() • [Brazilian General Data Protection Law No. 13.709/2018]() • [EU AI Act Alignment]()
+#### <p align="center"> [Big Data]() • [PySpark]() • [MapReduce Word Count]() • [NLP]() • [TF-IDF]() • [BM25 Ranking]() • [Hybrid Retrieval]() • [FAISS + Multilingual Embeddings]() • [Web Scraping]() • [TOFU/MOFU/BOFU]() • [CRISP-DM]() • [FastAPI]() • [Streamlit]() • [Docker]() • [Responsible AI]() • [LGPD]() • [EU AI Act Alignment]()
 
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
