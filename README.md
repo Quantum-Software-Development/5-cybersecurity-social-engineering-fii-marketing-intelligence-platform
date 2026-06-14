@@ -201,8 +201,218 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br><br>
 
+## [🎓 Academic and Institutional Context]()
+
+<br>
+
+|[] Field](   ) | [Value]() |
+|---|---|
+| [**Institution**]() | PUC-SP — Pontifícia Universidade Católica de São Paulo |
+| [**Faculty**]() | FACEI — Faculdade de Ciências Exatas e de Informática |
+| [**Program**]() | Humanistic AI & Data Science |
+| [**Semester**]() | 5th Semester — 2026 |
+| [**Courses**]() | AI Security · Cybersecurity · Social Engineering · Distributed Systems · Machine Learning |
+| [**Professors**]() | ✨ Eduardo Savino Gomes · ✨ Carlos Eduardo Paes |
+| [**Authors**]() | Fabiana ⚡️ Campanari · Pedro Vyctor ⭐️ Almeida |
+| [**Methodology**]() | CRISP-DM (Cross-Industry Standard Process for Data Mining) |
+
+<br>
+
+This project was developed at PUC-SP in the courses of cybersecurity, social engineering, data engineering and Big Data analytics applied to financial markets. The original requirement focused on demonstrating a distributed word count solution using PySpark and the MapReduce paradigm.
+
+From this starting point, the repository was extended to incorporate more advanced analytical techniques (TF-IDF, BM25, contextual sentiment), a serving architecture with FastAPI + RAG and a structured pipeline oriented towards FII marketing intelligence.
+
+<br>
+
+### [Academic Requirements Met]()
+
+<br>
+
+| Requirement | Implementation |
+|---|---|
+| Distributed Computing | PySpark · RDD MapReduce · SparkSession |
+| Big Data Architecture | Medallion (Bronze → Silver → Gold) |
+| Machine Learning | TF-IDF · BM25 · Sentiment Analysis |
+| NLP | PT-BR Tokenization · FII Lexicon · Signal Flags |
+| Data Governance | LGPD · EU AI Act · Responsible AI · XAI |
+| REST API + RAG | FastAPI · Uvicorn · Groq LLM |
+| Visualization | Streamlit · Plotly |
+| Cybersecurity | Narrative surface analysis · Social Engineering awareness |
+
+<br><br>
+
+## [Product Overview and Definition]()
+
+<br>
+
+The **Investor Intelligence Platform — FIIs Brazil** is not just an academic Big Data exercise. It is an investor intelligence platform for Brazilian Real Estate Investment Funds (FIIs), designed to transform fragmented public financial discussions into structured, searchable, explainable and decision-oriented market intelligence.
+
+Instead of being a simple dashboard, the system operates as an end-to-end analytical environment that:
+- collects data from 21 sources (RSS · scraping · Reddit)
+- organizes them in a Bronze/Silver/Gold architecture
+- enriches them with BM25+TF-IDF ranking and FII PT-BR sentiment
+- exposes results via **FastAPI + RAG + Groq chatbot + Streamlit**
+
+<br><br>
+
+---
+
+## [🎯 Objectives]()
+
+<br>
+
+1. [**Complete end-to-end pipeline**]() — from ingestion to analytical output.
+2. [**Distributed processing + NLP**]() — PySpark MapReduce combined with TF-IDF, BM25 and contextual sentiment.
+3. [**RAG over FII corpus**]() — semantic retrieval via BM25 + contextual generation via Groq.
+4. [**Cybersecurity and Social Engineering**]() — security perspective in interpreting channels and narratives.
+
+<br><br>
+
+## [👥 Target Audience]()
+
+<br>
+
+[-]() Asset and fund managers who monitor investor perception
+[-]() Financial analysts who track market narratives
+[-]() Marketing teams interested in FII visibility and engagement
+[-]() Academic evaluators assessing Big Data, Spark, NLP and RAG
+[-]() Recruiters and technical portfolio reviewers
+
+<br><br>
 
 
+
+## [ Why This Matters ❓]()
+
+<br>
+
+Analysts, managers and financial communication teams face:
+
+[-]() information dispersed across dozens of portals and communities <br>
+[-]() high noise-to-signal ratio in market discussions <br>
+[-]() difficulty tracking how sentiment and narratives evolvev <br><br>
+[-]()  lack of transparent tools aligned with LGPD and the EU AI Act
+
+This platform addresses this gap with 21 monitored sources, a Bronze/Silver/Gold pipeline and reproducible, interpretable analytics.
+
+<br><br>
+
+
+## [ Source Coverage]()
+
+<br>
+
+The platform monitors a curated set of editorial and behavioral sources relevant to the Brazilian FII ecosystem. Instead of treating all inputs as an undifferentiated corpus, the project distinguishes:
+
+- **Editorial RSS sources** — collected via structured feeds
+- **Editorial portals via scraping** — controlled extraction of public metadata
+- **Behavioral social sources** — Reddit as a community sentiment layer
+
+Detailed documentation per source: [`docs/data_sources.md`](docs/data_sources.md)
+
+<br><br>
+
+
+## [ Collection Strategy by Source Type]()
+
+<br>
+
+### [RSS-First]()
+
+<br>
+
+When available, RSS is preferred: lower extraction cost, native structured metadata, no risk of breakage due to HTML layout changes, reliable scheduling.
+
+<br>
+
+### [Scraping as Controlled Fallback]()
+
+<br>
+
+When RSS is unavailable or unstable, controlled HTML extraction of public pages. It does not simulate human navigation — it collects observable metadata (titles, links, timestamps, categories, excerpts).
+
+<br>
+
+### [Collection of Social Sources]()
+
+<br>
+
+Reddit: separate logical path as it represents conversational and community data. Treated as behavioral and discursive input, complementing editorial coverage with public sentiment and emerging narratives.
+
+
+
+[**3-level strategy:**](docs/data_collection.md)
+
+| [Level]() | [Method]() | [Requires]() |
+|---|---|---|
+| [1]() | PRAW (Python Reddit API Wrapper) | `REDDIT_CLIENT_ID` + `REDDIT_CLIENT_SECRET` |
+| [2]() | Public API `/new.json` + `/hot.json` | None |
+| [3]() | Committed frozen Parquet | None |
+
+<br><br>
+
+
+###  [ Official Data Sources — 21 Monitored Sources]()
+
+<br>
+
+| #  | [Source]()                                    | [Category]()  | [Primary Method]() | [Fallback]() | [Endpoint]()                        |
+| -- | --------------------------------------------- | ------------- | ------------------ | ------------ | ----------------------------------- |
+| 1  | [InfoMoney]()                                 | Editorial     | RSS                | —            | infomoney.com.br/feed/              |
+| 2  | [Empiricus]()                                 | Editorial     | RSS                | Scraping     | empiricus.com.br/feed/              |
+| 3  | [Money Times]()                               | Editorial     | RSS                | —            | moneytimes.com.br/feed/             |
+| 4  | [Seu Dinheiro]()                              | Editorial     | RSS                | —            | seudinheiro.com/feed/               |
+| 5  | [Exame Invest]()                              | Editorial     | RSS                | —            | exame.com/feed/                     |
+| 6  | [CNN Brasil Business ]()                      | Editorial     | RSS                | —            | cnnbrasil.com.br/feed/              |
+| 7  | [Suno Research]()                             | Editorial     | RSS (Secondary)    | —            | sunoresearch.com.br/feed/           |
+| 8  | [E-Investidor]()                              | Editorial     | RSS (Secondary)    | —            | einvestidor.estadao.com.br/feed     |
+| 9  | [NeoFeed]()                                   | Editorial     | RSS (Secondary)    | —            | neofeed.com.br/feed/                |
+| 10 | [Toro Investimentos]()                        | Editorial     | RSS                | Scraping     | blog.toroinvestimentos.com.br/feed/ |
+| 11 | [Funds Explorer]()                            | Portal        | Scraping           | —            | fundsexplorer.com.br                |
+| 12 | [Status Invest]()                             | Portal        | Scraping           | —            | statusinvest.com.br                 |
+| 13 | [Clube FII]()                                 | Portal        | Scraping           | —            | clubefii.com.br                     |
+| 14 | [FIIs.com.br]()                               | Portal        | Scraping           | —            | fiis.com.br                         |
+| 15 | [Portal do FII]()                             | Portal        | Scraping           | RSS          | portaldofii.com.br                  |
+| 16 | [Investidor10]()                              | Portal        | Scraping           | —            | investidor10.com.br                 |
+| 17 | [Eu Quero Investir]()                         | Portal        | Scraping           | —            | euqueroinvestir.com                 |
+| 18 | [Bora Investir (B3)]()                        | Institutional | Scraping           | —            | borainvestir.b3.com.br              |
+| 19 | [XP Conteúdos]()                              | Institutional | Scraping           | —            | conteudos.xpi.com.br                |
+| 20 | [Investing Brasil]()                          | Portal        | Scraping           | —            | br.investing.com                    |
+| 21| [**Reddit / Google News (Fallback)**]() | [**Social / Behavioral**]() | [**PRAW (when available) + Google News RSS (fallback)**]() | `r/investimentos` · `r/farialimabets` · news.google.com |
+
+<br>
+
+
+The original behavioral source uses Reddit (subreddits `r/investimentos` and `r/farialimabets`) as a [**social intelligence and market narrative layer**]().  
+Following changes to Reddit’s public API policy in April 2023 (HTTP 403 restrictions), the pipeline was redesigned to operate across three levels:
+
+<br>
+
+### [Source #21 — Reddit / Google News (Fallback)]()
+
+<br>
+
+1. [**Level 1 — PRAW]() (when `REDDIT_API_AVAILABLE = True`)**  
+   Uses the authenticated Reddit API to collect recent posts from the target subreddits.
+
+   <br>
+
+2. [**Level 2 — Google News RSS PT-BR (fallback)**]()
+   
+   - When Level 1 is unavailable (e.g., missing `REDDIT_CLIENT_ID` in `.env` or public API restrictions), NB01 triggers `collect_google_news_rss()`, which:
+   - queries Google News in Portuguese using FII-specific search terms,
+   - filters content using FII-related keywords (`FII_FILTER_TERMS`),
+   - stores articles with `source='news.google.com'`, `source_type='reddit'`, `tags='google_news_rss'`, and `ingestion_method='feedparser_google_news'`.
+  
+    <br>
+
+3. [**Level 3 — Frozen Parquet** ]()
+   
+   For reproducible evaluations, Source #21 data can be frozen in `data/external/` and reused without issuing new requests.
+
+In the documented reference execution, the Google News RSS fallback generated **351 FII-related articles** for Source #21, ensuring continuity of the behavioral intelligence layer even without direct access to Reddit’s public API.
+
+<br><br>
 
 
 
@@ -304,46 +514,6 @@ flowchart LR
     class H,I,J,K serving
 
     linkStyle default stroke:#22d3ee,stroke-width:2px
-```
-
-<br><br>
-
-## 2. [Data Sources — 21 Monitored Channels]()
-
-The system continuously ingests data from a diversified set of **editorial, institutional, and behavioral sources**, ensuring both informational depth and sentiment coverage.
-
-| #  | [Source]()                               | [Category]()  | [Primary Method]()  | [Fallback]()  | [Endpoint]()                   |
-| -- | ----------------------------------------- | ------------- | --------------- | ----------- | ----------------------------------- |
-| 1  | [InfoMoney]()                                | Editorial     | RSS             | —           | infomoney.com.br/feed/              |
-| 2  | [Empiricus]()                                | Editorial     | RSS             | Scraping    | empiricus.com.br/feed/              |
-| 3  | [Money Times]()                               | Editorial     | RSS             | —           | moneytimes.com.br/feed/             |
-| 4  | [Seu Dinheiro]()                              | Editorial     | RSS             | —           | seudinheiro.com/feed/               |
-| 5  | [Exame Invest]()                              | Editorial     | RSS             | —           | exame.com/feed/                     |
-| 6  | [CNN Brasil Business ]()                      | Editorial     | RSS             | —           | cnnbrasil.com.br/feed/              |
-| 7  | [Suno Research]()                            | Editorial     | RSS (Secondary) | —           | sunoresearch.com.br/feed/           |
-| 8  | [E-Investidor]()                              | Editorial     | RSS (Secondary) | —           | einvestidor.estadao.com.br/feed     |
-| 9  | [NeoFeed]()                                   | Editorial     | RSS (Secondary) | —           | neofeed.com.br/feed/                |
-| 10 | [Toro Investimentos]()                        | Editorial     | RSS             | Scraping    | blog.toroinvestimentos.com.br/feed/ |
-| 11 | [Funds Explorer]()                            | Portal        | Scraping        | —           | fundsexplorer.com.br                |
-| 12 | [Status Invest]()                             | Portal        | Scraping        | —           | statusinvest.com.br                 |
-| 13 | [Clube FII]()                                 | Portal        | Scraping        | —           | clubefii.com.br                     |
-| 14 | [FIIs.com.br]()                               | Portal        | Scraping        | —           | fiis.com.br                         |
-| 15 | [Portal do FII]()                             | Portal        | Scraping        | RSS         | portaldofii.com.br                  |
-| 16 | [Investidor10]()                              | Portal        | Scraping        | —           | investidor10.com.br                 |
-| 17 | [Eu Quero Investir]()                         | Portal        | Scraping        | —           | euqueroinvestir.com                 |
-| 18 | [Bora Investir (B3)]()                        | Institutional | Scraping        | —           | borainvestir.b3.com.br              |
-| 19 | [XP Conteúdos]()                              | Institutional | Scraping        | —           | conteudos.xpi.com.br                |
-| 20 | [Investing Brasil]()                          | Portal        | Scraping        | —           | br.investing.com                    |
-| 21 | [Reddit (r/investimentos, r/farialimabets)]() | Behavioral    | API (PRAW)      | JSON backup | reddit.com                          |
-
-<br><br>
-
-## 3. [Serving Architecture — FastAPI + RAG]()
-
-The system exposes intelligence through a **Retrieval-Augmented Generation (RAG)** architecture.
-
-```text
-Data Pipeline → Vector Database → FastAPI → LLM → User
 ```
 
 <br><br>
