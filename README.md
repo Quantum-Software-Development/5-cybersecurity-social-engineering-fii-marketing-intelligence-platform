@@ -124,13 +124,13 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <!-- ========= START NOTE ========= -->
 > [!TIP]
-> 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**
+> 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**  <br>
 >
-> #
 >
-> ✨ Part of the **Humanistic AI, Financial Intelligence & Data Systems Series <br>
+> A scalable platform combining **Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, Web Scraping, RAG** and AI-assisted analytics to transform large-scale financial discussions >
+>into actionable insights for FIIs. <br>
 > 
-> <br>
+> <br><
 >
 > $$\Huge {\textbf{\color{green} Where market discussions become investment narratives…}}$$
 >
