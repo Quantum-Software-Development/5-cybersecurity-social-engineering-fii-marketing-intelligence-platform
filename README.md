@@ -130,7 +130,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > A scalable platform combining **Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, Web Scraping, RAG** and AI-assisted analytics to transform large-scale financial discussions >
 >into actionable insights for FIIs. <br>
 > 
-> <br><
+> <br>
 >
 > $$\Huge {\textbf{\color{green} Where market discussions become investment narratives…}}$$
 >
