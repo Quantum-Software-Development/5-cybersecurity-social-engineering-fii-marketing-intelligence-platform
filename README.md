@@ -159,11 +159,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > ⚠️ Disclaimer
 > Plataforma exclusivamente educacional e analítica. Não constitui recomendação de investimento.
 
-<br><br>
-
-#
-
-<br><br>
+<br><br><br><br>
 <!-- ========= END!WARNING]========= -->
 
 ## Table of Contents
@@ -203,7 +199,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 33. [References](#-references)
 
 
-
+<br><br>
 
 
 
