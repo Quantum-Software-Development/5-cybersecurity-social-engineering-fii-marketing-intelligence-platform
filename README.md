@@ -202,20 +202,6 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 ## [🎓 Academic and Institutional Context]()
 
-<br>
-
-|[] Field](   ) | [Value]() |
-|---|---|
-| [**Institution**]() | PUC-SP — Pontifícia Universidade Católica de São Paulo |
-| [**Faculty**]() | FACEI — Faculdade de Ciências Exatas e de Informática |
-| [**Program**]() | Humanistic AI & Data Science |
-| [**Semester**]() | 5th Semester — 2026 |
-| [**Courses**]() | AI Security · Cybersecurity · Social Engineering · Distributed Systems · Machine Learning |
-| [**Professors**]() | ✨ Eduardo Savino Gomes · ✨ Carlos Eduardo Paes |
-| [**Authors**]() | Fabiana ⚡️ Campanari · Pedro Vyctor ⭐️ Almeida |
-| [**Methodology**]() | CRISP-DM (Cross-Industry Standard Process for Data Mining) |
-
-<br>
 
 This project was developed at PUC-SP in the courses of cybersecurity, social engineering, data engineering and Big Data analytics applied to financial markets. The original requirement focused on demonstrating a distributed word count solution using PySpark and the MapReduce paradigm.
 
@@ -227,16 +213,16 @@ From this starting point, the repository was extended to incorporate more advanc
 
 <br>
 
-| Requirement | Implementation |
+| [Requirement]() | [Implementation]()  |
 |---|---|
-| Distributed Computing | PySpark · RDD MapReduce · SparkSession |
-| Big Data Architecture | Medallion (Bronze → Silver → Gold) |
-| Machine Learning | TF-IDF · BM25 ·  FAISS  Sentiment · Analysis |
-| NLP | PT-BR Tokenization · FII Lexicon · Signal Flags |
-| Data Governance | LGPD · EU AI Act · Responsible AI · XAI |
-| REST API + RAG | FastAPI · Uvicorn · Groq LLM |
-| Visualization | Streamlit · Plotly |
-| Cybersecurity | Narrative surface analysis · Social Engineering awareness |
+| [Distributed Computing]()  | PySpark · RDD MapReduce · SparkSession |
+| [Big Data Architecture]()  | Medallion (Bronze → Silver → Gold) |
+| [Machine Learning]()  | TF-IDF · BM25 ·  FAISS ·  Sentiment · Analysis |
+|[ NLP]()  | PT-BR Tokenization · FII Lexicon · Signal Flags |
+| [Data Governance]()  | LGPD · EU AI Act · Responsible AI · XAI |
+| [REST API + RAG]()  | FastAPI · Uvicorn · Groq LLM |
+| [Visualization]()  | Streamlit · Plotly |
+| [Cybersecurity]()  | Narrative surface analysis · Social Engineering awareness |
 
 <br><br>
 
@@ -244,17 +230,16 @@ From this starting point, the repository was extended to incorporate more advanc
 
 <br>
 
-The **Investor Intelligence Platform — FIIs Brazil** is not just an academic Big Data exercise. It is an investor intelligence platform for Brazilian Real Estate Investment Funds (FIIs), designed to transform fragmented public financial discussions into structured, searchable, explainable and decision-oriented market intelligence.
+The [**Investor Intelligence Platform 🇧🇷 FIIs Brazil**]() is not just an academic Big Data exercise. It is an investor intelligence platform for Brazilian Real Estate Investment Funds (FIIs), designed to transform fragmented public financial discussions into structured, searchable, explainable and decision-oriented market intelligence.
 
 Instead of being a simple dashboard, the system operates as an end-to-end analytical environment that:
 - collects data from 21 sources (RSS · scraping · Reddit)
 - organizes them in a Bronze/Silver/Gold architecture
 - enriches them with hybrid retrieval (TF-IDF + BM25 + FAISS semantic search with multilingual PT-BR embeddings), FII PT-BR sentiment and explainable marketing intelligence signals
-- exposes results via **FastAPI + RAG + Groq chatbot + Streamlit**
+- exposes results via [**FastAPI + RAG + Groq chatbot + Streamlit**]()
 
 <br><br>
 
----
 
 ## [🎯 Objectives]()
 
@@ -303,11 +288,13 @@ This platform addresses this gap with 21 monitored sources, a Bronze/Silver/Gold
 
 The platform monitors a curated set of editorial and behavioral sources relevant to the Brazilian FII ecosystem. Instead of treating all inputs as an undifferentiated corpus, the project distinguishes:
 
-- **Editorial RSS sources** — collected via structured feeds
-- **Editorial portals via scraping** — controlled extraction of public metadata
-- **Behavioral social sources** — Reddit as a community sentiment layer
+- [**Editorial RSS sources**]() — collected via structured feeds
+- [**Editorial portals via scraping**]() — controlled extraction of public metadata
+- [**Behavioral social sources**]() — Reddit as a community sentiment layer
 
-Detailed documentation per source: [`docs/data_sources.md`](docs/data_sources.md)
+<br>
+
+> Detailed documentation per source: [`docs/data_sources.md`](docs/data_sources.md)
 
 <br><br>
 
