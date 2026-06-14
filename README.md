@@ -166,7 +166,41 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 <br><br>
 <!-- ========= END!WARNING]========= -->
 
+## Table of Contents
 
+1. [Academic and Institutional Context](#-academic-and-institutional-context)
+2. [Product Overview and Definition](#-product-overview-and-definition)
+3. [Objectives](#-objectives)
+4. [Target Audience](#-target-audience)
+5. [Why This Matters](#-why-this-matters)
+6. [Source Coverage](#-source-coverage)
+7. [Collection Strategy by Source Type](#-collection-strategy-by-source-type)
+8. [Official Data Sources — 21 Monitored Sources](#-official-data-sources--21-monitored-sources)
+9. [High-Level Architecture](#-high-level-architecture)
+10. [Pipeline NB00–NB07](#-pipeline-nb00nb07)
+11. [Serving Architecture — FastAPI + RAG](#-serving-architecture--fastapi--rag)
+12. [Project Structure](#-project-structure)
+13. [API Layer (FastAPI)](#-api-layer-fastapi)
+14. [Main Endpoint — Semantic Query](#-main-endpoint--semantic-query)
+15. [Retrieval Layer (RAG via BM25)](#-retrieval-layer-rag-via-bm25)
+16. [Generation Layer (LLM — Groq)](#-generation-layer-llm--groq)
+17. [End-to-End Flow](#-end-to-end-flow)
+18. [Expanded Analytical Methodology](#-expanded-analytical-methodology)
+19. [The 3 Core Techniques: MapReduce + TF-IDF + BM25](#-the-3-core-techniques-mapreduce--tf-idf--bm25--how-they-complement-each-other)
+20. [Focus on Marketing Intelligence: TOFU and Negative Context](#-focus-on-marketing-intelligence-tofu-and-negative-context)
+21. [From Academic Requirement to Analytical Platform](#-from-academic-requirement-to-analytical-platform)
+22. [What This Platform Delivers](#-what-this-platform-delivers)
+23. [Cybersecurity and Social Engineering Perspective](#-cybersecurity-and-social-engineering-perspective)
+24. [Notebooks NB00–NB07: Technical Report](#-notebooks-nb00nb07-technical-report)
+25. [Big Data Infrastructure](#-big-data-infrastructure)
+26. [Governance](#-governance)
+27. [How to Run](#-how-to-run)
+28. [Makefile — Complete Reference](#-makefile--complete-reference)
+29. [Delivery Roadmap](#-delivery-roadmap)
+30. [Portfolio Evolution](#-portfolio-evolution)
+31. [Expected Outputs](#-expected-outputs)
+32. [Documentation Set](#-documentation-set)
+33. [References](#-references)
 
 
 
