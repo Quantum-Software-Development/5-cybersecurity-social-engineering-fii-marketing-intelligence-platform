@@ -22,8 +22,8 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br>
 
-### <p align="center"> ******Uma plataforma de inteligência de nível institucional projetada para monitorar, estruturar, ranquear e interpretar sinais relacionados aos Fundos de Investimento Imobiliário (FIIs) brasileiros em mídias financeiras, portais de pesquisa e comunidades de investidores.***
-.***
+### <p align="center"> ***Uma plataforma de inteligência de nível institucional projetada para monitorar, estruturar, ranquear e interpretar sinais relacionados aos Fundos de Investimento Imobiliário (FIIs) brasileiros em mídias financeiras, portais de pesquisa e comunidades de investidores.***
+
 
 <br>
 
