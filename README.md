@@ -127,8 +127,6 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > #
 >
 > ✨ Part of the **Humanistic AI, Financial Intelligence & Data Systems Series <br>
->
-> ### [***Where market discussions become investment narratives…***]() because markets talk a lot... ***intelligent systems just listen better.*** <br>
 > 
 > <br>
 >
@@ -154,6 +152,10 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > 
 > ⚠️ Disclaimer
 > Plataforma exclusivamente educacional e analítica. Não constitui recomendação de investimento.
+
+<br><br>
+
+#
 
 <br><br>
 <!-- ========= END!WARNING]========= -->
