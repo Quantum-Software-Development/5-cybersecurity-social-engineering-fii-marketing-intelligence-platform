@@ -128,12 +128,14 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 >
 > ✨ Part of the **Humanistic AI, Financial Intelligence & Data Systems Series**
 >
-> ### [***Where market discussions become investment narratives…***]() ***because markets talk a lot... intelligent systems just listen better.*** <br>
+> ### [***Where market discussions become investment narratives…***]() because markets talk a lot... ***intelligent systems just listen better.*** <br>
 >
 > ### ⚡
 
 <br><br>
 <!-- ========= END NOTE ========= -->
+
+$$\Huge {\textbf{\color{green} Where market discussions become investment narratives…}  \space \textbf{\color{yellow}  Data Lakehouse} \space \textbf{\color{white} •} \space \textbf{\color{green} NLP} \space \textbf{\color{white} •} \space \textbf{\color{yellow} Responsible AI} \space \textbf{\color{white} •} \space \textbf{\color{green} Regulatory Alignment}}$$
 
 
 <!-- ========= START !WARNING] ========= -->
