@@ -22,7 +22,8 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br>
 
-### <p align="center"> ***An institutional-grade intelligence platform for monitoring, structuring, ranking, and interpreting Brazilian Real Estate Investment Fund (FII) signals from financial media, research portals, and investor communities.***
+### <p align="center"> ******Uma plataforma de inteligência de nível institucional projetada para monitorar, estruturar, ranquear e interpretar sinais relacionados aos Fundos de Investimento Imobiliário (FIIs) brasileiros em mídias financeiras, portais de pesquisa e comunidades de investidores.***
+.***
 
 <br>
 
@@ -131,9 +132,8 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 > 🔗 **[Cybersecurity, Social Engineering & AI Security — Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Hub)**  <br>
 >
 >
-> A scalable platform combining **Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, Web Scraping, RAG** and AI-assisted analytics to transform large-scale financial discussions >
->into actionable insights for FIIs. <br>
-> 
+> Uma plataforma escalável que combina **Big Data, PySpark, MapReduce, Word Count, NLP, TF-IDF, BM25, Web Scraping, RAG** e análises assistidas por IA para transformar discussões financeiras > em larga escala em insights acionáveis para Fundos de Investimento Imobiliário (FIIs).
+>
 > <br>
 >
 > $$\Huge {\textbf{\color{green} Where market discussions become investment narratives…}}$$
