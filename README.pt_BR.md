@@ -206,6 +206,7 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br><br>
 
+<!--
 
 ## 1. Por que usar MapReduce?.
 
@@ -507,7 +508,7 @@ para realizar:
 
 **inteligência de marketing baseada em contexto, recuperação de conhecimento, IA generativa e processamento escalável em nuvem.**
 
-
+-->
 
 
 
