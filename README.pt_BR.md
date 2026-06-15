@@ -207,6 +207,306 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 <br><br>
 
 
+## 1. Por que usar MapReduce?.
+
+O problema é:
+
+frequência sozinha não significa relevância.
+
+Exemplo no contexto de FIIs:
+
+A palavra:
+
+**investimento**
+
+pode aparecer milhares de vezes.
+
+Mas isso não ajuda a decidir marketing.
+
+
+<br>
+
+Já:
+
+**renda_passiva**
+
+
+<br>
+
+ou
+
+**dividendos**
+
+são muito mais relevantes para um investidor FII.
+
+Então o MapReduce resolve a primeira camada do problema:
+
+**“O que aparece com frequência?”**
+
+
+<br><br>
+
+No projeto:
+
+* Spark + RDD
+* parallelize()
+* flatMap()
+* map()
+* reduceByKey()
+* collect()
+
+
+<br>
+
+foram usados para:
+
+* contar palavras
+* identificar termos recorrentes
+* medir frequência por fonte
+* construir baseline estatística
+
+ 
+<br> 
+
+Ou seja:
+
+**MapReduce = frequência + escalabilidade**
+
+Sem ele:
+
+não existe base quantitativa do projeto.
+
+
+<br>
+
+#
+   
+<br>
+
+## 2. Por que usar TF-IDF?
+
+Problema da frequência pura:
+
+Palavras muito comuns dominam o ranking.
+
+Exemplo:
+
+* mercado
+* investimento
+* fundo
+* imovel
+
+aparecem em quase todos os portais.
+
+Mas isso não significa:
+
+**“melhor termo para marketing”.**
+
+O TF-IDF resolve isso.
+
+Ele pergunta:
+
+**“O que é importante dentro de um documento, mas não aparece igual em todos?”**
+
+No contexto do projeto:
+
+Ele ajuda a descobrir:
+
+termos distintivos do universo FII.
+
+Exemplo:
+
+Em vez de valorizar:
+
+**mercado**
+
+ele pode destacar:
+
+* renda_passiva
+* proventos
+* fluxo_caixa
+* valorizacao_patrimonial
+
+Porque esses termos são:
+
+* mais específicos
+* mais educativos
+* mais alinhados ao TOFU
+
+Ou seja:
+
+**TF-IDF = importância estatística contextual**
+
+
+<br>
+
+#
+
+<br>
+
+## 3. Por que usar BM25?
+
+TF-IDF ainda tem uma limitação:
+
+Ele não lida tão bem com:
+
+* tamanho do texto
+* contexto documental
+* relevância semântica prática
+
+Exemplo:
+
+Um artigo enorme da InfoMoney pode ter:
+
+**dividendos**
+
+20 vezes.
+
+Um artigo curto da Suno pode ter:
+
+**dividendos**
+
+4 vezes.
+
+TF-IDF pode favorecer exageradamente o texto maior.
+
+O BM25 corrige isso.
+
+Ele:
+
+* normaliza pelo tamanho do documento
+* mede relevância contextual
+* funciona melhor como ranking
+
+No projeto:
+
+Ele responde:
+
+**“Qual termo realmente importa para um investidor FII dentro daquele contexto?”**
+
+Isso é MUITO importante para:
+
+decisão de marketing.
+
+Porque vocês querem:
+
+não apenas palavras frequentes,
+
+mas:
+
+palavras relevantes para awareness TOFU.
+
+Exemplo:
+
+* dividendos
+* renda_passiva
+* longo_prazo
+* geracao_renda
+
+ganham força porque aparecem em contexto educativo.
+
+---
+
+## 4. Por que usar RAG?
+
+Mesmo com MapReduce, TF-IDF e BM25 existe uma limitação:
+
+eles identificam padrões e relevância,
+
+mas não geram explicações ou insights automaticamente.
+
+O RAG (Retrieval-Augmented Generation) resolve esse problema.
+
+Ele combina:
+
+* recuperação de informação (retrieval)
+* geração de texto por IA (generation)
+
+No projeto:
+
+os documentos processados por Spark, TF-IDF e BM25 tornam-se uma base de conhecimento.
+
+Quando o usuário faz uma pergunta como:
+
+**“Quais temas sobre FIIs são mais interessantes para conteúdo TOFU?”**
+
+o RAG:
+
+1. recupera os documentos mais relevantes;
+2. utiliza os rankings gerados pelo BM25;
+3. envia esse contexto para o modelo de IA;
+4. gera uma resposta fundamentada nos dados coletados.
+
+Dessa forma:
+
+a IA não responde apenas com conhecimento genérico.
+
+Ela responde utilizando os conteúdos reais analisados pelo projeto.
+
+Ou seja:
+
+**RAG = recuperação de conhecimento + geração contextualizada de insights**
+
+---
+
+## 5. Por que usar FaaS?
+
+Após processar os dados, surge outro desafio:
+
+como disponibilizar análises e respostas de forma escalável?
+
+A solução é utilizar FaaS (Function as a Service).
+
+FaaS é um modelo serverless em que funções são executadas sob demanda.
+
+No projeto, isso permite:
+
+* executar consultas sem manter servidores ativos;
+* reduzir custos de infraestrutura;
+* escalar automaticamente conforme o número de usuários;
+* disponibilizar APIs para consumo dos resultados.
+
+Exemplo:
+
+Quando um usuário solicita:
+
+**“Mostre os principais termos relacionados à renda passiva.”**
+
+uma função serverless pode:
+
+1. consultar os resultados armazenados;
+2. aplicar o ranking BM25;
+3. recuperar documentos para o RAG;
+4. retornar a resposta instantaneamente.
+
+Ou seja:
+
+**FaaS = execução escalável e sob demanda dos serviços analíticos**
+
+---
+
+## 6. Por que usar todas as tecnologias juntas?
+
+Porque cada uma resolve um problema diferente.
+
+| Técnica   | O que responde?                                   | Papel no projeto       |
+| --------- | ------------------------------------------------- | ---------------------- |
+| MapReduce | O que aparece mais?                               | Frequência             |
+| TF-IDF    | O que é importante?                               | Relevância estatística |
+| BM25      | O que é realmente relevante no contexto?          | Ranking contextual     |
+| RAG       | Como transformar dados em respostas inteligentes? | Geração de insights    |
+| FaaS      | Como disponibilizar tudo de forma escalável?      | Execução serverless    |
+
+Juntas, essas tecnologias transformam o projeto de uma simples análise textual em uma plataforma inteligente de marketing orientada por dados.
+
+Vocês deixam de apenas:
+
+**contar palavras**
+
+para realizar:
+
+**inteligência de marketing baseada em contexto, recuperação de conhecimento, IA generativa e processamento escalável em nuvem.**
+
 
 
 
