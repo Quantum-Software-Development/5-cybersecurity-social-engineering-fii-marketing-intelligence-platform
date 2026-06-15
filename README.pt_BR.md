@@ -206,6 +206,52 @@ $$\Huge {\textbf{\color{green} CRISP-DM} \space \textbf{\color{white} •} \spac
 
 <br><br>
 
+ TERMOS TOFU 
+
+Priorizar:
+- dividendos
+- renda passiva
+- patrimônio
+- recorrência
+- diversificação
+- yield
+- inflação
+- longo prazo
+- gestão
+- carteira
+- previsibilidade\
+- geração de renda
+- fundos imobiliários\renda mensal
+- investimento imobiliário
+- independência financeira
+- proventos
+- valorização patrimonial
+- fluxo de caixa
+—
+
+TERMOS CONTYEXTO  NEGATIVOS
+
+Detectar:
+   -vacância
+   -inadimplência
+   -risco
+   - prejuízo
+- corte de dividendos
+- alavancagem
+- queda
+- crise
+- desvalorização
+- deterioração
+- incerteza
+- baixa liquidez
+- má gestão
+- redução de proventos
+- juros altos
+- risco de crédito
+
+<br>
+<br>
+
 
 ## 1. Por que usar MapReduce?.
 
