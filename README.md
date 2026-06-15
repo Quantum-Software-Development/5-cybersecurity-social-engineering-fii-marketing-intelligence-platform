@@ -305,12 +305,12 @@ The platform monitors a curated set of editorial and behavioral sources relevant
 
 ## [Collection Strategy by Source Type]()
 
+<br>
 
 ### [***RSS-First***]()
 
-<br>
 
-When available, RSS is preferred: lower extraction cost, native structured metadata, no risk of breakage due to HTML layout changes, reliable scheduling.
+When available, [**RSS**]() is preferred: lower extraction cost, native structured metadata, no risk of breakage due to HTML layout changes, reliable scheduling.
 
 <br>
 
@@ -318,17 +318,12 @@ When available, RSS is preferred: lower extraction cost, native structured metad
 
 When RSS is unavailable or unstable, controlled HTML extraction of public pages. It does not simulate human navigation — it collects observable metadata (titles, links, timestamps, categories, excerpts).
 
-<br>
-
 
 ### [***Collection of Social Sources***]()
-
-<br>
 
 Reddit follows a separate logical path because it represents conversational and community-based data.
 It is treated as a behavioral and discursive input layer that complements editorial coverage with public sentiment and emerging narratives.
 
-<br>
 
 ### [***3-level strategy:***](docs/data_collection.md)
 
