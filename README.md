@@ -495,7 +495,7 @@ flowchart LR
 
 <br>
 
-Detailed architecture diagram → [docs/architecture.md]()
+Detailed architecture diagram → [docs/architecture.md](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5e7c18a109c56f765ea7cdbf16b8a65ad41a0e2a/docs/architecture.md)
 
 <br><br>
 
