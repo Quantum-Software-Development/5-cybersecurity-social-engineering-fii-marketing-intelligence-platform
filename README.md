@@ -399,11 +399,11 @@ It is treated as a behavioral and discursive input layer that complements editor
   
     <br>
 
-3. [**Level 3 — Frozen Parquet** ]()
-   
-   For reproducible evaluations, Source #21 data can be frozen in `data/external/` and reused without issuing new requests.
+3. [**Level 3 — Frozen Parquet (Resilient Snapshot)** ]()
 
-In the documented reference execution, the Google News RSS fallback generated **351 FII-related articles** for Source #21, ensuring continuity of the behavioral intelligence layer even without direct access to Reddit’s public API.
+   For reproducible evaluations and operational resilience, Source 21 data can be frozen in `data/external/` and reused without issuing new requests.
+
+In the documented reference execution, the [Google News RSS fallback]() generated [**351 FII-related articles**]() for [Source 2]()1, preserving continuity of the behavioral intelligence layer even when direct access to Reddit’s public API was unavailable. [page:46]
 
 <br><br>
 
