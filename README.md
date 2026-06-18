@@ -216,18 +216,18 @@ From this starting point, the repository was extended to incorporate more advanc
 
 <br>
 
-| Requirement | Implementation |
+| [Requirement]() | [Implementation]() |
 | :-- | :-- |
-| Distributed Computing | PySpark · RDD MapReduce · SparkSession |
-| Big Data Architecture | Medallion (Bronze → Silver → Gold) |
-| Machine Learning | TF-IDF · BM25 · Semantic Embeddings · Sentiment Analysis |
-| Vector Search | FAISS · Dense Index · Multilingual PT-BR Embeddings |
-| NLP | PT-BR Tokenization · FII Lexicon · Signal Flags |
-| Data Governance | LGPD · EU AI Act · Responsible AI · XAI |
-| REST API | FastAPI · Uvicorn |
-| RAG | Hybrid Retrieval · Groq LLM · Context-Aware Answering |
-| Visualization | Streamlit · Plotly |
-| Cybersecurity | Narrative surface analysis · Social Engineering awareness |
+| [Distributed Computing]() | PySpark · RDD MapReduce · SparkSession |
+| [Big Data Architecture]() | Medallion (Bronze → Silver → Gold) |
+| [Machine Learning]() | TF-IDF · BM25 · Semantic Embeddings · Sentiment Analysis |
+| [Vector Search]() | FAISS · Dense Index · Multilingual PT-BR Embeddings |
+| [NLP]() | PT-BR Tokenization · FII Lexicon · Signal Flags |
+| [Data Governance]() | LGPD · EU AI Act · Responsible AI · XAI |
+| [REST API]() | FastAPI · Uvicorn |
+| [RAG]() | Hybrid Retrieval · Groq LLM · Context-Aware Answering |
+| [Visualization]() | Streamlit · Plotly |
+| [Cybersecurity]() | Narrative surface analysis · Social Engineering awareness |
 
 <br><br>
 
