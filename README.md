@@ -216,16 +216,18 @@ From this starting point, the repository was extended to incorporate more advanc
 
 <br>
 
-| [Requirement]() | [Implementation]()  |
-|---|---|
-| [Distributed Computing]()  | PySpark · RDD MapReduce · SparkSession |
-| [Big Data Architecture]()  | Medallion (Bronze → Silver → Gold) |
-| [Machine Learning]()  | TF-IDF · BM25 ·  FAISS ·  Sentiment · Analysis |
-|[ NLP]()  | PT-BR Tokenization · FII Lexicon · Signal Flags |
-| [Data Governance]()  | LGPD · EU AI Act · Responsible AI · XAI |
-| [REST API + RAG]()  | FastAPI · Uvicorn · Groq LLM |
-| [Visualization]()  | Streamlit · Plotly |
-| [Cybersecurity]()  | Narrative surface analysis · Social Engineering awareness |
+| Requirement | Implementation |
+| :-- | :-- |
+| Distributed Computing | PySpark · RDD MapReduce · SparkSession |
+| Big Data Architecture | Medallion (Bronze → Silver → Gold) |
+| Machine Learning | TF-IDF · BM25 · Semantic Embeddings · Sentiment Analysis |
+| Vector Search | FAISS · Dense Index · Multilingual PT-BR Embeddings |
+| NLP | PT-BR Tokenization · FII Lexicon · Signal Flags |
+| Data Governance | LGPD · EU AI Act · Responsible AI · XAI |
+| REST API | FastAPI · Uvicorn |
+| RAG | Hybrid Retrieval · Groq LLM · Context-Aware Answering |
+| Visualization | Streamlit · Plotly |
+| Cybersecurity | Narrative surface analysis · Social Engineering awareness |
 
 <br><br>
 
@@ -299,7 +301,7 @@ The platform monitors a curated set of editorial and behavioral sources relevant
 
 <br>
 
-> [!TIP]
+> [!IMPORTANT]
 > Detailed documentation per source: [`docs/data_sources.md`](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/2b697bb54a78f4d31424ecd334466f9fc4a8d6e0/docs/data_sources.md)
 
 <br><br>
