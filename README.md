@@ -210,9 +210,9 @@ This project was developed at PUC-SP in the courses of cybersecurity, social eng
 
 From this starting point, the repository was extended to incorporate more advanced analytical techniques (TF-IDF, BM25, contextual sentiment), a serving architecture with FastAPI + RAG and a structured pipeline oriented towards FII marketing intelligence.
 
-<br>
+<br><br>
 
-### [Academic Requirements Met]()
+## [Academic Requirements Met]()
 
 <br>
 
@@ -237,9 +237,9 @@ The [**Investor Intelligence Platform 🇧🇷 FIIs Brazil**]() is not just an a
 
 Instead of being a simple dashboard, the system operates as an end-to-end analytical environment that:
 
-[-]() collects data from 21 sources (RSS · scraping · Reddit)
-[-]()organizes them in a Bronze/Silver/Gold architecture
-[-]() enriches them with hybrid retrieval (TF-IDF + BM25 + FAISS semantic search with multilingual PT-BR embeddings), FII PT-BR sentiment and explainable marketing intelligence signals
+[-]() collects data from 21 sources (RSS · scraping · Reddit)<br>
+[-]()organizes them in a Bronze/Silver/Gold architecture <br>
+[-]() enriches them with hybrid retrieval (TF-IDF + BM25 + FAISS semantic search with multilingual PT-BR embeddings), FII PT-BR sentiment and explainable marketing intelligence signals   <br>
 [-]() exposes results via [**FastAPI + RAG + Groq chatbot + Streamlit**]()
 
 <br><br>
