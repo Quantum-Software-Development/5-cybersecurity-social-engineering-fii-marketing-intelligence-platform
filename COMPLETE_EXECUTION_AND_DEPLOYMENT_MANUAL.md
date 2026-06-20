@@ -98,7 +98,7 @@ The system implements **hybrid search**:
 
 <br><br>
 
-## Retrieval Flow
+### Retrieval Flow
 
 <br>
 
@@ -129,7 +129,7 @@ Implemented in notebooks:
 
 <br><br>
 
-## Processing Chain
+### Processing Chain
 
 <br>
 
@@ -184,7 +184,7 @@ The API serves processed data from the Gold layer.
 
 <br><br>
 
-## API Flow
+### API Flow
 
 <br>
 
@@ -194,9 +194,13 @@ flowchart LR
 
 GOLD[Gold Dataset - Git] --> API[FastAPI Service]
 
-API --> ENDPOINTS[/articles /query /health]
+API --> A1[/articles endpoint/]
+API --> A2[/query endpoint/]
+API --> A3[/health endpoint/]
 
-ENDPOINTS --> CLIENT[External Consumers]
+A1 --> CLIENT[External Consumers]
+A2 --> CLIENT
+A3 --> CLIENT
 ```
 
 <br><br>
