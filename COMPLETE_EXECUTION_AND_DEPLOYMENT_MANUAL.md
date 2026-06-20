@@ -269,7 +269,7 @@ PUSH --> DEPLOY[Auto Deploy: Render + Streamlit]
 ```
 <br><br>
 
-## ⚠️ 11. Key Design Decisions (Faithful)
+## ⚠️ 11. Key Design Decisions
 
 ### Why Batch Processing?
 
