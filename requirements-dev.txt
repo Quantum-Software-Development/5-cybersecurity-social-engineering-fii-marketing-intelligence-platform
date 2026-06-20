@@ -3,18 +3,33 @@
 # Investor Intelligence Platform — FIIs Brasil
 # Development Requirements
 #
-# Install with:
-#   pip install -r requirements.txt -r requirements-dev.txt
+# WHAT THIS FILE IS
+# This file contains development-only dependencies.
+# It extends the main runtime setup with notebook tooling,
+# testing, linting, formatting, and data-quality validation.
+#
+# WHEN TO USE
+# Use this file when you are developing locally, running
+# notebooks, executing tests, or working on code quality.
+#
+# HOW TO USE
+# 1) Install the base runtime dependencies first:
+#    pip install -r requirements.txt
+#
+# 2) Then install the development dependencies:
+#    pip install -r requirements-dev.txt
+#
+# 3) Or install both at once:
+#    pip install -r requirements.txt -r requirements-dev.txt
 # ==========================================================
 
 # ==========================================================
-# BIG DATA / DATA ENGINEERING
+# BIG DATA / DATA ENGINEERING (DEV)
 # ==========================================================
-pyspark==3.5.2
 polars==1.1.0
 
 # ==========================================================
-# NOTEBOOKS / INTERACTIVE WORK
+# JUPYTER / NOTEBOOKS
 # ==========================================================
 jupyter==1.0.0
 jupyterlab==4.5.8
