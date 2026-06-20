@@ -1,0 +1,38 @@
+# ==========================================================
+# FII Intelligence Platform
+# Investor Intelligence Platform — FIIs Brasil
+# Development Requirements
+#
+# Install with:
+#   pip install -r requirements.txt -r requirements-dev.txt
+# ==========================================================
+
+# ==========================================================
+# BIG DATA / DATA ENGINEERING
+# ==========================================================
+pyspark==3.5.2
+polars==1.1.0
+
+# ==========================================================
+# NOTEBOOKS / INTERACTIVE WORK
+# ==========================================================
+jupyter==1.0.0
+jupyterlab==4.5.8
+notebook==7.5.7
+ipykernel==6.29.5
+ipywidgets==8.1.8
+
+# ==========================================================
+# TESTING / CODE QUALITY
+# ==========================================================
+pytest==9.0.3
+pytest-cov==7.1.0
+pytest-mock==3.14.0
+black==26.3.1
+flake8==7.1.0
+isort==5.13.2
+
+# ==========================================================
+# DATA QUALITY / GOVERNANCE
+# ==========================================================
+great-expectations==0.18.22
