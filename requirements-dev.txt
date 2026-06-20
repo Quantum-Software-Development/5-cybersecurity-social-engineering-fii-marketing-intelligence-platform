@@ -1,16 +1,24 @@
+
 # ==========================================================
 # FII Intelligence Platform
-# Investor Intelligence Platform — FIIs Brasil
+# Investor Intelligence Platform — Brazilian REITs (FIIs)
 # Development Requirements
+#
+# WHICH FILE SHOULD I USE? — see the complete table in:
+#   docs/architecture/REQUIREMENTS_GUIA.md
+#   MANUAL_COMPLETO.md, section 6.0
 #
 # WHAT THIS FILE IS
 # This file contains development-only dependencies.
-# It extends the main runtime setup with notebook tooling,
-# testing, linting, formatting, and data-quality validation.
+# It extends the main runtime environment with notebook tools,
+# testing frameworks, code quality utilities, formatting,
+# and data-quality validation.
 #
 # WHEN TO USE
-# Use this file when you are developing locally, running
-# notebooks, executing tests, or working on code quality.
+# Use this file when developing locally, running notebooks,
+# executing tests, or working on code quality.
+# Do NOT use it for deployment (Render/Streamlit Cloud) —
+# see requirements-api.txt and dashboard/requirements.txt.
 #
 # HOW TO USE
 # 1) Install the base runtime dependencies first:
@@ -25,11 +33,20 @@
 
 # ==========================================================
 # BIG DATA / DATA ENGINEERING (DEV)
+# ----------------------------------------------------------
+# ⚠️ Polars is NOT used by the implemented pipeline
+# (NB00-NB07 use Pandas + PySpark). It is preserved as a
+# high-performance alternative for users interested in
+# experimenting with local replacements.
 # ==========================================================
 polars==1.1.0
 
 # ==========================================================
 # JUPYTER / NOTEBOOKS
+# ----------------------------------------------------------
+# Interactive development environment used to execute
+# notebooks (NB00-NB07), perform experiments, and visualize
+# results during development.
 # ==========================================================
 jupyter==1.0.0
 jupyterlab==4.5.8
@@ -39,6 +56,11 @@ ipywidgets==8.1.8
 
 # ==========================================================
 # TESTING / CODE QUALITY
+# ----------------------------------------------------------
+# Tools used for automated testing, code formatting,
+# static analysis, and import organization. These packages
+# improve maintainability and software quality but are not
+# required in production.
 # ==========================================================
 pytest==9.0.3
 pytest-cov==7.1.0
@@ -49,5 +71,16 @@ isort==5.13.2
 
 # ==========================================================
 # DATA QUALITY / GOVERNANCE
+# ----------------------------------------------------------
+# ⚠️ Great Expectations is NOT currently used by the
+# notebooks. Quality gates in NB02 are implemented directly
+# in PySpark (see docs/architecture/silver_schema.md).
+#
+# This package is preserved as a future evolution path for:
+# - schema validation
+# - expectation suites
+# - data quality monitoring
+# - governance and observability
 # ==========================================================
 great-expectations==0.18.22
+
