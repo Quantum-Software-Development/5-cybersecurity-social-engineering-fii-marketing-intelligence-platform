@@ -1,38 +1,39 @@
- # ==========================================================
+# ==========================================================
 # FII Intelligence Platform
 # Investor Intelligence Platform — FIIs Brasil
-# Unified Root Requirements
+# Runtime Requirements
 #
-# Canonical dependency file for the entire repository:
-# - PySpark notebooks (NB00–NB07)
-# - Streamlit dashboard
-# - FastAPI REST API
-# - RAG pipeline with Groq
-# - lexical retrieval (TF-IDF / BM25)
-# - semantic retrieval (Sentence-Transformers / FAISS)
+# WHAT THIS FILE IS
+# This is the main dependency file for the repository runtime.
+# It contains the packages required to run the core application
+# stack locally, including ingestion, analytics, dashboard, API,
+# lexical retrieval, and semantic retrieval.
 #
-# This single root-level requirements.txt replaces the need
-# for a separate API-only dependency file.
+# WHEN TO USE
+# Use this file when you want to run the project locally with
+# its main runtime capabilities.
 #
-# Production note:
-# In constrained environments, the API may use only a subset
-# of these dependencies at runtime. However, this repository
-# standardizes installation through one unified root file.
+# HOW TO USE
+# 1) Install the main runtime dependencies:
+#    pip install -r requirements.txt
 #
-# Semantic search note:
-# sentence-transformers, torch and faiss-cpu support the dense
-# retrieval layer and may increase memory usage in low-memory
-# deployments.
+# 2) For full local development with notebooks and tests:
+#    pip install -r requirements.txt -r requirements-dev.txt
 # ==========================================================
+
+# ==========================================================
+# CORE DATA
+# ==========================================================
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==24.0.0
+scipy==1.13.1
+python-dateutil==2.9.0.post0
 
 # ==========================================================
 # BIG DATA / DATA ENGINEERING
 # ==========================================================
 pyspark==3.5.2
-pandas==2.2.2
-numpy==1.26.4
-pyarrow==24.0.0
-polars==1.1.0
 
 # ==========================================================
 # STORAGE / DATA LAKE (MINIO / S3)
@@ -55,12 +56,6 @@ trafilatura==2.1.0
 feedparser==6.0.11
 praw==7.7.1
 selenium>=4.0.0,<5.0.0
-
-# ==========================================================
-# SCIENTIFIC COMPUTING
-# ==========================================================
-scipy==1.13.1
-python-dateutil==2.9.0.post0
 
 # ==========================================================
 # NLP / BM25 / TEXT ANALYTICS
@@ -108,7 +103,7 @@ streamlit-option-menu==0.3.13
 streamlit-extras==0.4.3
 
 # ==========================================================
-# GROQ / LLM / RAG
+# LLM / RAG
 # ==========================================================
 groq==1.4.0
 
@@ -118,34 +113,10 @@ groq==1.4.0
 sqlalchemy==2.0.31
 
 # ==========================================================
-# DATA QUALITY / GOVERNANCE
-# ==========================================================
-great-expectations==0.18.22
-
-# ==========================================================
 # CONFIGURATION
 # ==========================================================
 python-dotenv==1.2.2
 PyYAML==6.0.1
-
-# ==========================================================
-# JUPYTER / NOTEBOOKS
-# ==========================================================
-jupyter==1.0.0
-jupyterlab==4.5.9
-notebook==7.5.7
-ipykernel==6.29.5
-ipywidgets==8.1.8
-
-# ==========================================================
-# TESTING / CODE QUALITY
-# ==========================================================
-pytest==9.0.3
-pytest-cov==7.1.0
-pytest-mock==3.14.0
-black==26.3.1
-flake8==7.1.0
-isort==5.13.2
 
 # ==========================================================
 # LOGGING / UTILITIES
