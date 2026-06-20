@@ -1,7 +1,18 @@
 # ==========================================================
-# FII Intelligence Platform
-# Plataforma de Inteligência de Investidores — FIIs Brasil
-# Global Requirements
+# Global requirements — notebooks, dashboard, and API
+# Investor Intelligence Platform — FIIs Brasil
+#
+# This file defines the full dependency set used by:
+# - PySpark + exploratory notebooks (NB00–NB07)
+# - Streamlit dashboard
+# - FastAPI REST API (RAG + Groq client)
+#
+# In production (Render), the API only needs a lighter subset:
+# FastAPI, Uvicorn, Pydantic, python-dotenv, Pandas, NumPy,
+# PyArrow, SciPy, scikit-learn, rank-bm25 and Groq.
+# Heavy packages such as PySpark, Jupyter, dev tools
+# (pytest/black/flake8) and great-expectations are not required
+# at runtime, but remain here for full local development.
 # ==========================================================
 
 # ==========================================================
@@ -21,7 +32,7 @@ boto3>=1.34.131,<1.35
 s3fs>=2024.6.1,<2025.0
 
 # ==========================================================
-# WEB SCRAPING
+# WEB SCRAPING / INGESTION
 # ==========================================================
 requests==2.34.2
 httpx==0.27.0
@@ -36,13 +47,13 @@ praw==7.7.1
 selenium>=4.0.0,<5.0.0
 
 # ==========================================================
-
-# ==========================================================
-# SCIENTIFIC COMPUTING (required by NB04 · NB06)
+# SCIENTIFIC COMPUTING
+# (required by NB04 · NB06 and API lexical retrieval)
 # ==========================================================
 scipy==1.13.1
 python-dateutil==2.9.0.post0
 
+# ==========================================================
 # NLP / BM25 / TEXT ANALYTICS
 # ==========================================================
 nltk==3.9.4
@@ -55,7 +66,9 @@ wordcloud==1.9.3
 rapidfuzz==3.9.4
 Unidecode==1.3.8
 
-# Future-ready NLP / embeddings
+# ==========================================================
+# Future-ready NLP / embeddings (Semantic Layer)
+# ==========================================================
 sentence-transformers==3.0.1
 transformers>=4.34.0,<5.0.0
 torch>=2.2.0,<2.5
@@ -69,13 +82,14 @@ altair==4.2.2
 altair<5
 
 # ==========================================================
-# FASTAPI BACKEND
+# FASTAPI BACKEND (REST API + RAG)
 # ==========================================================
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 pydantic==2.7.4
 pydantic-settings==2.3.3
 python-multipart==0.0.31
+python-dotenv==1.2.2
 
 # ==========================================================
 # STREAMLIT DASHBOARD
@@ -85,7 +99,7 @@ streamlit-option-menu==0.3.13
 streamlit-extras==0.4.3
 
 # ==========================================================
-# GROQ CHATBOT
+# GROQ CHATBOT / LLM CLIENT
 # ==========================================================
 groq==1.4.0
 
@@ -102,7 +116,6 @@ great-expectations==0.18.22
 # ==========================================================
 # CONFIGURATION
 # ==========================================================
-python-dotenv==1.2.2
 PyYAML==6.0.1
 
 # ==========================================================
