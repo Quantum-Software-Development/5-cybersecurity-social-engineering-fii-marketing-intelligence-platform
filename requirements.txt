@@ -1,18 +1,28 @@
-# ==========================================================
-# Global requirements — notebooks, dashboard, and API
+ # ==========================================================
+# FII Intelligence Platform
 # Investor Intelligence Platform — FIIs Brasil
+# Unified Root Requirements
 #
-# This file defines the full dependency set used by:
-# - PySpark + exploratory notebooks (NB00–NB07)
+# Canonical dependency file for the entire repository:
+# - PySpark notebooks (NB00–NB07)
 # - Streamlit dashboard
-# - FastAPI REST API (RAG + Groq client)
+# - FastAPI REST API
+# - RAG pipeline with Groq
+# - lexical retrieval (TF-IDF / BM25)
+# - semantic retrieval (Sentence-Transformers / FAISS)
 #
-# In production (Render), the API only needs a lighter subset:
-# FastAPI, Uvicorn, Pydantic, python-dotenv, Pandas, NumPy,
-# PyArrow, SciPy, scikit-learn, rank-bm25 and Groq.
-# Heavy packages such as PySpark, Jupyter, dev tools
-# (pytest/black/flake8) and great-expectations are not required
-# at runtime, but remain here for full local development.
+# This single root-level requirements.txt replaces the need
+# for a separate API-only dependency file.
+#
+# Production note:
+# In constrained environments, the API may use only a subset
+# of these dependencies at runtime. However, this repository
+# standardizes installation through one unified root file.
+#
+# Semantic search note:
+# sentence-transformers, torch and faiss-cpu support the dense
+# retrieval layer and may increase memory usage in low-memory
+# deployments.
 # ==========================================================
 
 # ==========================================================
@@ -48,7 +58,6 @@ selenium>=4.0.0,<5.0.0
 
 # ==========================================================
 # SCIENTIFIC COMPUTING
-# (required by NB04 · NB06 and API lexical retrieval)
 # ==========================================================
 scipy==1.13.1
 python-dateutil==2.9.0.post0
@@ -67,11 +76,12 @@ rapidfuzz==3.9.4
 Unidecode==1.3.8
 
 # ==========================================================
-# Future-ready NLP / embeddings (Semantic Layer)
+# SEMANTIC SEARCH / EMBEDDINGS / VECTOR RETRIEVAL
 # ==========================================================
 sentence-transformers==3.0.1
 transformers>=4.34.0,<5.0.0
 torch>=2.2.0,<2.5
+faiss-cpu>=1.8.0
 
 # ==========================================================
 # DATA VISUALIZATION
@@ -82,14 +92,13 @@ altair==4.2.2
 altair<5
 
 # ==========================================================
-# FASTAPI BACKEND (REST API + RAG)
+# FASTAPI BACKEND
 # ==========================================================
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 pydantic==2.7.4
 pydantic-settings==2.3.3
 python-multipart==0.0.31
-python-dotenv==1.2.2
 
 # ==========================================================
 # STREAMLIT DASHBOARD
@@ -99,7 +108,7 @@ streamlit-option-menu==0.3.13
 streamlit-extras==0.4.3
 
 # ==========================================================
-# GROQ CHATBOT / LLM CLIENT
+# GROQ / LLM / RAG
 # ==========================================================
 groq==1.4.0
 
@@ -116,6 +125,7 @@ great-expectations==0.18.22
 # ==========================================================
 # CONFIGURATION
 # ==========================================================
+python-dotenv==1.2.2
 PyYAML==6.0.1
 
 # ==========================================================
