@@ -29,25 +29,22 @@ It transforms raw financial news into structured datasets and enables:
 %%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#00e5ff'}}}%%
 flowchart LR
 
-A[External News Sources<br>RSS + Scraping + APIs] --> B[NB01 - Data Ingestion]
+A[External News Sources - RSS / Scraping / APIs] --> B[NB01 Data Ingestion]
 
-B --> C[NB02 - Cleaning & Normalization]
+B --> C[NB02 Cleaning & Normalization]
 
-C --> D[NB03 - NLP Processing<br>MapReduce Word Count]
+C --> D[NB03 NLP Processing - MapReduce Word Count]
+C --> E[NB04 Retrieval Indexing - TF-IDF / BM25 / FAISS]
+C --> F[NB05 Sentiment Analysis]
 
-C --> E[NB04 - Retrieval Indexing<br>TF-IDF + BM25 + FAISS]
+F --> G[NB06 FII Intelligence Metrics]
 
-C --> F[NB05 - Sentiment Analysis]
+G --> H[NB07 Gold Dataset Builder]
 
-F --> G[NB06 - FII Intelligence Metrics]
+H --> I[Git Repository - data gold parquet files]
 
-G --> H[NB07 - Gold Dataset Builder]
-
-H --> I[Git Repository<br>data/gold/ parquet files]
-
-I --> J[FastAPI Service (Render)]
-
-I --> K[Streamlit Dashboard (Cloud)]
+I --> J[FastAPI Service Render]
+I --> K[Streamlit Dashboard Cloud]
 
 J --> K
 ```
@@ -175,14 +172,14 @@ NB06 --> NB07[Gold Dataset]
 
 The API serves processed data from the Gold layer.
 
-## Responsibilities:
+### Responsibilities:
 
 * expose structured endpoints
 * serve retrieved articles
 * handle query requests
 * provide JSON responses
 
-<br><br>
+<br>
 
 ### API Flow
 
@@ -216,7 +213,7 @@ The dashboard provides:
 
 <br><br>
 
-## Dashboard Flow
+### Dashboard Flow
 
 <br>
 
@@ -234,7 +231,7 @@ DASH --> USER[End User]
 
 ##  9. Deployment Architecture
 
-## Real deployment setup:
+### Real deployment setup:
 
 * API → Render (FastAPI)
 * Dashboard → Streamlit Cloud
