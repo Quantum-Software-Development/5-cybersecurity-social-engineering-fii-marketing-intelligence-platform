@@ -167,7 +167,7 @@ PyYAML==6.0.1
 tqdm==4.66.4
 joblib==1.4.2
 rich==13.7.1
-loguru==0.7.2
+loguru==0.7.3
 
 # ⚠️ loguru is not used — src/utils/logger.py uses the
 # standard logging module.
