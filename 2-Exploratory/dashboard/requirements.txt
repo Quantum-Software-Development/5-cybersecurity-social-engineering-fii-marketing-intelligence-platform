@@ -1,0 +1,49 @@
+
+# ==========================================================
+# FII Intelligence Platform
+# Investor Intelligence Platform — FIIs Brasil
+# Dashboard Production Requirements (Streamlit Community Cloud)
+# WHICH FILE TO USE — see full table at:
+#   docs/architecture/REQUIREMENTS_GUIA.md
+#   MANUAL_COMPLETO.md, section 6.0
+# WHAT THIS FILE IS
+# Minimum dependencies to run dashboard/Home.py in production
+# on Streamlit Community Cloud.
+# WHY THIS FILE LIVES HERE (dashboard/) AND NOT IN THE REPO ROOT
+# Streamlit Community Cloud looks for a dependency file first in the SAME FOLDER
+# as the app entry file (in this case, dashboard/Home.py) and only then falls back to the
+# repository root. By placing this requirements.txt here, Streamlit Cloud uses it
+# automatically — without needing any manual configuration in the interface (there is no field
+# to point to a custom file). Source: docs.streamlit.io/deploy/streamlit-community-cloud/
+#        deploy-your-app/app-dependencies
+# This prevents the dashboard build from trying to install PySpark, Torch,
+# Selenium, MinIO etc. (present in the root requirements.txt used by the notebooks) — none of
+# which dashboard/Home.py imports.
+# WHEN TO USE
+# Automatic — Streamlit Community Cloud uses this file whenever the app points to dashboard/Home.py as entrypoint. To
+# run the dashboard locally, the root requirements.txt (more complete) also works, since it includes a superset of these
+# packages.
+# HOW TO USE (deploy)
+# 1) Ensure this file is committed at dashboard/requirements.txt
+# 2) In Streamlit Community Cloud, point the "Main file path" to
+#    dashboard/Home.py — the rest is automatic.
+# ==========================================================
+
+streamlit==1.54.0
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==24.0.0
+plotly==5.22.0
+requests==2.34.2
+python-dotenv==1.2.2
+
+# ==========================================================
+# Local fallback (optional use — only executed if API_BASE_URL
+# is NOT configured in Secrets, which should not happen in real production). Commented out by default to keep the build
+# lightweight; uncomment only if running the dashboard without the API.
+# ==========================================================
+# scikit-learn>=1.5.1
+# rank-bm25>=0.2.2
+# scipy>=1.13.1
+# groq>=0.9.0
+
