@@ -6,7 +6,7 @@
 #
 # WHICH FILE SHOULD I USE? — see the complete table in:
 #   docs/architecture/REQUIREMENTS_GUIA.md
-#   MANUAL_COMPLETO.md, section 6.0
+#  COMPLETE_ MANUAL.md, section 6.0
 #
 # WHAT THIS FILE IS
 # This file contains development-only dependencies.
