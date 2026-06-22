@@ -118,7 +118,7 @@ faiss-cpu>=1.8.0
 # DATA VISUALIZATION
 # ==========================================================
 plotly==5.22.0
-matplotlib==3.9.0
+matplotlib==3.11.0
 altair<5
 
 # ⚠️ Fixed: the previous version had both
