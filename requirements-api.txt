@@ -1,9 +1,9 @@
+
 # ==========================================================
 # FII Intelligence Platform
 # Investor Intelligence Platform — Brazilian REITs (FIIs)
 # API Production Requirements
-#
-# QUAL ARQUIVO USAR — see full table in:
+# WHICH FILE TO USE — see full table in:
 #   docs/architecture/REQUIREMENTS_GUIA.md
 #   MANUAL_COMPLETO.md, section 6.0
 #
@@ -11,8 +11,8 @@
 # This is a lightweight dependency file for API-only production
 # deployments. It contains only the minimum required packages
 # to serve the FastAPI application and its retrieval pipeline.
-#
 # Este arquivo contém dependências leves para produção da API.
+#
 # Inclui apenas o mínimo necessário para servir a aplicação FastAPI
 # e o pipeline de recuperação (retrieval).
 #
@@ -20,7 +20,6 @@
 # Use this file in production environments such as Render,
 # especially when you need a smaller build, faster cold start,
 # and lower memory usage.
-#
 # Use este arquivo em ambientes de produção como Render,
 # especialmente quando você precisa de build menor, inicialização
 # mais rápida e menor consumo de memória.
@@ -28,20 +27,14 @@
 # HOW TO USE
 # 1) Install only the API production stack:
 #    pip install -r requirements-api.txt
-#
 # 2) Use this file for API-only deployments.
-#
 # 2) Use este arquivo apenas para deploys da API.
-#
 # 3) Do not use this file for notebooks, tests, PySpark pipelines,
 #    or full local development — use requirements.txt instead.
-#
 # 3) Não use este arquivo para notebooks, testes, pipelines PySpark
 #    ou desenvolvimento completo — use requirements.txt.
-#
 # 4) For Streamlit dashboard production, DO NOT use this file —
 #    use dashboard/requirements.txt instead.
-#
 # 4) Para o dashboard Streamlit em produção, NÃO use este arquivo —
 #    use dashboard/requirements.txt.
 # ==========================================================
@@ -79,16 +72,13 @@ groq>=0.9.0
 # Uncomment these only when:
 # - ENABLE_SEMANTIC_SEARCH=true
 # - deployment environment has sufficient memory
-#
 # ATENÇÃO: use apenas se:
 # - ENABLE_SEMANTIC_SEARCH=true
 # - o ambiente tiver memória suficiente
-#
 # In low-memory environments, torch and embedding models may
 # cause out-of-memory failures during startup or health checks.
-#
 # Em ambientes com pouca memória, torch e modelos de embeddings
 # podem causar falhas de inicialização ou de health check.
-#
 # sentence-transformers>=3.0.1
 # faiss-cpu>=1.8.0
+
