@@ -139,7 +139,7 @@ python-multipart==0.0.31
 # ==========================================================
 streamlit==1.54.0
 streamlit-option-menu==0.3.13
-streamlit-extras==0.4.3
+streamlit-extras==1.6.0
 
 # ==========================================================
 # LLM / RAG
