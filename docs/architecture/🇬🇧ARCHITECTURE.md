@@ -7,7 +7,7 @@
 > see the Portuguese documentation under [`docs/`](.) — links are provided
 > throughout this document.
 
----
+<br><br>
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@
 7. [Key Architectural Decisions](#key-architectural-decisions)
 8. [Further Reading](#further-reading)
 
----
+<br><br>
 
 ## System Overview
 
@@ -29,28 +29,46 @@ Real Estate Investment Funds (*Fundos de Investimento Imobiliário* — FIIs),
 processes it through a distributed NLP pipeline, and serves the resulting
 market intelligence through a REST API and an interactive dashboard.
 
+<br>
+
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1e3a5f', 'primaryTextColor': '#00d2ff', 'primaryBorderColor': '#00d2ff', 'lineColor': '#00d2ff', 'secondaryColor': '#0d2137', 'tertiaryColor': '#0a1628', 'background': '#0a0e14'}}}%%
+%%{init:{
+'theme':'dark',
+'themeVariables':{
+'background':'#090d13',
+'primaryTextColor':'#F5F7FA',
+'lineColor':'#2dd4bf'
+}}}%%
+
 graph LR
-    SRC["📡 21 Sources<br/>RSS · Scraping · Social"]:::src
-    PIPE["⚙️ NLP Pipeline<br/>PySpark · MapReduce<br/>TF-IDF · BM25 · FAISS"]:::pipe
-    GOLD["🥇 Gold Layer<br/>Parquet artifacts"]:::gold
-    API["🔌 FastAPI<br/>REST + RAG"]:::serve
-    DASH["📊 Streamlit<br/>Dashboard"]:::serve
-    LLM["🤖 Groq + Gemini<br/>Chatbot"]:::llm
 
-    SRC --> PIPE --> GOLD
-    GOLD --> API
-    GOLD --> DASH
-    API --> LLM
-    DASH -.->|HTTP| API
+SRC["21 SOURCES<br/>RSS • Scraping • Social"]:::setup
 
-    classDef src fill:#0a1628,stroke:#00d2ff,color:#00d2ff
-    classDef pipe fill:#1a1a00,stroke:#ffd700,color:#ffd700
-    classDef gold fill:#3d1f00,stroke:#cd7f32,color:#cd7f32
-    classDef serve fill:#0d2137,stroke:#00d2ff,color:#00d2ff
-    classDef llm fill:#1a0d2e,stroke:#9b59b6,color:#c39bd3
+PIPE["NLP PIPELINE<br/>PySpark • MapReduce<br/>TF-IDF • BM25 • FAISS"]:::gold
+
+GOLD["GOLD LAYER<br/>Parquet artifacts"]:::bronze
+
+API["FASTAPI<br/>REST + RAG"]:::dash
+
+DASH["STREAMLIT<br/>Analytics Dashboard"]:::dash
+
+LLM["LLM LAYER<br/>Groq + Gemini"]:::llm
+
+SRC --> PIPE --> GOLD
+GOLD --> API
+GOLD --> DASH
+API --> LLM
+DASH --> LLM
+
+classDef setup fill:#0d2137,stroke:#00d2ff,color:#F5F7FA,stroke-width:2.5px;
+classDef bronze fill:#2a1512,stroke:#a85a4a,color:#F5F7FA,stroke-width:2.5px;
+classDef silver fill:#1b2430,stroke:#b0b7c3,color:#F5F7FA,stroke-width:2.5px;
+classDef gold fill:#2a2208,stroke:#e6c35a,color:#F5F7FA,stroke-width:2.5px;
+classDef dash fill:#06363d,stroke:#2dd4bf,color:#F5F7FA,stroke-width:2.5px;
+classDef llm fill:#231433,stroke:#b56cff,color:#F5F7FA,stroke-width:2.5px;
 ```
+
+<br>
 
 **Three architectural pillars:**
 
@@ -60,7 +78,7 @@ graph LR
 | **Hybrid retrieval** | Lexical + semantic search over the corpus | TF-IDF + BM25 (lexical) + FAISS embeddings (semantic) |
 | **Resilient serving layer** | Production deployment on free-tier infrastructure | FastAPI (Render) + Streamlit (Community Cloud) + dual-LLM chatbot |
 
----
+<br><br>
 
 ## Data Pipeline Architecture (Medallion)
 
@@ -69,6 +87,9 @@ graph LR
 methodology, with a frozen-dataset rule for reproducibility: only `NB01`
 performs live HTTP requests; every downstream notebook reads exclusively
 from the frozen Bronze snapshot.
+
+<br>
+
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1e3a5f', 'primaryTextColor': '#00d2ff', 'lineColor': '#00d2ff', 'background': '#0a0e14'}}}%%
@@ -91,6 +112,9 @@ graph TD
     classDef dash fill:#0a1628,stroke:#00d2ff,color:#00d2ff
 ```
 
+<br>
+
+
 | Layer | Storage | Schema enforcement | Mutability |
 |---|---|---|---|
 | **Bronze** | `data/external/*.parquet` | 17-field contract, `article_id = SHA-256(url)` | Frozen after `NB01` |
@@ -101,12 +125,13 @@ graph TD
 > [`silver_schema.md`](architecture/silver_schema.md),
 > [`gold_schema.md`](architecture/gold_schema.md).
 
----
+<br><br>
 
 ## Hybrid Retrieval Architecture (3 Layers)
 
-Three complementary techniques are combined into a single relevance score,
-each compensating for the others' blind spots.
+Three complementary techniques are combined into a single relevance score, each compensating for the others' blind spots.
+
+<br>
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1e3a5f', 'primaryTextColor': '#00d2ff', 'lineColor': '#00d2ff', 'background': '#0a0e14'}}}%%
@@ -135,6 +160,8 @@ graph LR
 score_hybrid_v2 = 0.20 × TF-IDF_norm + 0.30 × BM25_norm + 0.50 × Semantic_norm
 ```
 
+<br>
+
 **Why three layers, not one:**
 
 | Layer | Strength | Blind spot |
@@ -150,20 +177,20 @@ exception.
 
 > 🇧🇷 Full mathematical derivation: [`docs/methodology/BM25_FOUNDATION.md`](methodology/BM25_FOUNDATION.md).
 
----
+<br><br>
 
 ## RAG + Multi-LLM Fallback Architecture
 
-The chatbot uses *Retrieval-Augmented Generation*: the hybrid retrieval
-layer above supplies grounded context to a generative LLM, which produces
-the final natural-language answer.
+The chatbot uses *Retrieval-Augmented Generation*: the hybrid retrieva layer above supplies grounded context to a generative LLM, which produces the final natural-language answer.
+
+<br>
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1e3a5f', 'primaryTextColor': '#00d2ff', 'lineColor': '#00d2ff', 'background': '#0a0e14'}}}%%
 graph TD
     USER["👤 User Question"]:::user
     RET["🔍 retrieve_context()<br/>TF-IDF + BM25 + FAISS"]:::ret
-    G["🟢 Groq<br/>llama-3.1-8b-instant<br/>(primary)"]:::primary
+    G["🟢 Groq<br/>openai/gpt-oss-20b<br/>(primary)"]:::primary
     GM["🔵 Gemini<br/>2.5 Flash<br/>(fallback)"]:::fallback
     ANS["💬 Answer + Disclaimer"]:::ans
 
@@ -179,6 +206,8 @@ graph TD
     classDef ans fill:#0a1628,stroke:#00d2ff,color:#00d2ff
 ```
 
+<br>
+
 **Design rationale — fallback, not replacement.** A single LLM provider,
 even a free one, is a single point of failure under burst traffic (e.g.
 several rapid questions during a live demo). Two independent, stable free
@@ -186,6 +215,8 @@ tiers (Groq and Google Gemini) cover for each other; neither requires a
 credit card. A third option (OpenRouter) was evaluated and rejected: its
 free catalog is explicitly subject to change without notice, which
 reintroduces the exact instability this design avoids.
+
+<br>
 
 | Aspect | Single-provider | Fallback (implemented) |
 |---|---|---|
@@ -195,9 +226,11 @@ reintroduces the exact instability this design avoids.
 
 > 🇧🇷 Full decision record with rejected alternatives: [`docs/architecture/MULTI_LLM_FALLBACK.md`](architecture/MULTI_LLM_FALLBACK.md).
 
----
+<br><br>
 
 ## Deployment Architecture
+
+<br>
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1e3a5f', 'primaryTextColor': '#00d2ff', 'lineColor': '#00d2ff', 'background': '#0a0e14'}}}%%
@@ -221,17 +254,23 @@ graph TD
     classDef streamlit fill:#0a1628,stroke:#2ecc71,color:#2ecc71
 ```
 
+<br>
+
 **Key property: each deployment target has its own dependency file.**
 Render and Streamlit Cloud are both memory-constrained free tiers; shipping
 the full notebook environment (PySpark, Torch, Selenium) to either would
 slow builds and risk out-of-memory failures for dependencies that service
 layer never actually imports.
 
+<br>
+
 | Target | Dependency file | Why separate |
 |---|---|---|
 | Notebooks (local) | `requirements.txt` | Full environment — PySpark, FAISS, Torch |
 | API (Render) | `requirements-api.txt` | No PySpark/Jupyter — referenced directly by `render.yaml` |
 | Dashboard (Streamlit Cloud) | `dashboard/requirements.txt` | Streamlit Cloud auto-discovers a dependency file in the *entrypoint's own directory* before falling back to the repo root — placing it next to `Home.py` keeps the build to 7 packages instead of ~56 |
+
+<br>
 
 **Data refresh model:** intentionally manual, not scheduled. `NB01`
 performs live scraping across 21 sources; an unsupervised cron failure at
@@ -245,7 +284,7 @@ full refit).
 > [`DEPLOY_STREAMLIT.md`](../DEPLOY_STREAMLIT.md). Refresh-model rationale:
 > [`docs/architecture/ATUALIZACAO_E_REPROCESSAMENTO.md`](architecture/ATUALIZACAO_E_REPROCESSAMENTO.md).
 
----
+<br><br>
 
 ## Technology Stack
 
@@ -257,14 +296,16 @@ full refit).
 | Sentiment | Custom PT-BR lexicon, rule-based (no ML training) |
 | API | FastAPI + Uvicorn |
 | Dashboard | Streamlit + Plotly |
-| LLM | Groq (`llama-3.1-8b-instant`) + Google Gemini (`gemini-2.5-flash`) |
+| LLM | Groq (`openai/gpt-oss-20b`) + Google Gemini (`gemini-2.5-flash`) |
 | Storage | Apache Parquet (Snappy), pickle (indices), FAISS binary index |
 | CI/Automation | GitHub Actions (`workflow_dispatch`) |
 | Hosting | Render (API, free tier) + Streamlit Community Cloud (dashboard, free tier) |
 
----
+<br><br>
 
 ## Key Architectural Decisions
+
+<br>
 
 | Decision | Why |
 |---|---|
@@ -276,19 +317,23 @@ full refit).
 | Per-target dependency files | Avoids shipping PySpark/Torch to memory-constrained serving environments that never import them |
 | Manual data refresh (not cron) | A human-supervised trigger catches partial scraping failures before they reach production silently |
 
----
+<br><br>
 
 ## Further Reading
+
+<br>
+
 
 | Topic | Document |
 |---|---|
 | Full Portuguese README | [`README_FINAL.md`](../README_FINAL.md) |
-| Step-by-step execution & deployment guide | [`MANUAL_COMPLETO.md`](../MANUAL_COMPLETO.md) |
+| Step-by-step execution & deployment guide | [`COMPLETE_MANUAL.mdmd`](../COMPLETE_MANUAL.md) |
 | CRISP-DM methodology mapping | [`docs/methodology/CRISP_DM_MAPPING.md`](methodology/CRISP_DM_MAPPING.md) |
 | Sentiment lexicon methodology | [`docs/methodology/SENTIMENT_METHODOLOGY.md`](methodology/SENTIMENT_METHODOLOGY.md) |
 | Responsible AI & model cards | [`docs/governance/RESPONSIBLE_AI.md`](governance/RESPONSIBLE_AI.md) |
 | LGPD (Brazilian data protection law) alignment | [`docs/governance/LGPD_ALIGNMENT.md`](governance/LGPD_ALIGNMENT.md) |
 
----
+<br><br>
 
-*Architecture Overview v1.0.0 · Investor Intelligence Platform · PUC-SP FACEI*
+
+*Architecture Overview· Investor Intelligence Platform · PUC-SP FACEI*
