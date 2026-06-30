@@ -423,27 +423,27 @@ In the documented reference execution, the [Google News RSS fallback]() generate
 
 graph TD
 
-NB00["NB00<br/>21 DATA SOURCES<br/>RSS • Scraping • Reddit"]:::setup
+NB00["NB00<br/>21 DATA SOURCES<br/>RSS • Scraping • Reddit"]:::bronze
 
-NB01["NB01<br/>BRONZE INGESTION<br/>feedparser • BS4 • PRAW"]:::bronze
+NB01["BRONZE LAYER<br/>Ingestion<br/>feedparser • BS4 • PRAW"]:::bronze
 
-NB02["NB02<br/>CLEANING LAYER<br/>Normalization • Quality Gates"]:::silver
+NB02["SILVER LAYER<br/>Cleaning & Normalization<br/>Quality Gates"]:::silver
 
-NB03["NB03<br/>MAPREDUCE<br/>Word Count"]:::silver
+NB03["SILVER LAYER<br/>MapReduce Word Count"]:::silver
 
-NB04["TF-IDF + BM25<br/>Retrieval Index"]:::gold
+NB04["GOLD LAYER<br/>TF-IDF + BM25<br/>Retrieval Index"]:::gold
 
-NB05["SENTIMENT<br/>PT-BR Lexicon"]:::gold
+NB05["GOLD LAYER<br/>Sentiment Analysis<br/>PT-BR Lexicon"]:::gold
 
-NB06["MARKETING INTELLIGENCE<br/>Signals • Funnel • Insights"]:::gold
+NB06["GOLD LAYER<br/>Marketing Intelligence<br/>Signals • Funnel • Insights"]:::gold
 
-NB07["DASHBOARD DATASET<br/>Plotly Validation"]:::dash
+NB07["SERVING LAYER<br/>Dashboard Dataset"]:::dash
 
-API["FASTAPI<br/>REST API"]:::dash
+API["FASTAPI<br/>Serving Layer<br/>REST API"]:::dash
 
-ST["STREAMLIT<br/>Dashboard"]:::dash
+ST["STREAMLIT<br/>Serving Layer<br/>Dashboard"]:::dash
 
-BOT["GROQ CHATBOT<br/>GPT-OSS-20B"]:::llm
+BOT["GROQ CHATBOT<br/>LLM Layer<br/>GPT-OSS-20B"]:::llm
 
 NB00 --> NB01 --> NB02
 
@@ -462,7 +462,6 @@ NB07 --> ST
 API --> BOT
 ST --> BOT
 
-classDef setup fill:#0d2137,stroke:#00d2ff,color:#F5F7FA,stroke-width:2.5px;
 classDef bronze fill:#2a1512,stroke:#a85a4a,color:#F5F7FA,stroke-width:2.5px;
 classDef silver fill:#1b2430,stroke:#b0b7c3,color:#F5F7FA,stroke-width:2.5px;
 classDef gold fill:#2a2208,stroke:#e6c35a,color:#F5F7FA,stroke-width:2.5px;
