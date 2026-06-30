@@ -413,91 +413,68 @@ In the documented reference execution, the [Google News RSS fallback]() generate
 <br>
 
 ```mermaid
-flowchart LR
+%%{init:{
+'theme':'dark',
+'themeVariables':{
+'background':'#090d13',
+'primaryTextColor':'#F5F7FA',
+'lineColor':'#2dd4bf'
+}}}%%
 
-    %%────────────────────
-    %% Styles
-    %%────────────────────
-    classDef source fill:#0f172a,stroke:#22d3ee,color:#ffffff,stroke-width:3px;
-    classDef bronze fill:#2b1d0e,stroke:#cd7f32,color:#ffffff,stroke-width:3px;
-    classDef silver fill:#1e293b,stroke:#c0c0c0,color:#ffffff,stroke-width:3px;
-    classDef gold fill:#2b2505,stroke:#ffd700,color:#ffffff,stroke-width:3px;
-    classDef serving fill:#0f172a,stroke:#22d3ee,color:#ffffff,stroke-width:3px;
+graph TD
 
-    %%────────────────────
-    %% Sources
-    %%────────────────────
-    A["📡 21 Monitored Sources<br/>RSS • Scraping • Reddit"]:::source
+NB00["NB00<br/>21 DATA SOURCES<br/>RSS • Scraping • Reddit"]:::setup
 
-    %%────────────────────
-    %% Bronze
-    %%────────────────────
-    subgraph Bronze["🥉 Bronze Layer"]
-        B["NB01<br/>Raw Acquisition<br/>Parquet • data/external"]:::bronze
-    end
+NB01["NB01<br/>BRONZE INGESTION<br/>feedparser • BS4 • PRAW"]:::bronze
 
-    %%────────────────────
-    %% Silver
-    %%────────────────────
-    subgraph Silver["🥈 Silver Layer"]
-        C["NB02<br/>Cleaning & Validation"]:::silver
+NB02["NB02<br/>CLEANING LAYER<br/>Normalization • Quality Gates"]:::silver
 
-        D["NB03<br/>MapReduce<br/>Word Count"]:::silver
+NB03["NB03<br/>MAPREDUCE<br/>Word Count"]:::silver
 
-        E["NB04<br/>Hybrid Retrieval<br/>TF-IDF • BM25 • FAISS"]:::silver
+NB04["TF-IDF + BM25<br/>Retrieval Index"]:::gold
 
-        F["NB05<br/>Contextual Sentiment"]:::silver
-    end
+NB05["SENTIMENT<br/>PT-BR Lexicon"]:::gold
 
-    %%────────────────────
-    %% Gold
-    %%────────────────────
-    subgraph Gold["🥇 Gold Layer — Market Intelligence"]
-        G["NB06<br/>Marketing Intelligence<br/>3-Layer Relevance"]:::gold
+NB06["MARKETING INTELLIGENCE<br/>Signals • Funnel • Insights"]:::gold
 
-        H["NB07<br/>Dashboard Dataset<br/>Semantic + Hybrid Scores"]:::gold
-    end
+NB07["DASHBOARD DATASET<br/>Plotly Validation"]:::dash
 
-    %%────────────────────
-    %% Serving
-    %%────────────────────
-    subgraph Serving["🚀 Serving Layer"]
-        I["FastAPI<br/>REST API"]:::serving
+API["FASTAPI<br/>REST API"]:::dash
 
-        J["Streamlit<br/>Dashboard UI"]:::serving
+ST["STREAMLIT<br/>Dashboard"]:::dash
 
-        K["Groq + Llama 3.1<br/>Hybrid RAG Chatbot"]:::serving
-    end
+BOT["GROQ CHATBOT<br/>GPT-OSS-20B"]:::llm
 
-    %% Flow
-    A --> B
+NB00 --> NB01 --> NB02
 
-    B --> C
+NB02 --> NB03
+NB02 --> NB04
+NB02 --> NB05
 
-    C --> D
-    C --> E
-    C --> F
+NB03 --> NB06
+NB04 --> NB06
+NB05 --> NB06
 
-    D --> G
-    E --> G
-    F --> G
+NB06 --> NB07
+NB07 --> API
+NB07 --> ST
 
-    G --> H
+API --> BOT
+ST --> BOT
 
-    H --> I
-    H --> J
-
-    I --> K
-    J --> K
-
-    linkStyle default stroke:#22d3ee,stroke-width:2px
+classDef setup fill:#0d2137,stroke:#00d2ff,color:#F5F7FA,stroke-width:2.5px;
+classDef bronze fill:#2a1512,stroke:#a85a4a,color:#F5F7FA,stroke-width:2.5px;
+classDef silver fill:#1b2430,stroke:#b0b7c3,color:#F5F7FA,stroke-width:2.5px;
+classDef gold fill:#2a2208,stroke:#e6c35a,color:#F5F7FA,stroke-width:2.5px;
+classDef dash fill:#06363d,stroke:#2dd4bf,color:#F5F7FA,stroke-width:2.5px;
+classDef llm fill:#231433,stroke:#b56cff,color:#F5F7FA,stroke-width:2.5px;
 ```
 
 <br>
 
 
-> [!TIP
-> ]
+> [!TIP]
+> 
 > Detailed architecture diagram → [docs/architecture.md](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/5e7c18a109c56f765ea7cdbf16b8a65ad41a0e2a/docs/architecture.md)
 
 <br><br>
