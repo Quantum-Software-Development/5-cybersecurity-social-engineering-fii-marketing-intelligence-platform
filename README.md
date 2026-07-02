@@ -854,6 +854,6 @@ git commit -m "Update project dependencies"
   
 #
  
-##### <p align="center">Copyright 2026 Mindful-AI-Assistants. Code released under the  [MIT license.](https://github.com/Mindful-AI-Assistants/CDIA-Entrepreneurship-Soft-Skills-PUC-SP/blob/21961c2693169d461c6e05900e3d25e28a292297/LICENSE)
+##### <p align="center">Copyright 2026 Quantum Software Development. Code released under the  [MIT license.](https://github.com/Quantum-Software-Development/5-cybersecurity-social-engineering-fii-marketing-intelligence-platform/blob/64d9e815b5abcee1658cf8aaa9f44af11c60b6c6/LICENSE))
 <!-- ======================================= End  DEFAULT Footer ===========================================  -->
 
